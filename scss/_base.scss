@@ -1,0 +1,19 @@
+/*-----VARIABLES Y DECLARACIONES GENERALES--------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-fondo: #F0DEBB;
+$color-verde: #16453F;
+$color-violeta: #541734;
+
+$fuente-marca: "Italianno", cursive;
+$fuente-titulos: "Anton", sans-serif;
+$fuente-textos: "Narnoor", serif;
+;
+
+body {
+    background-color: $color-fondo;
+}

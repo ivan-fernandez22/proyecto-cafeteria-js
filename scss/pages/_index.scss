@@ -1,4 +1,233 @@
-.logo {
-    width: 100px;
-    height: 100px;
+/*-----------HEADER----------*/
+header {
+    display: flex;
+    background-color: #541734;
+    width: 100%;
+    height: 4rem;
+    .logo {
+        width: 30px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    h1 {
+        font-family: $fuente-marca;
+        font-size: 2.4rem;
+        margin-top: 15px;
+        margin-left: 10px;
+        color: white;
+    }
+}
+
+
+/*----CARRUSEL-----*/
+.section-carrusel {
+    .carousel {
+        max-width: 100%;
+        .carousel-inner {
+            .carousel-item {
+                .carrusel-img {
+                    height: 30vh;
+                }
+            }
+        }
+    }
+}
+
+
+/*------PRESENTACION-------*/
+.section-presentacion {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    .presentacion-texto-bienvenida {
+        font-family: $fuente-textos;
+        font-size: 1.3rem;
+        color: $color-verde;
+        text-align: center;
+    }
+    .presentacion-texto {
+        font-family: $fuente-textos;
+        font-size: 1.1rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -16px;
+        text-align: center;
+    }
+}
+
+
+/*------TARJETAS------*/
+
+.section-tarjetas {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    .tarjetas-contenedor {
+        background-color: $color-verde;
+        height: 150px;
+        display: flex;
+        width: 95%;
+        .tarjetas-img1 {
+            width: 40vw;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+        }
+        .tarjetas-estructura {
+            display: flexbox;
+            .tarjetas-div-oferta1 {
+                background-color: $color-violeta;
+                border-radius: 30px;
+                width: 155px;
+                height: 30px;
+                margin-left: 5px;
+                position: relative;
+                top: 10px;
+                .tarjetas-oferta1 {
+                    color: white;
+                    margin-left: 8px;
+                    position: relative;
+                    top: -2px;
+                    font-size: 1.1rem;
+                    font-family: $fuente-textos;
+                }
+            }
+            .tarjetas-texto {
+                color: white;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                width: 80%;
+                margin-left: 10px;
+                position: relative;
+                top: 12px;
+            }
+            .tarjetas-texto-carrito {
+                color:beige;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                margin-left: 10px;
+                &:hover {
+                    font-size: 1.1rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.section-tarjetas2 {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    .tarjetas-contenedor2 {
+        background-color: $color-verde;
+        height: 150px;
+        display: flex;
+        width: 95%;
+        .tarjetas-img2 {
+            width: 40vw;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+        }
+        .tarjetas-estructura2 {
+            display: flexbox;
+            .tarjetas-div-oferta2 {
+                background-color: $color-violeta;
+                border-radius: 30px;
+                width: 112px;
+                height: 30px;
+                margin-left: 5px;
+                position: relative;
+                top: 10px;
+                .tarjetas-oferta2 {
+                    color: white;
+                    margin-left: 8px;
+                    position: relative;
+                    top: -2px;
+                    font-size: 1.1rem;
+                    font-family: $fuente-textos;
+                }
+            }
+            .tarjetas-texto2 {
+                color: white;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                width: 80%;
+                margin-left: 10px;
+                position: relative;
+                top: 12px;
+            }
+            .tarjetas-texto-carrito2 {
+                color:beige;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                margin-left: 10px;
+                &:hover {
+                    font-size: 1.1rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.section-tarjetas3 {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    .tarjetas-contenedor3 {
+        background-color: $color-verde;
+        height: 150px;
+        display: flex;
+        width: 95%;
+        .tarjetas-img3 {
+            width: 40vw;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+        }
+        .tarjetas-estructura3 {
+            display: flexbox;
+            .tarjetas-div-oferta3 {
+                background-color: $color-violeta;
+                border-radius: 30px;
+                width: 170px;
+                height: 30px;
+                margin-left: 5px;
+                position: relative;
+                top: 10px;
+                .tarjetas-oferta3 {
+                    color: white;
+                    margin-left: 8px;
+                    position: relative;
+                    top: -2px;
+                    font-size: 1.1rem;
+                    font-family: $fuente-textos;
+                }
+            }
+            .tarjetas-texto3 {
+                color: white;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                width: 80%;
+                margin-left: 10px;
+                position: relative;
+                top: 12px;
+            }
+            .tarjetas-texto-carrito3 {
+                color:beige;
+                font-size: 1rem;
+                font-family: $fuente-textos;
+                margin-left: 10px;
+                &:hover {
+                    font-size: 1.1rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }

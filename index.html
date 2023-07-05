@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Narnoor&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>The Perfect Coffe</title>
 </head>
@@ -14,16 +20,109 @@
     <!--------HEADER--------->
     <header>
         <img src="./imgs/logo.png" alt="Logo de la cafetería" class="logo">
-        <h1>The Perfect Coffe</h1>
+        <h1>Le Paradis</h1>
     </header>
 
 
     <main>
+
+        <!----CARRUSEL---->
+        <section class="section-carrusel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imgs/brunch1.jpg" class="d-block w-100 carrusel-img" alt="foto de un brunch">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/tostada.jpg" class="d-block w-100 carrusel-img" alt="foto de otro brunch">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imgs/brunch2.jpg" class="d-block w-100 carrusel-img" alt="foto de una tostada con palta">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+        <!----PRESENTACION---->
+        <section class="section-presentacion">
+            <p class="presentacion-texto-bienvenida">Bienvenidos a Le paradis!</p>
+            <p class="presentacion-texto"> 
+                Somos una nueva cafetería úbicada en Del Valle Iberlucea 3312, 
+                Lanus Oeste. Contamos con un enorme patio ambientado en un jardin natural 
+                al aire libre, un salón con biblioteca y un menú exquisito para que 
+                disfrutes al máximo la experiencia de Le Paradis.
+            </p>
+        </section>
+
+
+        <!----TARJETAS---->
+        <section class="section-tarjetas" data-aos="fade-right">
+            <div class="tarjetas-contenedor">
+                <img src="./imgs/chessecake-img1.jpg" class="tarjetas-img1">
+                <div class="tarjetas-estructura">
+                    <div class="tarjetas-div-oferta1">
+                        <p class="tarjetas-oferta1">OFERTA LIMITADA!</p>
+                    </div>
+                    <p class="tarjetas-texto"> Un Chessecake de frutos rojos a tan solo $7000!</p>
+                    <p class="tarjetas-texto-carrito">Agregar al carrito</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tarjetas2" data-aos="fade-right">
+            <div class="tarjetas-contenedor2">
+                <img src="./imgs/rogel.jpg" class="tarjetas-img2">
+                <div class="tarjetas-estructura2">
+                    <div class="tarjetas-div-oferta2">
+                        <p class="tarjetas-oferta2">LLEVALO YA!</p>
+                    </div>
+                    <p class="tarjetas-texto2"> Rogel con delicioso merengue y chocolate a $6000</p>
+                    <p class="tarjetas-texto-carrito2">Agregar al carrito</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tarjetas3" data-aos="fade-right">
+            <div class="tarjetas-contenedor3">
+                <img src="./imgs/croissants-img1.jpg" class="tarjetas-img3">
+                <div class="tarjetas-estructura3">
+                    <div class="tarjetas-div-oferta3">
+                        <p class="tarjetas-oferta3">ULTIMAS UNIDADES!</p>
+                    </div>
+                    <p class="tarjetas-texto3"> Aprovecha ahora la mediadocena de croissants por 1700$</p>
+                    <p class="tarjetas-texto-carrito3">Agregar al carrito</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
+
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
     <!---   <script src="js/index.js"></script>    --->
 </body>
+
 </html>

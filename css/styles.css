@@ -1,0 +1,236 @@
+/*-----VARIABLES Y DECLARACIONES GENERALES--------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0DEBB;
+}
+
+/*-----------HEADER----------*/
+header {
+  display: flex;
+  background-color: #541734;
+  width: 100%;
+  height: 4rem;
+}
+header .logo {
+  width: 30px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+header h1 {
+  font-family: "Italianno", cursive;
+  font-size: 2.4rem;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: white;
+}
+
+/*----CARRUSEL-----*/
+.section-carrusel .carousel {
+  max-width: 100%;
+}
+.section-carrusel .carousel .carousel-inner .carousel-item .carrusel-img {
+  height: 30vh;
+}
+
+/*------PRESENTACION-------*/
+.section-presentacion {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.section-presentacion .presentacion-texto-bienvenida {
+  font-family: "Narnoor", serif;
+  font-size: 1.3rem;
+  color: #16453F;
+  text-align: center;
+}
+.section-presentacion .presentacion-texto {
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -16px;
+  text-align: center;
+}
+
+/*------TARJETAS------*/
+.section-tarjetas {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas .tarjetas-contenedor {
+  background-color: #16453F;
+  height: 150px;
+  display: flex;
+  width: 95%;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-img1 {
+  width: 40vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura {
+  display: flexbox;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 {
+  background-color: #541734;
+  border-radius: 30px;
+  width: 155px;
+  height: 30px;
+  margin-left: 5px;
+  position: relative;
+  top: 10px;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 .tarjetas-oferta1 {
+  color: white;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+  font-size: 1.1rem;
+  font-family: "Narnoor", serif;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto {
+  color: white;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  width: 80%;
+  margin-left: 10px;
+  position: relative;
+  top: 12px;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito {
+  color: beige;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  margin-left: 10px;
+}
+.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.section-tarjetas2 {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas2 .tarjetas-contenedor2 {
+  background-color: #16453F;
+  height: 150px;
+  display: flex;
+  width: 95%;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-img2 {
+  width: 40vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 {
+  display: flexbox;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 {
+  background-color: #541734;
+  border-radius: 30px;
+  width: 112px;
+  height: 30px;
+  margin-left: 5px;
+  position: relative;
+  top: 10px;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 .tarjetas-oferta2 {
+  color: white;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+  font-size: 1.1rem;
+  font-family: "Narnoor", serif;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto2 {
+  color: white;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  width: 80%;
+  margin-left: 10px;
+  position: relative;
+  top: 12px;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2 {
+  color: beige;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  margin-left: 10px;
+}
+.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.section-tarjetas3 {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas3 .tarjetas-contenedor3 {
+  background-color: #16453F;
+  height: 150px;
+  display: flex;
+  width: 95%;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-img3 {
+  width: 40vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 {
+  display: flexbox;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 {
+  background-color: #541734;
+  border-radius: 30px;
+  width: 170px;
+  height: 30px;
+  margin-left: 5px;
+  position: relative;
+  top: 10px;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 .tarjetas-oferta3 {
+  color: white;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+  font-size: 1.1rem;
+  font-family: "Narnoor", serif;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto3 {
+  color: white;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  width: 80%;
+  margin-left: 10px;
+  position: relative;
+  top: 12px;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3 {
+  color: beige;
+  font-size: 1rem;
+  font-family: "Narnoor", serif;
+  margin-left: 10px;
+}
+.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
