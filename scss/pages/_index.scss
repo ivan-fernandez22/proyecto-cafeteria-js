@@ -42,7 +42,7 @@ header {
     align-items: center;
     margin-top: 1rem;
     .presentacion-texto-bienvenida {
-        font-family: $fuente-textos;
+        font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
         text-align: center;
@@ -59,8 +59,87 @@ header {
 }
 
 
-/*------TARJETAS------*/
+/*--------CARTA Y PRODUCTOS---------*/
+.section-carta {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    .carta-titulo {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: $color-verde;
+        text-align: center;
+    }
+    .carta-texto {
+        font-family: $fuente-textos;
+        font-size: 1.1rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -2px;
+        text-align: center;
+        .carta-link {
+            text-decoration: underline;
+            color: $color-verde;
+            &:hover {
+                font-size: 1.3rem;
+                color: $color-violeta;
+            }
+        }
+    }
+    .carta-texto2 {
+        font-family: $fuente-textos;
+        font-size: 0.93rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -16px;
+        text-align: center;
+    }
+}
 
+.section-productos {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    .productos-titulo {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: $color-verde;
+        text-align: center;
+    }
+    .productos-texto {
+        font-family: $fuente-textos;
+        font-size: 1.1rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -2px;
+        text-align: center;
+        .productos-link {
+            text-decoration: underline;
+            color: $color-verde;
+            &:hover {
+                font-size: 1.3rem;
+                color: $color-violeta;
+            }
+        }
+    }
+    .productos-texto2 {
+        font-family: $fuente-textos;
+        font-size: 0.93rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -16px;
+        text-align: center;
+    }
+}
+
+
+/*------TARJETAS------*/
 .section-tarjetas {
     margin-top: 4rem;
     display: flex;
@@ -71,7 +150,7 @@ header {
         display: flex;
         width: 95%;
         .tarjetas-img1 {
-            width: 40vw;
+            width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
@@ -99,7 +178,7 @@ header {
                 color: white;
                 font-size: 1rem;
                 font-family: $fuente-textos;
-                width: 80%;
+                width: 90%;
                 margin-left: 10px;
                 position: relative;
                 top: 12px;
@@ -128,7 +207,7 @@ header {
         display: flex;
         width: 95%;
         .tarjetas-img2 {
-            width: 40vw;
+            width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
@@ -156,7 +235,7 @@ header {
                 color: white;
                 font-size: 1rem;
                 font-family: $fuente-textos;
-                width: 80%;
+                width: 90%;
                 margin-left: 10px;
                 position: relative;
                 top: 12px;
@@ -185,7 +264,7 @@ header {
         display: flex;
         width: 95%;
         .tarjetas-img3 {
-            width: 40vw;
+            width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
@@ -213,7 +292,7 @@ header {
                 color: white;
                 font-size: 1rem;
                 font-family: $fuente-textos;
-                width: 80%;
+                width: 90%;
                 margin-left: 10px;
                 position: relative;
                 top: 12px;
@@ -230,4 +309,159 @@ header {
             }
         }
     }
+}
+
+
+/*------DIRECCION-----*/
+.section-direccion {
+    margin-top: 6rem;
+    text-align: center;
+    color: black;
+    .direccion-titulo {
+        font-family: $fuente-titulos;
+        .direccion-titulo-enlace {
+            text-decoration: none;
+            color: $color-violeta;
+        }
+    }
+    .direccion-maps-contenedor {
+        margin-top: 1rem;
+        .direccion-maps {
+            width: 90vw;
+            height: 30vh;
+        }
+    }
+}
+
+
+/*------GALERIA-------*/
+.section-galeria {
+    margin-top: 5rem;
+    .galeria-titulo {
+        font-family: $fuente-titulos;
+        font-size: 1.7rem;
+        text-align: center;
+        color: $color-verde;
+    }
+    .galeria-contenedor {
+        width: 95%;
+        margin-left: 2.4vw;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        gap: 2vw;
+        .galeria-img1 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img2 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img3 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img4 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img5 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img6 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img7 {
+            width: 47vw;
+            height: 22vh;
+        }
+        .galeria-img8 {
+            width: 47vw;
+            height: 22vh;
+        }
+    }
+}
+
+
+/*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
+.section-info {
+    margin-top: 5rem;
+    .info-contenedor {
+        width: 100%;
+        background-color: #857555;
+        .info-envios-div {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            .bi-truck {
+                margin-right: 10px;
+                margin-top: 6px;
+                font-size: 40px;
+            }
+            .info-envios-estructura {
+                margin-right: 2rem;
+                margin-top: 1rem;
+                .info-envios-titulo {
+                    font-family: $fuente-titulos;
+                    font-size: 1.2rem;
+                    color: black;
+                }
+                .info-envios-texto {
+                    font-family: $fuente-titulos;
+                    font-size: 1rem;
+                    margin-top: -10px;
+                    color: black;
+                }
+            }
+        }
+        .info-pagos-div {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            .bi-credit-card-fill {
+                margin-top: 5px;
+                font-size: 40px;
+                margin-right: 10px;
+            }
+            .info-pagos-estructura {
+                margin-top: 1rem;
+                margin-right: 2rem;
+                .info-pagos-titulo {
+                    font-family: $fuente-titulos;
+                    font-size: 1.2rem;
+                    color: black;
+                }
+            }
+        }
+        .info-wspp-div {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+            margin-right: 28px;
+            .bi-whatsapp {
+                margin-top: -18px;
+                font-size: 40px;
+                margin-right: 10px;
+            }
+            .info-wspp-estructura {
+                .info-wspp-titulo {
+                    font-family: $fuente-titulos;
+                    font-size: 1.2rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+/*-----FOOTER-----*/
+footer {
+    margin-top: 2rem;
+    background-color: $color-violeta;
 }

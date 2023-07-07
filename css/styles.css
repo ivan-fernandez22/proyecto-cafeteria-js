@@ -46,7 +46,7 @@ header h1 {
   margin-top: 1rem;
 }
 .section-presentacion .presentacion-texto-bienvenida {
-  font-family: "Narnoor", serif;
+  font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
@@ -54,6 +54,85 @@ header h1 {
 .section-presentacion .presentacion-texto {
   font-family: "Narnoor", serif;
   font-size: 1.1rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -16px;
+  text-align: center;
+}
+
+/*--------CARTA Y PRODUCTOS---------*/
+.section-carta {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.section-carta .carta-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: #16453F;
+  text-align: center;
+}
+.section-carta .carta-texto {
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -2px;
+  text-align: center;
+}
+.section-carta .carta-texto .carta-link {
+  text-decoration: underline;
+  color: #16453F;
+}
+.section-carta .carta-texto .carta-link:hover {
+  font-size: 1.3rem;
+  color: #541734;
+}
+.section-carta .carta-texto2 {
+  font-family: "Narnoor", serif;
+  font-size: 0.93rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -16px;
+  text-align: center;
+}
+
+.section-productos {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.section-productos .productos-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: #16453F;
+  text-align: center;
+}
+.section-productos .productos-texto {
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -2px;
+  text-align: center;
+}
+.section-productos .productos-texto .productos-link {
+  text-decoration: underline;
+  color: #16453F;
+}
+.section-productos .productos-texto .productos-link:hover {
+  font-size: 1.3rem;
+  color: #541734;
+}
+.section-productos .productos-texto2 {
+  font-family: "Narnoor", serif;
+  font-size: 0.93rem;
   color: black;
   width: 95%;
   margin-left: 1vw;
@@ -74,7 +153,7 @@ header h1 {
   width: 95%;
 }
 .section-tarjetas .tarjetas-contenedor .tarjetas-img1 {
-  width: 40vw;
+  width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -103,7 +182,7 @@ header h1 {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
-  width: 80%;
+  width: 90%;
   margin-left: 10px;
   position: relative;
   top: 12px;
@@ -131,7 +210,7 @@ header h1 {
   width: 95%;
 }
 .section-tarjetas2 .tarjetas-contenedor2 .tarjetas-img2 {
-  width: 40vw;
+  width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -160,7 +239,7 @@ header h1 {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
-  width: 80%;
+  width: 90%;
   margin-left: 10px;
   position: relative;
   top: 12px;
@@ -188,7 +267,7 @@ header h1 {
   width: 95%;
 }
 .section-tarjetas3 .tarjetas-contenedor3 .tarjetas-img3 {
-  width: 40vw;
+  width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -217,7 +296,7 @@ header h1 {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
-  width: 80%;
+  width: 90%;
   margin-left: 10px;
   position: relative;
   top: 12px;
@@ -231,6 +310,155 @@ header h1 {
 .section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
   font-size: 1.1rem;
   text-decoration: underline;
+}
+
+/*------DIRECCION-----*/
+.section-direccion {
+  margin-top: 6rem;
+  text-align: center;
+  color: black;
+}
+.section-direccion .direccion-titulo {
+  font-family: "Anton", sans-serif;
+}
+.section-direccion .direccion-titulo .direccion-titulo-enlace {
+  text-decoration: none;
+  color: #541734;
+}
+.section-direccion .direccion-maps-contenedor {
+  margin-top: 1rem;
+}
+.section-direccion .direccion-maps-contenedor .direccion-maps {
+  width: 90vw;
+  height: 30vh;
+}
+
+/*------GALERIA-------*/
+.section-galeria {
+  margin-top: 5rem;
+}
+.section-galeria .galeria-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #16453F;
+}
+.section-galeria .galeria-contenedor {
+  width: 95%;
+  margin-left: 2.4vw;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+  gap: 2vw;
+}
+.section-galeria .galeria-contenedor .galeria-img1 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img2 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img3 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img4 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img5 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img6 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img7 {
+  width: 47vw;
+  height: 22vh;
+}
+.section-galeria .galeria-contenedor .galeria-img8 {
+  width: 47vw;
+  height: 22vh;
+}
+
+/*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
+.section-info {
+  margin-top: 5rem;
+}
+.section-info .info-contenedor {
+  width: 100%;
+  background-color: #857555;
+}
+.section-info .info-contenedor .info-envios-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.section-info .info-contenedor .info-envios-div .bi-truck {
+  margin-right: 10px;
+  margin-top: 6px;
+  font-size: 40px;
+}
+.section-info .info-contenedor .info-envios-div .info-envios-estructura {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.section-info .info-contenedor .info-envios-div .info-envios-estructura .info-envios-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+.section-info .info-contenedor .info-envios-div .info-envios-estructura .info-envios-texto {
+  font-family: "Anton", sans-serif;
+  font-size: 1rem;
+  margin-top: -10px;
+  color: black;
+}
+.section-info .info-contenedor .info-pagos-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.section-info .info-contenedor .info-pagos-div .bi-credit-card-fill {
+  margin-top: 5px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.section-info .info-contenedor .info-pagos-div .info-pagos-estructura {
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.section-info .info-contenedor .info-pagos-div .info-pagos-estructura .info-pagos-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+.section-info .info-contenedor .info-wspp-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-right: 28px;
+}
+.section-info .info-contenedor .info-wspp-div .bi-whatsapp {
+  margin-top: -18px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.section-info .info-contenedor .info-wspp-div .info-wspp-estructura .info-wspp-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/*-----FOOTER-----*/
+footer {
+  margin-top: 2rem;
+  background-color: #541734;
 }
 
 /*# sourceMappingURL=styles.css.map */
