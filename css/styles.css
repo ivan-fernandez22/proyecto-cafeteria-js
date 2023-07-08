@@ -67,12 +67,15 @@ header h1 {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  border-top: 2px solid #541734;
+  border-bottom: 2px solid #541734;
 }
 .section-carta .carta-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
+  margin-top: 0.3rem;
 }
 .section-carta .carta-texto {
   font-family: "Narnoor", serif;
@@ -84,12 +87,12 @@ header h1 {
   text-align: center;
 }
 .section-carta .carta-texto .carta-link {
-  text-decoration: underline;
-  color: #16453F;
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #541734;
 }
 .section-carta .carta-texto .carta-link:hover {
   font-size: 1.3rem;
-  color: #541734;
 }
 .section-carta .carta-texto2 {
   font-family: "Narnoor", serif;
@@ -105,7 +108,8 @@ header h1 {
   display: flexbox;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid #541734;
 }
 .section-productos .productos-titulo {
   font-family: "Anton", sans-serif;
@@ -123,12 +127,12 @@ header h1 {
   text-align: center;
 }
 .section-productos .productos-texto .productos-link {
-  text-decoration: underline;
-  color: #16453F;
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #541734;
 }
 .section-productos .productos-texto .productos-link:hover {
   font-size: 1.3rem;
-  color: #541734;
 }
 .section-productos .productos-texto2 {
   font-family: "Narnoor", serif;
@@ -459,6 +463,7 @@ header h1 {
 footer {
   margin-top: 2rem;
   background-color: #541734;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

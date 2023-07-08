@@ -65,11 +65,14 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    border-top: 2px solid $color-violeta;
+    border-bottom: 2px solid $color-violeta;
     .carta-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
         text-align: center;
+        margin-top: 0.3rem;
     }
     .carta-texto {
         font-family: $fuente-textos;
@@ -80,11 +83,11 @@ header {
         margin-top: -2px;
         text-align: center;
         .carta-link {
-            text-decoration: underline;
-            color: $color-verde;
+            font-family: $fuente-titulos;
+            text-decoration: none;
+            color: $color-violeta;
             &:hover {
                 font-size: 1.3rem;
-                color: $color-violeta;
             }
         }
     }
@@ -103,7 +106,8 @@ header {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
+    border-bottom: 2px solid $color-violeta;
     .productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
@@ -119,11 +123,11 @@ header {
         margin-top: -2px;
         text-align: center;
         .productos-link {
-            text-decoration: underline;
-            color: $color-verde;
+            font-family: $fuente-titulos;
+            text-decoration: none;
+            color: $color-violeta;
             &:hover {
                 font-size: 1.3rem;
-                color: $color-violeta;
             }
         }
     }
@@ -464,4 +468,5 @@ header {
 footer {
     margin-top: 2rem;
     background-color: $color-violeta;
+    text-align: center;
 }
