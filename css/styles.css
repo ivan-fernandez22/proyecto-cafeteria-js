@@ -465,5 +465,16 @@ footer {
   background-color: #541734;
   text-align: center;
 }
+footer .footer-nav .footer-nav-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: beige;
+}
+footer .footer-nav .footer-nav-lista {
+  list-style: none;
+  position: relative;
+  left: -20px;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */

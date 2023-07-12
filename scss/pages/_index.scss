@@ -469,4 +469,18 @@ footer {
     margin-top: 2rem;
     background-color: $color-violeta;
     text-align: center;
+
+    .footer-nav {
+        .footer-nav-titulo {
+            font-family: $fuente-titulos;
+            font-size: 1.2rem;
+            color: beige;
+        }
+        .footer-nav-lista {
+            list-style: none;
+            position: relative;
+            left: -20px;
+            color: white;
+        }
+    }
 }
