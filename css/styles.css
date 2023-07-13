@@ -391,7 +391,7 @@ header h1 {
 
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
 .section-info {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .section-info .info-contenedor {
   width: 100%;
@@ -461,9 +461,14 @@ header h1 {
 
 /*-----FOOTER-----*/
 footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: #541734;
   text-align: center;
+  height: 760px;
+}
+footer .footer-nav {
+  position: relative;
+  top: 1rem;
 }
 footer .footer-nav .footer-nav-titulo {
   font-family: "Anton", sans-serif;
@@ -474,6 +479,63 @@ footer .footer-nav .footer-nav-lista {
   list-style: none;
   position: relative;
   left: -20px;
+  color: white;
+}
+footer .footer-redes {
+  margin-top: 4rem;
+}
+footer .footer-redes .redes-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: beige;
+}
+footer .footer-redes .redes-lista {
+  list-style: none;
+  position: relative;
+  left: -20px;
+  color: white;
+}
+footer .footer-pagos {
+  margin-top: 3rem;
+}
+footer .footer-pagos .pagos-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: beige;
+}
+footer .footer-pagos .pagos-img {
+  margin-top: -0.5rem;
+  width: 250px;
+}
+footer .footer-email {
+  margin-top: 3rem;
+}
+footer .footer-email .email-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: beige;
+}
+footer .footer-email .email-div-formulario {
+  margin-top: 12px;
+}
+footer .footer-ubicacion {
+  margin-top: 3rem;
+}
+footer .footer-ubicacion .ubicacion-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+  color: beige;
+}
+footer .footer-ubicacion .ubicacion-link {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-copyright {
+  margin-top: 2rem;
+}
+footer .footer-copyright .copyright-texto {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
   color: white;
 }
 

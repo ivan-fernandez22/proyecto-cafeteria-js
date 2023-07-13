@@ -393,7 +393,7 @@ header {
 
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
 .section-info {
-    margin-top: 5rem;
+    margin-top: 4rem;
     .info-contenedor {
         width: 100%;
         background-color: #857555;
@@ -466,11 +466,13 @@ header {
 
 /*-----FOOTER-----*/
 footer {
-    margin-top: 2rem;
+    margin-top: 4rem;
     background-color: $color-violeta;
     text-align: center;
-
+    height: 760px;
     .footer-nav {
+        position: relative;
+        top: 1rem;
         .footer-nav-titulo {
             font-family: $fuente-titulos;
             font-size: 1.2rem;
@@ -480,6 +482,63 @@ footer {
             list-style: none;
             position: relative;
             left: -20px;
+            color: white;
+        }
+    }
+    .footer-redes {
+        margin-top: 4rem;
+        .redes-titulo {
+            font-family: $fuente-titulos;
+            font-size: 1.2rem;
+            color: beige;
+        }
+        .redes-lista {
+            list-style: none;
+            position: relative;
+            left: -20px;
+            color: white;
+        }
+    }
+    .footer-pagos {
+        margin-top: 3rem;
+        .pagos-titulo {
+            font-family: $fuente-titulos;
+            font-size: 1.2rem;
+            color: beige;
+        }
+        .pagos-img {
+            margin-top: -0.5rem;
+            width: 250px;
+        }
+    }
+    .footer-email {
+        margin-top: 3rem;
+        .email-titulo {
+            font-family: $fuente-titulos;
+            font-size: 1.2rem;
+            color: beige;
+        }
+        .email-div-formulario {
+            margin-top: 12px;
+        }
+    }
+    .footer-ubicacion {
+        margin-top: 3rem;
+        .ubicacion-titulo {
+            font-family: $fuente-titulos;
+            font-size: 1.2rem;
+            color: beige;
+        }
+        .ubicacion-link {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .footer-copyright {
+        margin-top: 2rem;
+        .copyright-texto {
+            font-family: $fuente-textos;
+            font-size: 1rem;
             color: white;
         }
     }
