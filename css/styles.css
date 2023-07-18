@@ -77,7 +77,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 }
 
 /*--------CARTA Y PRODUCTOS---------*/
-.section-carta {
+.section-productos {
   display: flexbox;
   justify-content: center;
   align-items: center;
@@ -85,52 +85,12 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   border-top: 2px solid #541734;
   border-bottom: 2px solid #541734;
 }
-.section-carta .carta-titulo {
-  font-family: "Anton", sans-serif;
-  font-size: 1.3rem;
-  color: #16453F;
-  text-align: center;
-  margin-top: 0.3rem;
-}
-.section-carta .carta-texto {
-  font-family: "Narnoor", serif;
-  font-size: 1.1rem;
-  color: black;
-  width: 95%;
-  margin-left: 1vw;
-  margin-top: -2px;
-  text-align: center;
-}
-.section-carta .carta-texto .carta-link {
-  font-family: "Anton", sans-serif;
-  text-decoration: none;
-  color: #541734;
-}
-.section-carta .carta-texto .carta-link:hover {
-  font-size: 1.3rem;
-}
-.section-carta .carta-texto2 {
-  font-family: "Narnoor", serif;
-  font-size: 0.93rem;
-  color: black;
-  width: 95%;
-  margin-left: 1vw;
-  margin-top: -16px;
-  text-align: center;
-}
-
-.section-productos {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.5rem;
-  border-bottom: 2px solid #541734;
-}
 .section-productos .productos-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
+  margin-top: 0.5rem;
 }
 .section-productos .productos-texto {
   font-family: "Narnoor", serif;
@@ -157,6 +117,38 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-left: 1vw;
   margin-top: -16px;
   text-align: center;
+}
+
+.section-reservas {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid #541734;
+}
+.section-reservas .reservas-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: #16453F;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.section-reservas .reservas-texto {
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  color: black;
+  width: 95%;
+  margin-left: 1vw;
+  margin-top: -2px;
+  text-align: center;
+}
+.section-reservas .reservas-texto .reservas-link {
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #541734;
+}
+.section-reservas .reservas-texto .reservas-link:hover {
+  font-size: 1.3rem;
 }
 
 /*------TARJETAS------*/
@@ -552,6 +544,165 @@ footer .footer-copyright .copyright-texto {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   color: white;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.7rem;
+  color: #16453F;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.section-cakes {
+  margin-top: 2rem;
+}
+.section-cakes h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 3vw;
+}
+.section-cakes .tarjeta-chessecakeFr {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: black;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+.section-cakes .tarjeta-chessecakeMaracuya {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: black;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+.section-cakes .tarjeta-tortaChocolate {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: black;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

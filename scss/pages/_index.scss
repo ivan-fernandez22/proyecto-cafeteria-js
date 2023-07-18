@@ -79,59 +79,19 @@ header {
 
 
 /*--------CARTA Y PRODUCTOS---------*/
-.section-carta {
+.section-productos {
     display: flexbox;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
     border-top: 2px solid $color-violeta;
     border-bottom: 2px solid $color-violeta;
-    .carta-titulo {
-        font-family: $fuente-titulos;
-        font-size: 1.3rem;
-        color: $color-verde;
-        text-align: center;
-        margin-top: 0.3rem;
-    }
-    .carta-texto {
-        font-family: $fuente-textos;
-        font-size: 1.1rem;
-        color: black;
-        width: 95%;
-        margin-left: 1vw;
-        margin-top: -2px;
-        text-align: center;
-        .carta-link {
-            font-family: $fuente-titulos;
-            text-decoration: none;
-            color: $color-violeta;
-            &:hover {
-                font-size: 1.3rem;
-            }
-        }
-    }
-    .carta-texto2 {
-        font-family: $fuente-textos;
-        font-size: 0.93rem;
-        color: black;
-        width: 95%;
-        margin-left: 1vw;
-        margin-top: -16px;
-        text-align: center;
-    }
-}
-
-.section-productos {
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.5rem;
-    border-bottom: 2px solid $color-violeta;
     .productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
         text-align: center;
+        margin-top: 0.5rem;
     }
     .productos-texto {
         font-family: $fuente-textos;
@@ -158,6 +118,38 @@ header {
         margin-left: 1vw;
         margin-top: -16px;
         text-align: center;
+    }
+}
+
+.section-reservas {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    border-bottom: 2px solid $color-violeta;
+    .reservas-titulo {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: $color-verde;
+        text-align: center;
+        margin-top: 0.3rem;
+    }
+    .reservas-texto {
+        font-family: $fuente-textos;
+        font-size: 1.1rem;
+        color: black;
+        width: 95%;
+        margin-left: 1vw;
+        margin-top: -2px;
+        text-align: center;
+        .reservas-link {
+            font-family: $fuente-titulos;
+            text-decoration: none;
+            color: $color-violeta;
+            &:hover {
+                font-size: 1.3rem;
+            }
+        }
     }
 }
 

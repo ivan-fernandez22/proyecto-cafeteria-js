@@ -1,0 +1,161 @@
+h2 {
+    font-family: $fuente-titulos;
+    font-size: 1.7rem;
+    color: $color-verde;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.section-cakes {
+    margin-top: 2rem;
+    h3 {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 1rem;
+        margin-left: 3vw;
+    }
+
+    .tarjeta-chessecakeFr {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .chessecakeFr-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .chessecakeFr-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .chessecakeFr-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .chessecakeFr-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: black;
+                margin-top: -16px;
+            }
+            .chessecakeFr-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .chessecakeFr-img {
+            width: 105px;
+            height: 105px;
+            border-radius: 50px;
+            margin-top: 25px;
+        }
+    }
+
+    .tarjeta-chessecakeMaracuya {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .chessecakeMaracuya-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .chessecakeMaracuya-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .chessecakeMaracuya-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .chessecakeMaracuya-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: black;
+                margin-top: -16px;
+            }
+            .chessecakeMaracuya-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .chessecakeMaracuya-img {
+            width: 105px;
+            height: 105px;
+            border-radius: 50px;
+            margin-top: 25px;
+        }
+    }
+
+    .tarjeta-tortaChocolate {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .tortaChocolate-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .tortaChocolate-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .tortaChocolate-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .tortaChocolate-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: black;
+                margin-top: -16px;
+            }
+            .tortaChocolate-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .tortaChocolate-img {
+            width: 105px;
+            height: 105px;
+            border-radius: 50px;
+            margin-top: 8px;
+        }
+    }
+}
