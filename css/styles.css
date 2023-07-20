@@ -28,6 +28,10 @@ header h1 {
   margin-top: -32px;
   margin-left: 45px;
   color: white;
+  width: 130px;
+}
+header .navbar .container-fluid {
+  margin-left: 2rem;
 }
 header .navbar .container-fluid .navbar-toggler {
   background-color: #F0DEBB;
@@ -37,11 +41,12 @@ header .navbar .container-fluid .collapse {
 }
 header .navbar .container-fluid .collapse .navbar-nav {
   height: 120px;
+  width: 150px;
   margin-top: 12px;
   color: beige;
 }
 header .navbar .container-fluid .collapse .navbar-nav .nav-link {
-  margin-top: -16px;
+  margin-top: -10px;
   color: beige;
 }
 
@@ -554,10 +559,26 @@ h2 {
   margin-top: 1rem;
 }
 
-.section-cakes {
-  margin-top: 2rem;
+.section-aviso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
-.section-cakes h3 {
+.section-aviso .aviso-div-productos {
+  width: 90%;
+}
+.section-aviso .aviso-div-productos .aviso-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.85rem;
+  color: black;
+  text-align: center;
+}
+
+.section-cakes {
+  margin-top: 1.5rem;
+}
+.section-cakes .h3-cakes {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: black;
@@ -592,7 +613,7 @@ h2 {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
-  color: black;
+  color: #541734;
   margin-top: -16px;
 }
 .section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito {
@@ -604,11 +625,14 @@ h2 {
 .section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-img {
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-img .chessecakeFr-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
-  margin-top: 25px;
 }
 .section-cakes .tarjeta-chessecakeMaracuya {
   background-color: #F1E6D0;
@@ -639,7 +663,7 @@ h2 {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
-  color: black;
+  color: #541734;
   margin-top: -16px;
 }
 .section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito {
@@ -651,11 +675,14 @@ h2 {
 .section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-img {
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img .chessecakeMaracuya-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
-  margin-top: 25px;
 }
 .section-cakes .tarjeta-tortaChocolate {
   background-color: #F1E6D0;
@@ -686,7 +713,7 @@ h2 {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
-  color: black;
+  color: #541734;
   margin-top: -16px;
 }
 .section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito {
@@ -698,11 +725,225 @@ h2 {
 .section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-img {
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-img .tortaChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
-  margin-top: 8px;
+}
+.section-cakes .tarjeta-lemonPie {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-lemonPie .lemonPie-div-img .lemonPie-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-cakes .tarjeta-tortaOreo {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-tortaOreo .tortaOreo-div-img .tortaOreo-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-cakes .tarjeta-chocotorta {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-chocotorta .chocotorta-div-img .chocotorta-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-cakes .tarjeta-carrotCake {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito:hover {
+  color: #16453F;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-cakes .tarjeta-carrotCake .carrotCake-div-img .carrotCake-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+
+.section-sandwichs {
+  margin-top: 3rem;
+}
+.section-sandwichs .h3-sandwichs {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 3vw;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -16,9 +16,11 @@ header {
         margin-top: -32px;
         margin-left: 45px;
         color: white;
+        width: 130px;
     }
     .navbar {
         .container-fluid {
+            margin-left: 2rem;
             .navbar-toggler {
                 background-color: $color-fondo;
             }
@@ -26,10 +28,11 @@ header {
                 height: 120px;
                 .navbar-nav {
                     height: 120px;
+                    width: 150px;
                     margin-top: 12px;
                     color: beige;
                     .nav-link {
-                        margin-top: -16px;
+                        margin-top: -10px;
                         color: beige;
                     }
                 }

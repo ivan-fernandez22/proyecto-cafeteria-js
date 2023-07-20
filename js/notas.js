@@ -207,31 +207,32 @@
 
 // // Uso de clases
 // class Producto {
-//     constructor (id, nombre, precio) {
+//     constructor (id, nombre, precio, stock) {
 //         this.id = id
 //         this.nombre = nombre.toUpperCase () //Convierte todo a mayuscula
 //         this.precio = parseFloat (precio) //Parseo el precio (me da con coma)
-//         this.stock = true
+//         this.stock = stock
 //     }
 //     obtenerPrecio () {
 //         console.log ("El precio del producto: " + this.nombre + " es: " + this.precio + "$ ARS")
 //     }
 //     obtenerStock () {
-//         if (this.stock == true) {
+//         if (this.stock === true) {
 //             console.log ("Hay stock de: " + this.nombre)
 //         } else {
 //             console.log ("No hay stock de: " + this.nombre)
 //         }
 //     }
-//     CalcularPrecioConIVA () {
-//         this.precio = this.precio * 1.21
+//     calcularPrecioConIVA () {
+//         const precioConIVA = this.precio * 1.21
+//         return precioConIVA.toFixed (2)
 //     }
 // } 
 
 // const productos = []
 
 // productos.push (
-//     new Producto (1, "croissant", 500)
+//     new Producto (1, "croissant", 500, true)
 // )
 
 // productos.push (
@@ -250,3 +251,175 @@
 //     prod.obtenerStock ()
 // }
 
+// // Obtener el precio con IVA 
+// for (const prod of productos) {
+//     const precioConIVA = prod.calcularPrecioConIVA();
+//     console.log("El precio con IVA del producto " + prod.nombre + " es: $" + precioConIVA + " ARS");
+// }
+
+
+
+// // CLASE 07: FUNCIONES DE ORDEN SUPERIOR 
+
+// // Abstraccion
+
+// let total = 0
+// for (let i = 1; i <= 10; i++) {
+//     total += i
+// }
+
+// console.log (total)
+
+
+// // Retornar funciones
+
+// function esMayorQue (numero) {
+//     return (mayor) => mayor > numero //Retorna una funcion anonima que define por true o false si el numero ingresado es mayor que "numero"
+// }
+
+// let mayorQueNumero = esMayorQue (20)
+
+// console.log (mayorQueNumero(21))
+
+
+// function asignarOperacion (operacion) {
+//     if (operacion == "sumar") {
+//         return (a,b) => a + b
+//     } else if (operacion == "restar") {
+//         return (a, b) => a - b
+//     }
+// }
+
+// let suma = asignarOperacion ("sumar")
+// let resta = asignarOperacion ("restar")
+
+// console.log (suma(4,5))
+// console.log (resta(8,3))
+
+
+// // Recibir otra funcion como parametro
+
+// function porCadaUno (myArray, myFuncion) { //recibe un array y una funcion como parametro
+//     for (const i of myArray) {
+//         myFuncion (i)
+//     }
+// }
+
+// const arrayNumeros = [1, 45, 32, 47, 59]
+
+// porCadaUno (arrayNumeros, console.log)
+
+// // Me acumula los numeros del array 
+// let total = 0
+// function acumular (numero) {
+//     total += numero
+// }
+
+// porCadaUno (arrayNumeros, acumular)
+// console.log (total)
+
+// // Funcion que me duplica todos los valores del array numeros y me genere un nuevo array
+// let arrayDuplicado = []
+
+// porCadaUno (arrayNumeros, (num) => { // le paso una funcion anónima
+//     arrayDuplicado.push (num * 2)
+// })
+
+// console.log (arrayNumeros)
+// console.log (arrayDuplicado)
+
+// // Aplicando la funcion acumular al array duplicado
+// porCadaUno (arrayDuplicado, acumular)
+// console.log (total)
+
+
+// // Métodos de búsqueda y transformación 
+
+// // Metodo forEach (): Itera sobre el array y por cada elemento ejecuta la funcion que enviemos 
+// // por parametro, la cual recibe a su vez el elemento del array que se está recorriendo.
+// const numeros = [1, 2, 3, 4, 5]
+
+// numeros.forEach ((numero) => {console.log (numero)})
+
+// // Método find (): Recibe una funcion de comparación por parámetro. Captura el elemento que se está recorriendo y retorna 
+// // true o false segun la comparacion ejecutada. El metodo retorna el primer elemento que cumpla con esa condicion.
+// const productos = [
+//     { nombre: "Harina", precio: 400},
+//     { nombre: "Azucar", precio: 500},
+//     { nombre: "Queso", precio: 3000}
+// ]
+
+// const busqueda1 = productos.find (
+//     (siSu) => siSu.nombre === "Harina" // pongo siSu pero puedo poner lo que quiera
+// )
+
+// const busqueda2 = productos.find (
+//     (siSu) => siSu.precio > 400
+// )
+
+// const busqueda3 = productos.find ((siSu) => siSu.precio < 200)
+
+// console.log (busqueda1)
+// console.log (busqueda2)
+// console.log (busqueda3) // undefined
+
+// // Método filter (): Igual que find (), recibe una funcion comparadora por parametro, y retorna un NUEVO array con todos
+// // los elementos que cumplan esa condición. Si no hay coincidencias, retorna un array vacío.
+// const resultado1 = productos.filter (
+//     (siSu) => siSu.nombre.includes ("a")
+// )
+
+// const resultado2 = productos.filter (
+//     (siSu) => siSu.precio > 2000
+// )
+
+// console.log (resultado1)
+// console.log (resultado2)
+
+// // Método some (): Funciona igual que el find () recibiendo una funcion de busqueda. En vez de retornar el elemento
+// // encontrado, some () retorna TRUE o FALSE segun el resultado de la iteracion de busqueda
+// const seEncuentra = productos.some (
+//     (siSu) => siSu.nombre.includes ("Az")
+// )
+
+// const seEncuentra2 = productos.some (
+//     (siSu) => siSu.precio > 5000
+// )
+
+// console.log (seEncuentra)
+// console.log (seEncuentra2)
+
+// // Método map (): Crea un NUEVO ARRAY con todos los elementos del original transformados segun las operaciones de la funcion
+// // enviada por parametro. Tiene la misma cantidad de elementos pero los almacenados son el return de la funcion. 
+// const nombresProductos = productos.map ( (soloEl) => soloEl.nombre )
+
+// console.log (nombresProductos)
+
+// const actualizarPrecios = productos.map ( 
+//     (si) => {
+//         return {
+//             nombre: si.nombre,
+//             precio: si.precio * 1.30
+//         }
+//     } 
+// )
+
+// console.log (actualizarPrecios)
+
+// // Metodo reduce (): Nos permite obtener un unico valor tras iterar sobre el array. Funciona como un metodo que resume 
+// // el array a un único valor de retorno. Me podria servir para un simulador de compras, al sumar el precio de todos los productos elegidos.
+// const totalArrayNumeros = numeros.reduce ((ac, el) => ac + el, 0)
+
+// console.log (totalArrayNumeros)
+
+// // Metodo sort (): Nos permite REORDENAR un array según un criterio que definamos. Recibe una funcion de comparacion por parametro que, a la vez,
+// // recibe dos elementos del array. La funcion retorna un valor númerico (1, -1, 0), que indica qué elemento se posiciona antes o despues.
+// const arrayNumeros = [1, 80, 45, 18, 134]
+
+// arrayNumeros.sort ( (a, b) => a - b ) // Orden creciente
+
+// console.log (arrayNumeros) // TENER CUIDADO: me cambia el orden del array
+
+// arrayNumeros.sort ( (a, b) => b - a ) // Orden descendente 
+
+// console.log (arrayNumeros) // TENER CUIDADO: me cambia el orden del array

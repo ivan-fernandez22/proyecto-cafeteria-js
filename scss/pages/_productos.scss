@@ -6,9 +6,25 @@ h2 {
     margin-top: 1rem;
 }
 
+.section-aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    .aviso-div-productos {
+        width: 90%;
+        .aviso-texto {
+            font-family: $fuente-textos;
+            font-size: 0.85rem;
+            color: black;
+            text-align: center;
+        }
+    }
+}
+
 .section-cakes {
-    margin-top: 2rem;
-    h3 {
+    margin-top: 1.5rem;
+    .h3-cakes {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: black;
@@ -42,7 +58,7 @@ h2 {
                 font-family: $fuente-textos;
                 font-size: 1rem;
                 text-decoration-style: solid;
-                color: black;
+                color: $color-violeta;
                 margin-top: -16px;
             }
             .chessecakeFr-carrito {
@@ -55,11 +71,14 @@ h2 {
                 }
             }
         }
-        .chessecakeFr-img {
-            width: 105px;
-            height: 105px;
-            border-radius: 50px;
-            margin-top: 25px;
+        .chessecakeFr-div-img {
+            display: flex;
+            align-items: center;
+            .chessecakeFr-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
         }
     }
 
@@ -90,7 +109,7 @@ h2 {
                 font-family: $fuente-textos;
                 font-size: 1rem;
                 text-decoration-style: solid;
-                color: black;
+                color: $color-violeta;
                 margin-top: -16px;
             }
             .chessecakeMaracuya-carrito {
@@ -103,11 +122,14 @@ h2 {
                 }
             }
         }
-        .chessecakeMaracuya-img {
-            width: 105px;
-            height: 105px;
-            border-radius: 50px;
-            margin-top: 25px;
+        .chessecakeMaracuya-div-img {
+            display: flex;
+            align-items: center;
+            .chessecakeMaracuya-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
         }
     }
 
@@ -138,7 +160,7 @@ h2 {
                 font-family: $fuente-textos;
                 font-size: 1rem;
                 text-decoration-style: solid;
-                color: black;
+                color: $color-violeta;
                 margin-top: -16px;
             }
             .tortaChocolate-carrito {
@@ -151,11 +173,230 @@ h2 {
                 }
             }
         }
-        .tortaChocolate-img {
-            width: 105px;
-            height: 105px;
-            border-radius: 50px;
-            margin-top: 8px;
+        .tortaChocolate-div-img {
+            display: flex;
+            align-items: center;
+            .tortaChocolate-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
         }
+    }    
+
+    .tarjeta-lemonPie {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .lemonPie-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .lemonPie-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .lemonPie-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .lemonPie-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .lemonPie-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .lemonPie-div-img {
+            display: flex;
+            align-items: center;
+            .lemonPie-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-tortaOreo {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .tortaOreo-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .tortaOreo-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .tortaOreo-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .tortaOreo-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .tortaOreo-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .tortaOreo-div-img {
+            display: flex;
+            align-items: center;
+            .tortaOreo-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-chocotorta {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .chocotorta-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .chocotorta-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .chocotorta-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .chocotorta-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .chocotorta-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .chocotorta-div-img {
+            display: flex;
+            align-items: center;
+            .chocotorta-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-carrotCake {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .carrotCake-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .carrotCake-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .carrotCake-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .carrotCake-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .carrotCake-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .carrotCake-div-img {
+            display: flex;
+            align-items: center;
+            .carrotCake-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+
+.section-sandwichs {
+    margin-top: 3rem;
+    .h3-sandwichs {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 1rem;
+        margin-left: 3vw;
     }
 }
