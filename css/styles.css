@@ -37,7 +37,7 @@ header .navbar .container-fluid .navbar-toggler {
   background-color: #F0DEBB;
 }
 header .navbar .container-fluid .collapse {
-  height: 120px;
+  height: 145px;
 }
 header .navbar .container-fluid .collapse .navbar-nav {
   height: 120px;
@@ -48,6 +48,7 @@ header .navbar .container-fluid .collapse .navbar-nav {
 header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-top: -10px;
   color: beige;
+  width: 40vw;
 }
 
 /*----CARRUSEL-----*/
@@ -944,6 +945,206 @@ h2 {
   color: black;
   margin-top: 1rem;
   margin-left: 3vw;
+}
+.section-sandwichs .tarjeta-tostadoJYQ {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito:hover {
+  color: #16453F;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-img .tostadoJYQ-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-sandwichs .tarjeta-tostada {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-carrito:hover {
+  color: #16453F;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-sandwichs .tarjeta-tostada .tostada-div-img .tostada-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito:hover {
+  color: #16453F;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img .sandwichMediterraneo-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito:hover {
+  color: #16453F;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,4 @@
+//-----------------TITULO Y AVISO-----------------//
 h2 {
     font-family: $fuente-titulos;
     font-size: 1.7rem;
@@ -22,6 +23,7 @@ h2 {
     }
 }
 
+//----------------SECCION CAKES-------------------//
 .section-cakes {
     margin-top: 1.5rem;
     .h3-cakes {
@@ -390,6 +392,7 @@ h2 {
 }
 
 
+//---------------------SECCION SANDWICHS-------------------//
 .section-sandwichs {
     margin-top: 3rem;
     .h3-sandwichs {
@@ -398,5 +401,209 @@ h2 {
         color: black;
         margin-top: 1rem;
         margin-left: 3vw;
+    }
+
+    .tarjeta-tostadoJYQ {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .tostadoJYQ-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .tostadoJYQ-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .tostadoJYQ-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .tostadoJYQ-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .tostadoJYQ-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .tostadoJYQ-div-img {
+            display: flex;
+            align-items: center;
+            .tostadoJYQ-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-tostada {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .tostada-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .tostada-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .tostada-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .tostada-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .tostada-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .tostada-div-img {
+            display: flex;
+            align-items: center;
+            .tostada-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-sandwichMediterraneo {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .sandwichMediterraneo-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .sandwichMediterraneo-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .sandwichMediterraneo-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .sandwichMediterraneo-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .sandwichMediterraneo-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .sandwichMediterraneo-div-img {
+            display: flex;
+            align-items: center;
+            .sandwichMediterraneo-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-hamburguesaVeggie {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .hamburguesaVeggie-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .hamburguesaVeggie-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .hamburguesaVeggie-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .hamburguesaVeggie-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .hamburguesaVeggie-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .hamburguesaVeggie-div-img {
+            display: flex;
+            align-items: center;
+            .hamburguesaVeggie-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
     }
 }

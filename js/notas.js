@@ -423,3 +423,127 @@
 // arrayNumeros.sort ( (a, b) => b - a ) // Orden descendente 
 
 // console.log (arrayNumeros) // TENER CUIDADO: me cambia el orden del array
+
+
+
+
+// // CLASE 08: FUNCIONES DE ORDEN SUPERIOR II
+
+// // MATH: El objeto Math funcionacomo un contenedor de herramientas y métodos paraa realizar operaciones matematicas
+
+// console.log (Math.E)
+// console.log (Math.PI)
+
+// const arrayNumber = [1, 2, 5, 56, 9]
+
+// console.log (Math.max(1, 2, 5, 56, 9))
+// console.log (Math.min (1, 2, -5, 56, 9))
+
+// console.log (Math.max(1, 2, 5, Infinity, 56, 9))
+// console.log (Math.min (1, 2, -5, -Infinity, 56, 9))
+
+
+// // Ceil, floor y round (sirven para redondear un valor numerico a un valor entero)
+
+// const pi = Math.PI
+
+// console.log (Math.ceil (pi)) // ceil devuelve el entero mayor o igual mas proximo
+// console.log (Math.floor (pi)) // floor devuelve el entero mas cercano redondeado hacia abajo
+// console.log (Math.round (pi)) // round retorna el valor de un numero redondeado al entero mas cercano
+
+// const x = 1.24353453
+
+// console.log (Math.ceil (x))
+// console.log (Math.floor (x))
+// console.log (Math.round (x))
+
+
+// // Square root: Retorna la raiz cuadrada de un numero.
+
+// const raizCuadrada = 16 ** (1/2) //Calcular raices cuadradas a la vieja usanza
+// console.log (raizCuadrada)
+
+// //Usando Math:
+// console.log (Math.sqrt (16))
+// console.log (Math.sqrt (0))
+// console.log (Math.sqrt (-9))
+
+
+// // Random: genera un numero pseudo-aleatorio entre 0 y 1
+
+// console.log (Math.random())
+// console.log (Math.random())
+// console.log (Math.random())
+
+// // Se puede generar numeros aleatorios en otro rango deseado, multiplicando
+// // su resultado por el rango esperado. A la vez podemos sumar el limite inferior.
+// console.log (Math.random () * 10) // De 0 a 10
+// console.log (Math.random () * 40) // De 0 a 40
+// console.log (Math.random () * 20 + 5) // De 5 a 20
+
+// const generadorNumero = () => {
+//     return Math.round (Math.random () * 100) //Usando Math.round retorna numeros en el rango de 0-100.
+// }
+
+// console.log (generadorNumero ()) 
+
+
+// // CLASE DATE: 
+
+// // Instanciar un objeto Date nos genera la fecha y el tiempo actual
+
+// const diaDeHoy = new Date ()
+// console.log (diaDeHoy)
+
+// console.log (new Date (1992, 1, 22)) // Los meses los toma de 0 a 11
+
+// const miFechaDeNacimiento = new Date (2003, 10, 22)
+// console.log (miFechaDeNacimiento)
+
+// console.log (new Date (2023, 11, 24, 23, 59, 59)) // 1 seg antes de navidad
+
+
+// // Obtener un valor singular de la fecha
+
+// // getMonth (): nos retornará el number que representa el mes (entre 0 y 11)
+// console.log (miFechaDeNacimiento.getMonth())
+
+// // getFullYear (): nos devolverá el number que representa el año creado
+// console.log (miFechaDeNacimiento.getFullYear())
+
+// // getDay (): nos retornará el number que representa el día creado (1=lunes, 7=domingo)
+// console.log (miFechaDeNacimiento.getDay())
+
+// // Mas ejemplos:
+
+// console.log (diaDeHoy.toDateString()) // Me retorna la fecha sin la hora 
+// console.log (diaDeHoy.toLocaleString()) // Me retorna la fecha y la hora en formato local (de Arg)
+// console.log (diaDeHoy.toLocaleDateString()) // Me retorna solamente la fecha en formato local
+// console.log (diaDeHoy.toTimeString()) // Me retorna solamente la hora en formato local
+
+// console.log ("Copyright - CoderHouse - Todos los derechos reservados | año: " + diaDeHoy.getFullYear ())
+
+
+// // Calculando cuantos dias faltan para navidad
+
+// const navidad = new Date (2023, 11, 25)
+// console.log (navidad)
+
+// console.log (navidad - diaDeHoy) // Nos da en milisegundos
+
+// const milisegundos = 1 * 24 * 60 * 60 * 1000 // 86400000 milisegundos tiene un dia
+// console.log (milisegundos)
+
+// console.log ("Para navidad faltan " + Math.round((navidad - diaDeHoy) / milisegundos) + " dias") // Cantidad de días
+
+
+// // Me calcula cuanto tardó un proceso (consologear algo x veces)
+// const inicio = new Date ()
+
+// for (let i = 0; i < 50; i++) {
+//     console.log (" console logs")
+// }
+
+// const final = new Date ()
+
+// console.log ("El proceso tardó: " + (final - inicio)/1000 + " segundos")

@@ -25,7 +25,7 @@ header {
                 background-color: $color-fondo;
             }
             .collapse {
-                height: 120px;
+                height: 145px;
                 .navbar-nav {
                     height: 120px;
                     width: 150px;
@@ -34,6 +34,7 @@ header {
                     .nav-link {
                         margin-top: -10px;
                         color: beige;
+                        width: 40vw;
                     }
                 }
             }
