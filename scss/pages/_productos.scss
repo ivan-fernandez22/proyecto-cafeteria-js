@@ -394,7 +394,7 @@ h2 {
 
 //---------------------SECCION SANDWICHS-------------------//
 .section-sandwichs {
-    margin-top: 3rem;
+    margin-top: 5rem;
     .h3-sandwichs {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
@@ -408,7 +408,7 @@ h2 {
         width: 95vw;
         display: grid;
         margin-left: 2vw;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
         grid-template-columns: 65% 35%;
         overflow: hidden;
         .tostadoJYQ-div-contenedor{
@@ -600,6 +600,376 @@ h2 {
             display: flex;
             align-items: center;
             .hamburguesaVeggie-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+
+//----------------SECCION ROLLS Y CROISSANTS------------//
+.section-rollsYCroissants {
+    margin-top: 5rem;
+    .h3-rollsYCroissants {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 1rem;
+        margin-left: 3vw;
+    }
+
+    .tarjeta-rollCanela {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .rollCanela-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .rollCanela-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .rollCanela-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .rollCanela-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .rollCanela-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .rollCanela-div-img {
+            display: flex;
+            align-items: center;
+            .rollCanela-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-rollManzana {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .rollManzana-div-contenedor {
+            display: flexbox;
+            margin-left: 0.5rem;
+            .rollManzana-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .rollManzana-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .rollManzana-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .rollManzana-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .rollManzana-div-img {
+            display: flex;
+            align-items: center;
+            .rollManzana-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-rollChocolate {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .rollChocolate-div-contenedor {
+            display: flexbox;
+            margin-left: 0.5rem;
+            .rollChocolate-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .rollChocolate-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .rollChocolate-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .rollChocolate-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .rollChocolate-div-img {
+            display: flex;
+            align-items: center;
+            .rollChocolate-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-croissant {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .croissant-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .croissant-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .croissant-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .croissant-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .croissant-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .croissant-div-img {
+            display: flex;
+            align-items: center;
+            .croissant-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-croissantChocolate {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .croissantChocolate-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .croissantChocolate-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .croissantChocolate-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .croissantChocolate-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .croissantChocolate-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .croissantChocolate-div-img {
+            display: flex;
+            align-items: center;
+            .croissantChocolate-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-croissantFR {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .croissantFR-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .croissantFR-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .croissantFR-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .croissantFR-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .croissantFR-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .croissantFR-div-img {
+            display: flex;
+            align-items: center;
+            .croissantFR-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-croissantOreo {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 1.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .croissantOreo-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .croissantOreo-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .croissantOreo-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .croissantOreo-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .croissantOreo-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .croissantOreo-div-img {
+            display: flex;
+            align-items: center;
+            .croissantOreo-img {
                 width: 105px;
                 height: 105px;
                 border-radius: 50px;

@@ -937,7 +937,7 @@ h2 {
 }
 
 .section-sandwichs {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .section-sandwichs .h3-sandwichs {
   font-family: "Anton", sans-serif;
@@ -951,7 +951,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
@@ -1142,6 +1142,367 @@ h2 {
   align-items: center;
 }
 .section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+
+.section-rollsYCroissants {
+  margin-top: 5rem;
+}
+.section-rollsYCroissants .h3-rollsYCroissants {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 3vw;
+}
+.section-rollsYCroissants .tarjeta-rollCanela {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-rollCanela .rollCanela-div-img .rollCanela-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-rollManzana {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-rollManzana .rollManzana-div-img .rollManzana-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-rollChocolate .rollChocolate-div-img .rollChocolate-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-croissant {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor .croissant-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor .croissant-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor .croissant-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor .croissant-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-contenedor .croissant-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-croissant .croissant-div-img .croissant-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-croissantChocolate .croissantChocolate-div-img .croissantChocolate-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-croissantFR {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-croissantFR .croissantFR-div-img .croissantFR-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 1.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-carrito:hover {
+  color: #16453F;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-rollsYCroissants .tarjeta-croissantOreo .croissantOreo-div-img .croissantOreo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
