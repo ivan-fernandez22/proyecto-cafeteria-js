@@ -2,10 +2,10 @@
 // // Agregarle a mi pagina web (cafetería) funcionalidad: Que tenga carrito de compras, simulador de envios, simulador de reservas, etc.
 
 
-// // PRIMERA ENTREGA:
+// PRIMERA ENTREGA:
 
-// // Simulador interactivo que dependiendo de mi zona de residencia, me dice 
-// // cuanto es el total de lo que compramos + el envio aproximadamente
+// Simulador interactivo que dependiendo de mi zona de residencia, me dice 
+// cuanto es el total de lo que compramos + el envio aproximadamente
 
 // let precioProducto = Number (prompt ("Ingrese el precio total que figura en el carrito"))
 // let envioProducto = prompt ("Ingrese la zona en donde vive, sus opciones son: zona sur, zona oeste, zona norte o capital")
@@ -42,135 +42,105 @@
 
 
 
-// // SEGUNDA ENTREGA:
+// // SEGUNDA ENTREGA: Simulador de carrito de compras
 
+// Idea general: Mediante un prompt preguntarle al usuario si desea comprar, en caso de que seleccione 'no', lo redigiremos a la pagina principal. Si selecciona 'si', le mostraremos un listado 
+// con los productos disponibles, a continuacion le pediremos que escriba el nombre del producto que quiere comprar. Luego le pediremos la cantidad de unidades que desea llevar. Por ultimo le 
+// preguntamos si quiere seguir comprando, en caso de que no, le mostraremos un listado por consola con sus productos seleccionados. Finalizando, le mostraremos el total a pagar y le pediremos que 
+// escriba 'pagar' para finalizar la compra.
 
-// // INSERTANDO OBJETOS Y ARRAYS: Guardando productos para un futuro carrito
+// Por el momento solo usaré algunos productos. Los cuales los tengo en un array.
 
-//  Seccion "Cakes|porciones" de la page Tienda de productos 
+const productos = [
+    {nombre: "chessecake de frutos rojos", precio: 1000},
+    {nombre: "chocotorta", precio: 1100},
+    {nombre: "lemon pie", precio: 950},
+    {nombre: "tostadas le paradis", precio: 1450},
+    {nombre: "sandwichs mediterraneo", precio: 1700},
+    {nombre: "croissant", precio: 350},
+    {nombre: "roll de canela", precio: 300}
+]
 
-class Cakes {
-    constructor (nombre, precio, stock) {
-        this.nombre = nombre.toUpperCase () //Convierte todo a mayuscula
-        this.precio = parseFloat (precio) //Parseo el precio (me da con coma)
-        this.stock = stock
-    }
-    obtenerPrecio () {
-        console.log ("El precio del producto: " + this.nombre + " es: " + this.precio + "$ ARS")
-    }
-    obtenerStock () {
-        if (this.stock === true) {
-            console.log ("Hay stock de: " + this.nombre)
-        } else {
-            console.log ("No hay stock de: " + this.nombre)
-        }
-    }
+let carrito = [] // También declaro mi array de carrito
+
+let comprar = prompt ("Hola! Ústed desea comprar? Escriba si para continuar, si desea ir a la pagina escriba la opcion no")
+
+while (comprar !== "si" && comprar !== "no") { // Hago un ciclo para que el usuario seleccione unicamente si o no
+    alert ("Por favor seleccione si o no")
+    comprar = prompt ("¿Desea comprar algo? Seleccione unicamente si o no")
 } 
 
-const arrayDeCakes = []
-
-arrayDeCakes.push (new Cakes ("Porción de chessecake de frutos rojos", 1000, true))
-
-arrayDeCakes.push (new Cakes ("Porción de chessecake de maracuya", 1000, true))
-
-arrayDeCakes.push (new Cakes ("Porción de torta de chocolate", 900, false))
-
-arrayDeCakes.push (new Cakes ("Tarta individual de lemon pie", 950, true))
-
-arrayDeCakes.push (new Cakes ("Porción de torta oreo", 1100, true))
-
-arrayDeCakes.push (new Cakes ("Porción de chocotorta", 1100, true))
-
-arrayDeCakes.push (new Cakes ("Porción de carrot cake", 950, false))
-
-console.log (arrayDeCakes)
-
-
-//  Seccion "Sandwichs y salados" de la page Tienda de productos 
-
-class SandwichsYSalados {
-    constructor (nombre, precio, stock) {
-        this.nombre = nombre.toUpperCase ()
-        this.precio = parseFloat (precio)
-        this.stock = stock
-    }
-    obtenerPrecio () {
-        console.log ("El precio del producto: " + this.nombre + " es: " + this.precio + "$ ARS")
-    }
-    obtenerStock () {
-        if (this.stock === true) {
-            console.log ("Hay stock de: " + this.nombre)
-        } else {
-            console.log ("No hay stock de: " + this.nombre)
-        }
-    }
-} 
-
-const arrayDeSandwichsYSalados = [] 
-
-arrayDeSandwichsYSalados.push (new SandwichsYSalados("Tostados de jamon y queso", 1300, true))
-
-arrayDeSandwichsYSalados.push (new SandwichsYSalados("Tostadas Le Paradis", 1450, true))
-
-arrayDeSandwichsYSalados.push (new SandwichsYSalados("Sandwich mediterraneo", 1700, false))
-
-arrayDeSandwichsYSalados.push (new SandwichsYSalados("Sandwich veggie", 1600, true))
-
-console.log (arrayDeSandwichsYSalados)
-
-
-// Seccion "Rolls y croissants" de la page Tienda de productos
-
-class RollsYCroissants {
-    constructor (nombre, precio, stock) {
-        this.nombre = nombre.toUpperCase ()
-        this.precio = parseFloat (precio)
-        this.stock = stock
-    }
-    obtenerPrecio () {
-        console.log ("El precio del producto: " + this.nombre + " es: " + this.precio + "$ ARS")
-    }
-    obtenerStock () {
-        if (this.stock === true) {
-            console.log ("Hay stock de: " + this.nombre)
-        } else {
-            console.log ("No hay stock de: " + this.nombre)
-        }
-    }
-} 
-
-const arrayDeRollsYCroissants = []
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Roll de canela", 300, true))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Roll de canela y manzana", 400, true))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Roll de canela y chocolate", 400, false))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Croissant", 350, true))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Croissant de chocolate", 450, true))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Croissant de frutos rojos", 450, false))
-
-arrayDeRollsYCroissants.push (new RollsYCroissants ("Croissant de oreo", 500, true))
-
-console.log (arrayDeRollsYCroissants)
-
-for (const prod of arrayDeRollsYCroissants) {
-    prod.obtenerStock ()
+if (comprar == "si") { // Si el usuario selecciona si, podrá ver la lista de productos
+    let productosDisponibles = productos.map ((producto) => producto.nombre + " $" + producto.precio + " ") // Mapeo el array productos para poder mostrarlos
+    alert ("Los productos disponibles son: " + productosDisponibles.join (" / ")) // Uso el join para separar los productos y que me quede mas prolijo
+} else if(comprar == "no") {
+    alert ("Ústed sera redirigido a la pagina principal. Si desea comprar solo refresque la pagina, muchas gracias!") // En caso de que seleccione no, será enviado a la pagina principal
 }
 
+while (comprar != "no") { 
+    let producto = prompt ("Por favor agregue un producto al carrito escribiendo el nombre de dicho producto") // Le pido al usuario que escriba el nombre del producto
+    let precio = 0
 
-// // HACIENDO USO DE DATE:
-const diaDeHoy = new Date ()
+    if ( producto === "chessecake de frutos rojos" || producto === "chocotorta" || producto === "lemon pie" || producto === "tostadas le paradis"
+    || producto === "sandwich mediterraneo" || producto === "croissant" || producto === "roll de canela") { 
+        switch (producto) {
+            case "chessecake de frutos rojos":
+                precio = 1000;
+                break;
+            case "chocotorta":
+                precio = 1100;
+                break;
+            case "lemon pie":
+                precio = 950;
+                break;
+            case "tostadas le paradis":
+                precio = 1450;
+                break;
+            case "sandwich mediterraneo":
+                precio = 1700;
+                break;
+            case "croissant":
+                precio = 350;
+                break;
+            case "roll de canela":
+                precio = 300;
+                break;
+            default:
+                break;
+        }
+    let cantidad = parseInt (prompt ("¿Cuantas unidades desea comprar?")) //Uso parseInt para que el usuario ingrese un valor de tipo numero entero
 
-// Agregando copyright en el footer (en un futuro se verá en el html, por el momento lo consologeo)
-console.log ("Todos los derechos reservados | Le paradis | Año: " + diaDeHoy.getFullYear ())
+    carrito.push ({producto, cantidad, precio})
+    console.log (carrito) 
+    } else {
+        alert ("El producto que ingresó no se encuentra en stock o no existe, lo sentimos!")
+    }
 
+    comprar = prompt ("¿Quiere seguir comprando? Ingrese si o no")
+    while (comprar === "no") {
+        alert ("Por favor, revise la consola para ver una lista con sus productos")
+        carrito.forEach ((carritoFinal) => {
+            console.log (`Producto: ${carritoFinal.producto}, Cantidad: ${carritoFinal.cantidad}, 
+            Total a abonar por producto: $${carritoFinal.cantidad * carritoFinal.precio}`) // Uso backsticks que vi en la clase 09
+        })
+    break
+    }
+}
 
-// // HACIENDO EL SIMULADOR DEL CARRITO:
-// IDEA: Hacer con prompt un mensaje que diga "IR A LA CATEGORIA DESEADA: CAKES, SANDWICHS O ROLLS" luego con un if, mostrar la lista de los productos de 
-// dicha seccion que escogimos, en el mismo prompt pedir que el usuario ingrese el nombre de los productos que quiere llevar y la cantidad (tener en cuenta productos en stock). Despues mostrar
-// un alert que diga el precio total del carrito. Mostrar otro prompt que pregunte si queremos saber cuantos nos sale el envio + el precio total del carrito
-// (hago uso del primer simulador interactivo). Con un if, si el usuario desea saberlo, mostrarle con alert el precio final con el envio incluido. 
+const total = carrito.reduce ((acu, el) => acu + el.precio * el.cantidad, 0) // Con el metodo reduce me da un unico valor que es el total de lo que selecciona el usuario
+
+alert (`El total a pagar por su compra es de $${total} pesos`)
+
+// Finalizando el simulador
+let diaDeHoy = new Date () // Utilizo la fecha del dia de hoy
+
+pagar = prompt ("Ingrese la palabra: 'pagar' para finalizar la compra")
+
+while (pagar != "pagar") {
+    alert ("Por favor, escriba 'pagar'")
+    pagar = prompt ("Ingrese la palabra 'pagar' para finalizar la compra")
+} 
+
+if (pagar === "pagar") {
+    alert (`Su compra realizada en el dia ${diaDeHoy.toLocaleDateString ()} se ha realizado con exito!`) // Modifico la fecha para que me de en formato local
+} 
