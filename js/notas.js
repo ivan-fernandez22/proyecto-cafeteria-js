@@ -551,129 +551,135 @@
 
 
 
-// CLASE 09: DOM
+// // CLASE 09: DOM
 
-console.log (document) // Me muestra todo el documento
+// console.log (document) // Me muestra todo el documento
 
-const doc = document // Se le pueden asignar elementos a variables y constantes
-const cuerpo = document.body
-const cabeza = document.head
-const titulo = document.createElement ('title') // Creo el elemento 'titulo'
-titulo.innerText = 'Reservas' // innerText nos permite modificar el texto de los elementos
+// const doc = document // Se le pueden asignar elementos a variables y constantes
+// const cuerpo = document.body
+// const cabeza = document.head
+// const titulo = document.createElement ('title') // Creo el elemento 'titulo'
+// titulo.innerText = 'Reservas' // innerText nos permite modificar el texto de los elementos
 
-cabeza.appendChild (titulo) // Le agrego el elemento titulo como hijo del Head (que lo tengo asignado a la constante 'cabeza')
+// cabeza.appendChild (titulo) // Le agrego el elemento titulo como hijo del Head (que lo tengo asignado a la constante 'cabeza')
 
-console.log (titulo)
-
-
-// Accesos al DOM:
-
-// .getElementById (): Sirve para acceder a un elemento de la estructura HTML, utilizando su atributo ID como identificacion.
-const tituloPrincipal = document.getElementById ('h1') 
-tituloPrincipal.innerHTML = 'Reservas' //innerHTML en vez de solo texto modifica la estructura HTML
-console.log (tituloPrincipal)
-
-// .getElementsByClassName (): Sirve para acceder a un conjunto de elementos de la estructura HTML, utilizando su atributo class como identificación. Se retornará un Array de elementos con todas las coincidencias.
-const parrafo = document.getElementsByClassName ("parrafo") [0] // Siempre que llamo a una clase debo indicarle a cual quiero que me seleccione, mediante []
-parrafo.innerHTML = `<strong>Seleccionar fecha y hora</strong>` // Backsticks => Introduce literalmente lo que le agregue
-console.log (parrafo)
-
-// .getElementsByTagName (): Sirve para acceder a un conjunto de elementos de la estructura HTML, utilizando su nombre de etiqueta como identificacion. Esta opcion es la menos especifica de todas ya que es muy probable que las etiquetas se repitan en el codigo HTML.
-const tituloSecundario = document.getElementsByTagName ('h2') [0]
-tituloSecundario.innerHTML = 'Sucursal'
-console.log (tituloSecundario)
+// console.log (titulo)
 
 
-// Meterle estilos a los elementos:
+// // Accesos al DOM:
 
-tituloPrincipal.style.color = 'violet'
+// // .getElementById (): Sirve para acceder a un elemento de la estructura HTML, utilizando su atributo ID como identificacion.
+// const tituloPrincipal = document.getElementById ('h1') 
+// tituloPrincipal.innerHTML = 'Reservas' //innerHTML en vez de solo texto modifica la estructura HTML
+// console.log (tituloPrincipal)
 
-tituloSecundario.style.color = 'black'
+// // .getElementsByClassName (): Sirve para acceder a un conjunto de elementos de la estructura HTML, utilizando su atributo class como identificación. Se retornará un Array de elementos con todas las coincidencias.
+// const parrafo = document.getElementsByClassName ("parrafo") [0] // Siempre que llamo a una clase debo indicarle a cual quiero que me seleccione, mediante []
+// parrafo.innerHTML = `<strong>Seleccionar fecha y hora</strong>` // Backsticks => Introduce literalmente lo que le agregue
+// console.log (parrafo)
 
-
-// Eiminar un elemento (remove):
-
-tituloSecundario.remove () 
-
-
-// Creando botones:
-
-const producto = document.getElementById ('producto')
-const cantidad = document.getElementById ('cantidad')
-
-producto.value = 'Harina'
-
-producto.innerText = 'Producto'
-cantidad.innerText = 'Cantidad'
-
-producto.style.backgroundColor = 'yellow'
-cantidad.style.backgroundColor = 'red'
-
-producto.style.color = 'black'
-cantidad.style.color = 'white'
+// // .getElementsByTagName (): Sirve para acceder a un conjunto de elementos de la estructura HTML, utilizando su nombre de etiqueta como identificacion. Esta opcion es la menos especifica de todas ya que es muy probable que las etiquetas se repitan en el codigo HTML.
+// const tituloSecundario = document.getElementsByTagName ('h2') [0]
+// tituloSecundario.innerHTML = 'Sucursal'
+// console.log (tituloSecundario)
 
 
-// Concatenacion
+// // Meterle estilos a los elementos:
 
-const articulo2 = document.getElementById ('articulo2')
+// tituloPrincipal.style.color = 'violet'
 
-const productos = {
-    id: 1,
-    nombre: 'Queso',
-    precio: 3000
-}
-
-const concatenado1 = "Su id es: " + productos.id + ", es el producto: " + productos.nombre +
-" y vale: $" + productos.precio 
-
-console.log (concatenado1)
-
-const concatenadoTemplateString = `Su id es: ${productos.id}, es el producto: ${productos.nombre} y vale: $${productos.precio}`
-
-console.log (concatenadoTemplateString)
-
-articulo2.innerHTML = ` 
-<p>Id: ${productos.id}</p>
-<p>Producto: ${productos.nombre}</p>
-<p>Precio: $${productos.precio}</p>
-`
-
-// 
-
-const articulo3 = document.getElementById ('articulo3')
-
-arrayDeProductos = [
-    {
-        id: 1,
-        nombre: 'Queso',
-        precio: 3000
-    },
-    {
-        id: 2,
-        nombre: 'Harina',
-        precio: 800
-    },
-    {
-        id: 3,
-        nombre: 'Leche',
-        precio: 1000
-    }
-]
-
-let ul = document.createElement ('ul') //Creo un ul
-
-arrayDeProductos.forEach ((prod) => { // A ese ul le vamos a insertar un li por cada objeto del array, y ese li me va a decir su id, nombre y precio
-    ul.innerHTML += `<li>
-    <p>ID: ${prod.id}</p>
-    <p>Producto: ${prod.nombre}</p>
-    <p>Precio: $${prod.precio}</p>
-    </li>`
-})
-
-articulo3.appendChild (ul)
+// tituloSecundario.style.color = 'black'
 
 
-// Query selector: Nos permite seleccionar nodos con la misma sintaxis que utilizamos en los selectores de CSS.
+// // Eiminar un elemento (remove):
 
-let contenedorArticulo3 = document.querySelector ('#articulo3 p') // Accedo al elemento p[0] del articulo 3
-console.log (contenedorArticulo3)
+// tituloSecundario.remove () 
+
+
+// // Creando botones:
+
+// const producto = document.getElementById ('producto')
+// const cantidad = document.getElementById ('cantidad')
+
+// producto.value = 'Harina'
+
+// producto.innerText = 'Producto'
+// cantidad.innerText = 'Cantidad'
+
+// producto.style.backgroundColor = 'yellow'
+// cantidad.style.backgroundColor = 'red'
+
+// producto.style.color = 'black'
+// cantidad.style.color = 'white'
+
+
+// // Concatenacion
+
+// const articulo2 = document.getElementById ('articulo2')
+
+// const productos = {
+//     id: 1,
+//     nombre: 'Queso',
+//     precio: 3000
+// }
+
+// const concatenado1 = "Su id es: " + productos.id + ", es el producto: " + productos.nombre +
+// " y vale: $" + productos.precio 
+
+// console.log (concatenado1)
+
+// const concatenadoTemplateString = `Su id es: ${productos.id}, es el producto: ${productos.nombre} y vale: $${productos.precio}`
+
+// console.log (concatenadoTemplateString)
+
+// articulo2.innerHTML = ` 
+// <p>Id: ${productos.id}</p>
+// <p>Producto: ${productos.nombre}</p>
+// <p>Precio: $${productos.precio}</p>
+// `
+
+// // 
+
+// const articulo3 = document.getElementById ('articulo3')
+
+// arrayDeProductos = [
+//     {
+//         id: 1,
+//         nombre: 'Queso',
+//         precio: 3000
+//     },
+//     {
+//         id: 2,
+//         nombre: 'Harina',
+//         precio: 800
+//     },
+//     {
+//         id: 3,
+//         nombre: 'Leche',
+//         precio: 1000
+//     }
+// ]
+
+// let ul = document.createElement ('ul') //Creo un ul
+
+// arrayDeProductos.forEach ((prod) => { // A ese ul le vamos a insertar un li por cada objeto del array, y ese li me va a decir su id, nombre y precio
+//     ul.innerHTML += `<li>
+//     <p>ID: ${prod.id}</p>
+//     <p>Producto: ${prod.nombre}</p>
+//     <p>Precio: $${prod.precio}</p>
+//     </li>`
+// })
+
+// articulo3.appendChild (ul)
+
+
+// // Query selector: Nos permite seleccionar nodos con la misma sintaxis que utilizamos en los selectores de CSS.
+
+// let contenedorArticulo3 = document.querySelector ('#articulo3 p') // Accedo al elemento p[0] del articulo 3
+// console.log (contenedorArticulo3)
+
+
+
+// CLASE 10: EVENTOS
+
+
