@@ -77,70 +77,69 @@ if (comprar == "si") { // Si el usuario selecciona si, podrá ver la lista de pr
     alert("Ústed sera redirigido a la pagina principal. Si desea comprar solo refresque la pagina, muchas gracias!") // En caso de que seleccione no, será enviado a la pagina principal
 }
 
-while (comprar != "no") {
-    let producto = prompt("Por favor agregue un producto al carrito escribiendo el nombre de dicho producto") // Le pido al usuario que escriba el nombre del producto
-    let precio = 0
 
-    if (producto === "chessecake de frutos rojos" || producto === "chocotorta" || producto === "lemon pie" || producto === "tostadas le paradis"
+function quererComprar () {
+    while (comprar != "no") {
+        let producto = prompt("Por favor agregue un producto al carrito escribiendo el nombre de dicho producto") // Le pido al usuario que escriba el nombre del producto
+        let precio = 0
+    
+        if (producto === "chessecake de frutos rojos" || producto === "chocotorta" || producto === "lemon pie" || producto === "tostadas le paradis"
         || producto === "sandwich mediterraneo" || producto === "croissant" || producto === "roll de canela") {
-        switch (producto) {
-            case "chessecake de frutos rojos":
-                precio = 1000;
-                break;
-            case "chocotorta":
-                precio = 1100;
-                break;
-            case "lemon pie":
-                precio = 950;
-                break;
-            case "tostadas le paradis":
-                precio = 1450;
-                break;
-            case "sandwich mediterraneo":
-                precio = 1700;
-                break;
-            case "croissant":
-                precio = 350;
-                break;
-            case "roll de canela":
-                precio = 300;
-                break;
-            default:
-                break;
-        }
+            switch (producto) {
+                case "chessecake de frutos rojos":
+                    precio = 1000;
+                    break;
+                case "chocotorta":
+                    precio = 1100;
+                    break;
+                case "lemon pie":
+                    precio = 950;
+                    break;
+                case "tostadas le paradis":
+                    precio = 1450;
+                    break;
+                case "sandwich mediterraneo":
+                    precio = 1700;
+                    break;
+                case "croissant":
+                    precio = 350;
+                    break;
+                case "roll de canela":
+                    precio = 300;
+                    break;
+                default:
+                    break;
+            }
+
         let cantidad = parseInt(prompt("¿Cuantas unidades desea comprar?")) //Uso parseInt para que el usuario ingrese un valor de tipo numero entero
-
         carrito.push({ producto, cantidad, precio })
-        console.log(carrito)
-    } else {
-        alert("El producto que ingresó no se encuentra en stock o no existe, lo sentimos!")
-    }
+        } else {
+            alert("El producto que ingresó no se encuentra en stock o no existe, lo sentimos!")
+        }
 
-    comprar = prompt("¿Quiere seguir comprando? Ingrese si o no")
-    while (comprar === "no") {
-        alert("Por favor, revise la consola para ver una lista con sus productos")
-        carrito.forEach((carritoFinal) => {
-            console.log(`Producto: ${carritoFinal.producto}, Cantidad: ${carritoFinal.cantidad}, 
-            Total a abonar por producto: $${carritoFinal.cantidad * carritoFinal.precio}`) // Uso backsticks que vi en la clase 09
-        })
-        break
-    }
+        comprar = prompt("¿Quiere seguir comprando? Ingrese si o no")
 
-    const total = carrito.reduce((acu, el) => acu + el.precio * el.cantidad, 0) // Con el metodo reduce me da un unico valor que es el total de lo que selecciona el usuario
+        while (comprar === "no") {
+            alert("Por favor, revise la consola para ver una lista con sus productos")
+            carrito.forEach((carritoFinal) => {
+                console.log(`Producto: ${carritoFinal.producto}, Cantidad: ${carritoFinal.cantidad}, 
+                Total a abonar por producto: $${carritoFinal.cantidad * carritoFinal.precio}`) // Uso backsticks que vi en la clase 09
+            })
 
-    alert(`El total a pagar por su compra es de $${total} pesos`)
+            const total = carrito.reduce((acu, el) => acu + el.precio * el.cantidad, 0) // Con el metodo reduce me da un unico valor que es el total de lo que selecciona el usuario
+            alert(`El total a pagar por su compra es de $${total} pesos`)
 
-    // Finalizando el simulador
-    let diaDeHoy = new Date() // Utilizo la fecha del dia de hoy
-
-    pagar = prompt("Ingrese la palabra: 'pagar' para finalizar la compra")
-
-    while (pagar != "pagar") {
-        alert("Por favor, escriba 'pagar'")
-        pagar = prompt("Ingrese la palabra 'pagar' para finalizar la compra")
-    }
-
-    if (pagar === "pagar") {
-        alert(`Su compra realizada en el dia ${diaDeHoy.toLocaleDateString()} se ha realizado con exito!`) // Modifico la fecha para que me de en formato local
+            let diaDeHoy = new Date() // Utilizo la fecha del dia de hoy
+            pagar = prompt("Ingrese la palabra: 'pagar' para finalizar la compra")
+            if (pagar != "pagar") {
+                alert("Por favor, escriba 'pagar'")
+                pagar = prompt("Ingrese la palabra 'pagar' para finalizar la compra")
+            } else if (pagar === "pagar") {
+                alert(`Su compra realizada en el dia ${diaDeHoy.toLocaleDateString()} se ha realizado con exito!`) // Modifico la fecha para que me de en formato local
+            }
+        break;
+        }
     }
 }
+
+quererComprar ()

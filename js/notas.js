@@ -598,18 +598,16 @@
 
 // // Creando botones:
 
-// const producto = document.getElementById ('producto')
+// const comprar = document.getElementById ('comprar')
 // const cantidad = document.getElementById ('cantidad')
 
-// producto.value = 'Harina'
-
-// producto.innerText = 'Producto'
+// comprar.innerText = 'Comprar'
 // cantidad.innerText = 'Cantidad'
 
-// producto.style.backgroundColor = 'yellow'
+// comprar.style.backgroundColor = 'green'
 // cantidad.style.backgroundColor = 'red'
 
-// producto.style.color = 'black'
+// comprar.style.color = 'black'
 // cantidad.style.color = 'white'
 
 
@@ -632,14 +630,13 @@
 
 // console.log (concatenadoTemplateString)
 
-// articulo2.innerHTML = ` 
-// <p>Id: ${productos.id}</p>
-// <p>Producto: ${productos.nombre}</p>
-// <p>Precio: $${productos.precio}</p>
-// `
+// // articulo2.innerHTML = ` 
+// // <p>Id: ${productos.id}</p>
+// // <p>Producto: ${productos.nombre}</p>
+// // <p>Precio: $${productos.precio}</p>
+// // `
 
 // // 
-
 // const articulo3 = document.getElementById ('articulo3')
 
 // arrayDeProductos = [
@@ -680,6 +677,48 @@
 
 
 
-// CLASE 10: EVENTOS
 
+// // CLASE 10: EVENTOS => Es cuando un usuario da una accion y la pagina le devuelve una reaccion.
+
+// // DECLARAR EVENTOS: Primero defino una constante o variable y le asigno el elemento que quiero, en estos casos, botones. Luego con alguna
+// // opcion para definir eventos le declaro un evento, con una accion por parte del usuario y una funcion que le será mostrada
+
+// // OPCION  1: addEventListener () => Permite definir qué evento escuchar sobre cualquier elemento seleccionado.
+
+// comprar.addEventListener ('click', clickComprar) // Uso el boton comprar de la clase anterior
+
+// function clickComprar () {
+//     alert ("Producto agregado al carrito")
+// }
+
+
+// // OPCION 2: Con el nombre del evento y el prefijo on.
+
+// cantidad.onclick = () => { alert ("Usted hizo click en este boton!") }
+
+
+// // OPCION 3: Sintaxis => Se determina el evento en el atributo de una etiqueta HTML.
+// // La denominacion del atributo es identica al de la propiedad de la opcion 2 (prefijo on).
+// // MIRAR LA PAGE RESERVAS / BOTON 3 
+
+
+// // EVENTOS MAS COMUNES:
+
+// // MOUSE:
+
+// // onlick: Hacer click en el elemento activa el elemento
+
+// // onmousemove: El movimiento del mouse sobre el elemento activa el evento.
+// const boton4 = document.getElementById ('boton4')
+// boton4.onmousemove = () => {console.log('El usuario movió el mouse sobre el boton')}
+
+
+// TECLADO:
+
+// onkeyup y onkeydown:
+let nombre = document.getElementById ('nombre')
+let edad = document.getElementById ('edad')
+
+nombre.onkeyup = () => {console.log ('keyUp')} // keyUp: Cuando se suelta una tecla
+edad.onkeydown = () => {console.log ('keyDown')} // keyDown: Cuando se presiona.
 
