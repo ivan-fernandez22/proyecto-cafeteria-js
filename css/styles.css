@@ -88,21 +88,24 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  border-top: 2px solid #541734;
-  border-bottom: 2px solid #541734;
+  width: 92vw;
+  background-color: bisque;
+  box-shadow: 5px 5px #38383e;
+  margin-left: 4vw;
+  min-height: 125px;
 }
 .section-productos .productos-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
 }
 .section-productos .productos-texto {
   font-family: "Narnoor", serif;
   font-size: 1.1rem;
   color: black;
-  width: 95%;
+  width: 100%;
   margin-left: 1vw;
   margin-top: -2px;
   text-align: center;
@@ -111,15 +114,16 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   font-family: "Anton", sans-serif;
   text-decoration: none;
   color: #541734;
+  font-size: 1rem;
 }
 .section-productos .productos-texto .productos-link:hover {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .section-productos .productos-texto2 {
   font-family: "Narnoor", serif;
   font-size: 0.93rem;
   color: black;
-  width: 95%;
+  width: 100%;
   margin-left: 1vw;
   margin-top: -16px;
   text-align: center;
@@ -129,8 +133,11 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   display: flexbox;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5rem;
-  border-bottom: 2px solid #541734;
+  margin-top: 2rem;
+  width: 92vw;
+  background-color: bisque;
+  box-shadow: 5px 5px #38383e;
+  margin-left: 4vw;
 }
 .section-reservas .reservas-titulo {
   font-family: "Anton", sans-serif;
@@ -152,9 +159,10 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   font-family: "Anton", sans-serif;
   text-decoration: none;
   color: #541734;
+  font-size: 1rem;
 }
 .section-reservas .reservas-texto .reservas-link:hover {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 /*------TARJETAS------*/
@@ -212,7 +220,6 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 }
 .section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito:hover {
   font-size: 1.1rem;
-  text-decoration: underline;
 }
 
 .section-tarjetas2 {
@@ -269,7 +276,6 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 }
 .section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2:hover {
   font-size: 1.1rem;
-  text-decoration: underline;
 }
 
 .section-tarjetas3 {
@@ -326,7 +332,6 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 }
 .section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
   font-size: 1.1rem;
-  text-decoration: underline;
 }
 
 /*------DIRECCION-----*/
@@ -492,7 +497,26 @@ footer .footer-nav .footer-nav-lista {
   list-style: none;
   position: relative;
   left: -20px;
+}
+footer .footer-nav .footer-nav-lista .footer-nav-links {
+  text-decoration: none;
   color: white;
+}
+footer .footer-nav .footer-nav-lista .link-in:hover {
+  color: #16453F;
+  font-size: 1.1rem;
+}
+footer .footer-nav .footer-nav-lista .link-pr:hover {
+  color: #16453F;
+  font-size: 1.1rem;
+}
+footer .footer-nav .footer-nav-lista .link-re:hover {
+  color: #16453F;
+  font-size: 1.1rem;
+}
+footer .footer-nav .footer-nav-lista .link-co:hover {
+  color: #16453F;
+  font-size: 1.1rem;
 }
 footer .footer-redes {
   margin-top: 4rem;
@@ -507,6 +531,18 @@ footer .footer-redes .redes-lista {
   position: relative;
   left: -20px;
   color: white;
+}
+footer .footer-redes .redes-lista .redes-ig:hover {
+  color: #833AB4;
+  font-size: 1.1rem;
+}
+footer .footer-redes .redes-lista .redes-fb:hover {
+  color: #3b5998;
+  font-size: 1.1rem;
+}
+footer .footer-redes .redes-lista .redes-tw:hover {
+  color: #00acee;
+  font-size: 1.1rem;
 }
 footer .footer-pagos {
   margin-top: 3rem;
@@ -1573,7 +1609,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
@@ -1617,7 +1653,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
@@ -1667,7 +1703,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
@@ -1717,7 +1753,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }

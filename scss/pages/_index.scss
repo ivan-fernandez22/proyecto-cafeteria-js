@@ -88,20 +88,23 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    border-top: 2px solid $color-violeta;
-    border-bottom: 2px solid $color-violeta;
+    width: 92vw;
+    background-color: bisque;
+    box-shadow: 5px 5px #38383e;
+    margin-left: 4vw;
+    min-height: 125px;
     .productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
         text-align: center;
-        margin-top: 0.5rem;
+        margin-top: 0.7rem;
     }
     .productos-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
         color: black;
-        width: 95%;
+        width: 100%;
         margin-left: 1vw;
         margin-top: -2px;
         text-align: center;
@@ -109,8 +112,9 @@ header {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
+            font-size: 1rem;
             &:hover {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
             }
         }
     }
@@ -118,7 +122,7 @@ header {
         font-family: $fuente-textos;
         font-size: 0.93rem;
         color: black;
-        width: 95%;
+        width: 100%;
         margin-left: 1vw;
         margin-top: -16px;
         text-align: center;
@@ -129,8 +133,12 @@ header {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    margin-top: 0.5rem;
-    border-bottom: 2px solid $color-violeta;
+    margin-top: 2rem;
+    width: 92vw;
+    background-color: bisque;
+    box-shadow: 5px 5px #38383e;
+    margin-left: 4vw;
+
     .reservas-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
@@ -150,8 +158,9 @@ header {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
+            font-size: 1rem;
             &:hover {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
             }
         }
     }
@@ -209,7 +218,6 @@ header {
                 margin-left: 10px;
                 &:hover {
                     font-size: 1.1rem;
-                    text-decoration: underline;
                 }
             }
         }
@@ -266,7 +274,6 @@ header {
                 margin-left: 10px;
                 &:hover {
                     font-size: 1.1rem;
-                    text-decoration: underline;
                 }
             }
         }
@@ -323,7 +330,6 @@ header {
                 margin-left: 10px;
                 &:hover {
                     font-size: 1.1rem;
-                    text-decoration: underline;
                 }
             }
         }
@@ -497,7 +503,34 @@ footer {
             list-style: none;
             position: relative;
             left: -20px;
-            color: white;
+            .footer-nav-links {
+                text-decoration: none;
+                color: white;
+            }
+            .link-in {
+                &:hover {
+                    color: $color-verde;
+                    font-size: 1.1rem;
+                }
+            }
+            .link-pr {
+                &:hover {
+                    color: $color-verde;
+                    font-size: 1.1rem;
+                }
+            }
+            .link-re {
+                &:hover {
+                    color: $color-verde;
+                    font-size: 1.1rem;
+                }
+            }
+            .link-co {
+                &:hover {
+                    color: $color-verde;
+                    font-size: 1.1rem;
+                }
+            }
         }
     }
     .footer-redes {
@@ -512,6 +545,24 @@ footer {
             position: relative;
             left: -20px;
             color: white;
+            .redes-ig {
+                &:hover {
+                    color: #833AB4;
+                    font-size: 1.1rem;
+                }
+            }
+            .redes-fb {
+                &:hover {
+                    color: #3b5998;
+                    font-size: 1.1rem;
+                }
+            }
+            .redes-tw {
+                &:hover {
+                    color: #00acee;
+                    font-size: 1.1rem;
+                }
+            }
         }
     }
     .footer-pagos {
