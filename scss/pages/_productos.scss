@@ -977,3 +977,266 @@ h2 {
         }
     }
 }
+
+
+
+//-----------------------SECCION PANADERIA---------------//
+.section-panaderia {
+    margin-top: 5rem;
+    .h3-panaderia {
+        font-family: $fuente-titulos;
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 1rem;
+        margin-left: 3vw;
+    }
+
+    .tarjeta-medialuna {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .medialuna-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .medialuna-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .medialuna-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .medialuna-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .medialuna-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .medialuna-div-img {
+            display: flex;
+            align-items: center;
+            .medialuna-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-chipa {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .chipa-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .chipa-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .chipa-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -10px;
+            }
+            .chipa-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .chipa-div-img {
+            display: flex;
+            align-items: center;
+            .chipa-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-scone {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .scone-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .scone-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .scone-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .scone-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .scone-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .scone-div-img {
+            display: flex;
+            align-items: center;
+            .scone-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-donaChocolate {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .donaChocolate-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .donaChocolate-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .donaChocolate-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .donaChocolate-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .donaChocolate-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .donaChocolate-div-img {
+            display: flex;
+            align-items: center;
+            .donaChocolate-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .tarjeta-donaLeParadis {
+        background-color: #F1E6D0;
+        width: 95vw;
+        display: grid;
+        margin-left: 2vw;
+        margin-top: 0.5rem;
+        grid-template-columns: 65% 35%;
+        overflow: hidden;
+        .donaLeParadis-div-contenedor{
+            display: flexbox;
+            margin-left: 0.5rem;
+            .donaLeParadis-titulo {
+                font-family: $fuente-titulos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: 10px;
+            }
+            .donaLeParadis-texto {
+                font-family: $fuente-textos;
+                font-size: 0.8rem;
+                color: black;
+                margin-top: -10px;
+            }
+            .donaLeParadis-precio {
+                font-family: $fuente-textos;
+                font-size: 1rem;
+                text-decoration-style: solid;
+                color: $color-violeta;
+                margin-top: -16px;
+            }
+            .donaLeParadis-carrito {
+                font-family: $fuente-textos;
+                font-size: 0.9rem;
+                color: black;
+                margin-top: -20px;
+                &:hover {
+                    color: $color-verde;
+                }
+            }
+        }
+        .donaLeParadis-div-img {
+            display: flex;
+            align-items: center;
+            .donaLeParadis-img {
+                width: 105px;
+                height: 105px;
+                border-radius: 50px;
+            }
+        }
+    }
+}

@@ -1508,4 +1508,259 @@ h2 {
   border-radius: 50px;
 }
 
+.section-panaderia {
+  margin-top: 5rem;
+}
+.section-panaderia .h3-panaderia {
+  font-family: "Anton", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 1rem;
+  margin-left: 3vw;
+}
+.section-panaderia .tarjeta-medialuna {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor .medialuna-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor .medialuna-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor .medialuna-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor .medialuna-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-contenedor .medialuna-carrito:hover {
+  color: #16453F;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-panaderia .tarjeta-medialuna .medialuna-div-img .medialuna-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-panaderia .tarjeta-chipa {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-contenedor .chipa-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-contenedor .chipa-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -10px;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-contenedor .chipa-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-contenedor .chipa-carrito:hover {
+  color: #16453F;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-panaderia .tarjeta-chipa .chipa-div-img .chipa-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-panaderia .tarjeta-scone {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor .scone-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor .scone-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor .scone-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor .scone-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-panaderia .tarjeta-scone .scone-div-contenedor .scone-carrito:hover {
+  color: #16453F;
+}
+.section-panaderia .tarjeta-scone .scone-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-panaderia .tarjeta-scone .scone-div-img .scone-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-panaderia .tarjeta-donaChocolate {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-carrito:hover {
+  color: #16453F;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-panaderia .tarjeta-donaChocolate .donaChocolate-div-img .donaChocolate-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+.section-panaderia .tarjeta-donaLeParadis {
+  background-color: #F1E6D0;
+  width: 95vw;
+  display: grid;
+  margin-left: 2vw;
+  margin-top: 0.5rem;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor {
+  display: flexbox;
+  margin-left: 0.5rem;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 10px;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-texto {
+  font-family: "Narnoor", serif;
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -10px;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-precio {
+  font-family: "Narnoor", serif;
+  font-size: 1rem;
+  text-decoration-style: solid;
+  color: #541734;
+  margin-top: -16px;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-carrito {
+  font-family: "Narnoor", serif;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: -20px;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-carrito:hover {
+  color: #16453F;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-img {
+  display: flex;
+  align-items: center;
+}
+.section-panaderia .tarjeta-donaLeParadis .donaLeParadis-div-img .donaLeParadis-img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=styles.css.map */

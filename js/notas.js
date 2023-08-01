@@ -713,12 +713,28 @@
 // boton4.onmousemove = () => {console.log('El usuario movió el mouse sobre el boton')}
 
 
-// TECLADO:
+// // TECLADO:
 
-// onkeyup y onkeydown:
-let nombre = document.getElementById ('nombre')
-let edad = document.getElementById ('edad')
+// // onkeyup y onkeydown:
+// let nombre = document.getElementById ('nombre')
+// let edad = document.getElementById ('edad')
+// let apellido = document.getElementById ('apellido')
+// let contrasena = document.getElementById ('contrasena')
 
-nombre.onkeyup = () => {console.log ('keyUp')} // keyUp: Cuando se suelta una tecla
-edad.onkeydown = () => {console.log ('keyDown')} // keyDown: Cuando se presiona.
+// nombre.onkeyup = () => {console.log ('keyUp')} // keyUp: Cuando se suelta una tecla.
+// edad.onkeydown = () => {console.log ('keyDown')} // keyDown: Cuando se presiona.
+// apellido.onchange = () => {console.log (apellido.value)} //onChange: Se activa cuando se detecta un cambio en el valor del elemento.
+// contrasena.addEventListener ('input', () => {console.log (contrasena.value)}) // Elemento input: Se usa para ejecutar una funcion cada vez que se tipea sobre el campo.
 
+
+// // FORMULARIO
+
+// const myFormulario = document.getElementById ('formulario')
+// myFormulario.addEventListener ('submit', validarFormulario)
+
+// function validarFormulario(event){
+//     event.preventDefault()
+//     let form = event.target
+//     console.log (form.children[1].value)
+//     console.log (form.children[3].value)
+// }
