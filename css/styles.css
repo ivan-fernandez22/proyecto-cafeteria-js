@@ -27,8 +27,11 @@ header h1 {
   font-size: 2.4rem;
   margin-top: -32px;
   margin-left: 45px;
-  color: white;
   width: 130px;
+}
+header .h1-link {
+  text-decoration: none;
+  color: #F0DEBB;
 }
 header .navbar .container-fluid {
   margin-left: 2rem;
@@ -82,7 +85,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   text-align: center;
 }
 
-/*--------CARTA Y PRODUCTOS---------*/
+/*------- PRODUCTOS Y RESERVAS ---------*/
 .section-productos {
   display: flexbox;
   justify-content: center;
@@ -92,7 +95,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   background-color: bisque;
   box-shadow: 5px 5px #38383e;
   margin-left: 4vw;
-  min-height: 125px;
+  min-height: 100px;
 }
 .section-productos .productos-titulo {
   font-family: "Anton", sans-serif;
@@ -138,6 +141,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   background-color: bisque;
   box-shadow: 5px 5px #38383e;
   margin-left: 4vw;
+  min-height: 70px;
 }
 .section-reservas .reservas-titulo {
   font-family: "Anton", sans-serif;
@@ -1797,6 +1801,50 @@ h2 {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+}
+
+#reservas {
+  background-color: #F1E6D0;
+  color: #541734;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 5vw;
+  border-radius: 16px;
+  font-family: "Narnoor", serif;
+}
+#reservas #formulario {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 540px;
+}
+#reservas #formulario #nombre {
+  margin-top: 6px;
+}
+#reservas #formulario #apellido {
+  margin-top: 6px;
+}
+#reservas #formulario #dni {
+  margin-top: 6px;
+}
+#reservas #formulario #email {
+  margin-top: 6px;
+}
+#reservas #formulario #telefono {
+  margin-top: 6px;
+}
+#reservas #formulario #cantidad {
+  margin-top: 6px;
+}
+#reservas #formulario #fecha {
+  margin-top: 6px;
+}
+#reservas #formulario .label-e {
+  margin-top: 8px;
+}
+#reservas #formulario .btn {
+  background-color: #16453F;
+  color: white;
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

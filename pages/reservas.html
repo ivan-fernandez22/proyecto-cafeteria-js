@@ -25,7 +25,7 @@
 
         <div>
             <img src="../imgs/logo.png" alt="Logo de la cafetería" class="logo">
-            <h1>Le Paradis</h1>
+            <h1><a href="../index.html" class="h1-link">Le Paradis</a></h1>
         </div>
 
         <nav class="navbar navbar-expand-lg">
@@ -52,66 +52,29 @@
     <!---------MAIN------------>
     <main>
 
+        <!----TITULO---->
+        <h2>Reservas</h2>
 
-
-
-
-
-
-
-
-        <!-- <h1 id="h1"></h1>
-
-        <p class="parrafo"></p>
-        <p class="parrafo"></p>
-
-        <h2></h2>
-        <h2></h2> -->
-
-        <!-- <article>
-            <button id="comprar" type="text"></button>
-            <button id="cantidad" type="number"></button>
-            <input class="btn btn-dark" type="button" value="click 3er opcion" onclick="alert ('Hizo click en el tercer boton..!!')">
-        </article> -->
-
-        <!-- <article id="articulo2">
-            <button class="btn btn-dark" id="boton4" type="text">Boton 4</button>
-        </article> -->
-
-        <!-- <article id="articulo3">
-        </article> -->
-
-        <!-- <section class="container-inputs">
-            <div>
-                <label for="">Nombre</label>
-                <input id="nombre" type="text"/>
-            </div>
-
-            <div>
-                <label for="">Edad</label>
-                <input id="edad" type="number"/>
-            </div>
-
-            <div>
-                <label for="">Apellido</label>
-                <input id="apellido" type="text"/>
-            </div>
-
-            <div>
-                <label for="">Contraseña</label>
-                <input id="contrasena" type="password"/>
-            </div>
-        </section> -->
-
-        <!-- <section class="formulario">
+        <section id="reservas">
             <form id="formulario">
-                <label for="">Usuario</label>
-                <input type="text">
-                <label for="">Contraseña</label>
-                <input type="text">
-                <input type="submit" value="enviar" class="btn btn-primary">
+                <label for="nombre">Nombre</label><br>
+                <input id="nombre" name="nombre" type="text" /><br>
+                <label for="apellido" class="label-e">Apellido</label><br>
+                <input id="apellido" name="apellido" type="text" /><br>
+                <label for="DNI" class="label-e">DNI</label><br>
+                <input id="dni" name="dni" type="number" /><br>
+                <label for="email" class="label-e">Email</label><br>
+                <input id="email" name="email" type="email" /><br>
+                <label for="telefono" class="label-e">Numero de telefono</label><br>
+                <input id="telefono" name="telefono" type="tel" /><br>
+                <label for="cantidad" class="label-e">Cantidad de personas</label><br>
+                <input id="cantidad" name="cantidad" type="number" /><br>
+                <label for="fecha" class="label-e">Fecha y horario</label><br>
+                <input id="fecha" name="fecha" type="datetime-local" /><br>
+                <input type="submit" value="Enviar" class="btn btn-dark">
             </form>
-        </section> -->
+        </section>
+
     </main>
 
 
@@ -135,7 +98,7 @@
                 <li class="redes-fb">Facebook <i class="bi bi-facebook"></i></li>
                 <li class="redes-tw">Twitter <i class="bi bi-twitter"></i></li>
             </ul>
-        </section> 
+        </section>
 
         <section class="footer-pagos">
             <h2 class="pagos-titulo">Medios de pago</h2>
@@ -178,7 +141,9 @@
         });
     </script>
 
-    <script src="../js/notas.js"></script>
+    <!-- <script src="../js/notas.js"></script> -->
+
+    <script src="../js/reservas.js"></script>
 
 </body>
 

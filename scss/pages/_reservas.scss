@@ -1,0 +1,53 @@
+#reservas {
+    background-color: #F1E6D0;
+    color: $color-violeta;
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 5vw;
+    border-radius: 16px;
+    font-family: $fuente-textos;
+
+    #formulario {
+        margin: 0 auto;
+        text-align: center;
+        min-height: 540px;
+
+        #nombre {
+            margin-top: 6px;
+        }
+
+        #apellido {
+            margin-top: 6px;
+        }
+
+        #dni {
+            margin-top: 6px;
+        }
+
+        #email {
+            margin-top: 6px;
+        }
+
+        #telefono {
+            margin-top: 6px;
+        }
+
+        #cantidad {
+            margin-top: 6px;
+        }
+
+        #fecha {
+            margin-top: 6px;
+        }
+
+        .label-e {
+            margin-top: 8px;
+        }
+
+        .btn {
+            background-color: $color-verde;
+            color: white;
+            margin-top: 1.5rem;
+        }
+    }
+}

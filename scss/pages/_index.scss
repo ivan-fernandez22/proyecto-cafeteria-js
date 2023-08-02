@@ -15,8 +15,11 @@ header {
         font-size: 2.4rem;
         margin-top: -32px;
         margin-left: 45px;
-        color: white;
         width: 130px;
+    }
+    .h1-link {
+        text-decoration: none;
+        color: $color-fondo;
     }
     .navbar {
         .container-fluid {
@@ -82,7 +85,7 @@ header {
 }
 
 
-/*--------CARTA Y PRODUCTOS---------*/
+/*------- PRODUCTOS Y RESERVAS ---------*/
 .section-productos {
     display: flexbox;
     justify-content: center;
@@ -92,7 +95,7 @@ header {
     background-color: bisque;
     box-shadow: 5px 5px #38383e;
     margin-left: 4vw;
-    min-height: 125px;
+    min-height: 100px;
     .productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
@@ -138,6 +141,7 @@ header {
     background-color: bisque;
     box-shadow: 5px 5px #38383e;
     margin-left: 4vw;
+    min-height: 70px;
 
     .reservas-titulo {
         font-family: $fuente-titulos;

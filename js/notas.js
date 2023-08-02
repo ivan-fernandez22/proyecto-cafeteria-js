@@ -727,7 +727,7 @@
 // contrasena.addEventListener ('input', () => {console.log (contrasena.value)}) // Elemento input: Se usa para ejecutar una funcion cada vez que se tipea sobre el campo.
 
 
-// // FORMULARIO
+// FORMULARIO
 
 // const myFormulario = document.getElementById ('formulario')
 // myFormulario.addEventListener ('submit', validarFormulario)
@@ -737,4 +737,9 @@
 //     let form = event.target
 //     console.log (form.children[1].value)
 //     console.log (form.children[3].value)
+//     console.log (form.children[5].value)
+//     console.log (form.children[7].value)
+//     console.log (form.children[9].value)
+//     console.log (form.children[11].value)
+//     console.log (form.children[13].value)
 // }
