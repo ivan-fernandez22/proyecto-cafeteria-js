@@ -113,3 +113,18 @@ console.log (arrayDeRollsYCroissants)
 // }
 
 
+
+// JSON
+
+// localStorage.setItem ('Cakes', JSON.stringify (arrayDeCakes))
+
+const guardarEnLocalStorage = (clave, valor) => { // Funcion que guarda en Localstorage
+    localStorage.setItem (clave, valor)
+}
+
+for (const producto of arrayDeCakes) { // Guardar uno por uno y no el array completo
+    guardarEnLocalStorage (producto.nombre, JSON.stringify (producto.precio))
+}
+
+guardarEnLocalStorage ('Cakes', JSON.stringify(arrayDeCakes)) // Guardar array completo, como el primero de arriba
+

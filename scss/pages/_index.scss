@@ -4,12 +4,14 @@ header {
     justify-content: space-between;
     background-color: #541734;
     width: 100%;
+
     .logo {
         width: 30px;
         height: 40px;
         margin-top: 10px;
         margin-left: 10px;
     }
+
     h1 {
         font-family: $fuente-marca;
         font-size: 2.4rem;
@@ -17,23 +19,29 @@ header {
         margin-left: 45px;
         width: 130px;
     }
-    .h1-link {
+
+    #h1-link {
         text-decoration: none;
         color: $color-fondo;
     }
+
     .navbar {
         .container-fluid {
             margin-left: 2rem;
+
             .navbar-toggler {
                 background-color: $color-fondo;
             }
+
             .collapse {
                 height: 145px;
+
                 .navbar-nav {
                     height: 120px;
                     width: 150px;
                     margin-top: 12px;
                     color: beige;
+
                     .nav-link {
                         margin-top: -10px;
                         color: beige;
@@ -50,6 +58,7 @@ header {
 .section-carrusel {
     .carousel {
         max-width: 100%;
+
         .carousel-inner {
             .carousel-item {
                 .carrusel-img {
@@ -67,13 +76,15 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+
     .presentacion-texto-bienvenida {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
         text-align: center;
     }
-    .presentacion-texto {
+
+    #presentacion-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
         color: black;
@@ -96,6 +107,7 @@ header {
     box-shadow: 5px 5px #38383e;
     margin-left: 4vw;
     min-height: 100px;
+
     .productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
@@ -103,6 +115,7 @@ header {
         text-align: center;
         margin-top: 0.7rem;
     }
+
     .productos-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
@@ -111,16 +124,19 @@ header {
         margin-left: 1vw;
         margin-top: -2px;
         text-align: center;
+
         .productos-link {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
             font-size: 1rem;
+
             &:hover {
                 font-size: 1.1rem;
             }
         }
     }
+
     .productos-texto2 {
         font-family: $fuente-textos;
         font-size: 0.93rem;
@@ -150,6 +166,7 @@ header {
         text-align: center;
         margin-top: 0.3rem;
     }
+
     .reservas-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
@@ -158,11 +175,13 @@ header {
         margin-left: 1vw;
         margin-top: -2px;
         text-align: center;
+
         .reservas-link {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
             font-size: 1rem;
+
             &:hover {
                 font-size: 1.1rem;
             }
@@ -176,19 +195,23 @@ header {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
+
     .tarjetas-contenedor {
         background-color: $color-verde;
         height: 150px;
         display: flex;
         width: 95%;
+
         .tarjetas-img1 {
             width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
         }
+
         .tarjetas-estructura {
             display: flexbox;
+
             .tarjetas-div-oferta1 {
                 background-color: $color-violeta;
                 border-radius: 30px;
@@ -197,6 +220,7 @@ header {
                 margin-left: 5px;
                 position: relative;
                 top: 10px;
+
                 .tarjetas-oferta1 {
                     color: white;
                     margin-left: 8px;
@@ -206,6 +230,7 @@ header {
                     font-family: $fuente-textos;
                 }
             }
+
             .tarjetas-texto {
                 color: white;
                 font-size: 1rem;
@@ -215,11 +240,13 @@ header {
                 position: relative;
                 top: 12px;
             }
+
             .tarjetas-texto-carrito {
-                color:beige;
+                color: beige;
                 font-size: 1rem;
                 font-family: $fuente-textos;
                 margin-left: 10px;
+
                 &:hover {
                     font-size: 1.1rem;
                 }
@@ -232,19 +259,23 @@ header {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
+
     .tarjetas-contenedor2 {
         background-color: $color-verde;
         height: 150px;
         display: flex;
         width: 95%;
+
         .tarjetas-img2 {
             width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
         }
+
         .tarjetas-estructura2 {
             display: flexbox;
+
             .tarjetas-div-oferta2 {
                 background-color: $color-violeta;
                 border-radius: 30px;
@@ -253,6 +284,7 @@ header {
                 margin-left: 5px;
                 position: relative;
                 top: 10px;
+
                 .tarjetas-oferta2 {
                     color: white;
                     margin-left: 8px;
@@ -262,6 +294,7 @@ header {
                     font-family: $fuente-textos;
                 }
             }
+
             .tarjetas-texto2 {
                 color: white;
                 font-size: 1rem;
@@ -271,11 +304,13 @@ header {
                 position: relative;
                 top: 12px;
             }
+
             .tarjetas-texto-carrito2 {
-                color:beige;
+                color: beige;
                 font-size: 1rem;
                 font-family: $fuente-textos;
                 margin-left: 10px;
+
                 &:hover {
                     font-size: 1.1rem;
                 }
@@ -288,19 +323,23 @@ header {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
+
     .tarjetas-contenedor3 {
         background-color: $color-verde;
         height: 150px;
         display: flex;
         width: 95%;
+
         .tarjetas-img3 {
             width: 130px;
             height: 150px;
             display: flex;
             justify-content: center;
         }
+
         .tarjetas-estructura3 {
             display: flexbox;
+
             .tarjetas-div-oferta3 {
                 background-color: $color-violeta;
                 border-radius: 30px;
@@ -309,6 +348,7 @@ header {
                 margin-left: 5px;
                 position: relative;
                 top: 10px;
+
                 .tarjetas-oferta3 {
                     color: white;
                     margin-left: 8px;
@@ -318,6 +358,7 @@ header {
                     font-family: $fuente-textos;
                 }
             }
+
             .tarjetas-texto3 {
                 color: white;
                 font-size: 1rem;
@@ -327,11 +368,13 @@ header {
                 position: relative;
                 top: 12px;
             }
+
             .tarjetas-texto-carrito3 {
-                color:beige;
+                color: beige;
                 font-size: 1rem;
                 font-family: $fuente-textos;
                 margin-left: 10px;
+
                 &:hover {
                     font-size: 1.1rem;
                 }
@@ -346,15 +389,19 @@ header {
     margin-top: 6rem;
     text-align: center;
     color: black;
+
     .direccion-titulo {
         font-family: $fuente-titulos;
+
         .direccion-titulo-enlace {
             text-decoration: none;
             color: $color-violeta;
         }
     }
+
     .direccion-maps-contenedor {
         margin-top: 1rem;
+
         .direccion-maps {
             width: 90vw;
             height: 30vh;
@@ -366,12 +413,14 @@ header {
 /*------GALERIA-------*/
 .section-galeria {
     margin-top: 5rem;
+
     .galeria-titulo {
         font-family: $fuente-titulos;
         font-size: 1.7rem;
         text-align: center;
         color: $color-verde;
     }
+
     .galeria-contenedor {
         width: 95%;
         margin-left: 2.4vw;
@@ -380,34 +429,42 @@ header {
         grid-template-columns: 50% 50%;
         overflow: hidden;
         gap: 2vw;
+
         .galeria-img1 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img2 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img3 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img4 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img5 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img6 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img7 {
             width: 47vw;
             height: 22vh;
         }
+
         .galeria-img8 {
             width: 47vw;
             height: 22vh;
@@ -419,26 +476,32 @@ header {
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
 .section-info {
     margin-top: 4rem;
+
     .info-contenedor {
         width: 100%;
         background-color: #857555;
+
         .info-envios-div {
             text-align: center;
             display: flex;
             justify-content: center;
+
             .bi-truck {
                 margin-right: 10px;
                 margin-top: 6px;
                 font-size: 40px;
             }
+
             .info-envios-estructura {
                 margin-right: 2rem;
                 margin-top: 1rem;
+
                 .info-envios-titulo {
                     font-family: $fuente-titulos;
                     font-size: 1.2rem;
                     color: black;
                 }
+
                 .info-envios-texto {
                     font-family: $fuente-titulos;
                     font-size: 1rem;
@@ -447,18 +510,22 @@ header {
                 }
             }
         }
+
         .info-pagos-div {
             text-align: center;
             display: flex;
             justify-content: center;
+
             .bi-credit-card-fill {
                 margin-top: 5px;
                 font-size: 40px;
                 margin-right: 10px;
             }
+
             .info-pagos-estructura {
                 margin-top: 1rem;
                 margin-right: 2rem;
+
                 .info-pagos-titulo {
                     font-family: $fuente-titulos;
                     font-size: 1.2rem;
@@ -466,17 +533,20 @@ header {
                 }
             }
         }
+
         .info-wspp-div {
             text-align: center;
             display: flex;
             justify-content: center;
             margin-top: 1.5rem;
             margin-right: 28px;
+
             .bi-whatsapp {
                 margin-top: -18px;
                 font-size: 40px;
                 margin-right: 10px;
             }
+
             .info-wspp-estructura {
                 .info-wspp-titulo {
                     font-family: $fuente-titulos;
@@ -494,7 +564,19 @@ footer {
     margin-top: 4rem;
     background-color: $color-violeta;
     text-align: center;
-    height: 760px;
+    height: 820px;
+
+    #color-mode {
+        position: relative;
+        top: 1rem;
+        font-family: $fuente-textos;
+    }
+    .btn {
+        background-color: $color-verde;
+        color: white;
+        border: 2px solid black;
+    }
+
     .footer-nav {
         position: relative;
         top: 1rem;
@@ -537,6 +619,7 @@ footer {
             }
         }
     }
+
     .footer-redes {
         margin-top: 4rem;
         .redes-titulo {
@@ -569,6 +652,7 @@ footer {
             }
         }
     }
+
     .footer-pagos {
         margin-top: 3rem;
         .pagos-titulo {
@@ -581,6 +665,7 @@ footer {
             width: 250px;
         }
     }
+
     .footer-email {
         margin-top: 3rem;
         .email-titulo {
@@ -592,6 +677,7 @@ footer {
             margin-top: 12px;
         }
     }
+
     .footer-ubicacion {
         margin-top: 3rem;
         .ubicacion-titulo {
@@ -604,6 +690,7 @@ footer {
             color: white;
         }
     }
+
     .footer-copyright {
         margin-top: 2rem;
         .copyright-texto {

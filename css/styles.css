@@ -29,7 +29,7 @@ header h1 {
   margin-left: 45px;
   width: 130px;
 }
-header .h1-link {
+header #h1-link {
   text-decoration: none;
   color: #F0DEBB;
 }
@@ -75,7 +75,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   color: #16453F;
   text-align: center;
 }
-.section-presentacion .presentacion-texto {
+.section-presentacion #presentacion-texto {
   font-family: "Narnoor", serif;
   font-size: 1.1rem;
   color: black;
@@ -486,7 +486,17 @@ footer {
   margin-top: 4rem;
   background-color: #541734;
   text-align: center;
-  height: 760px;
+  height: 820px;
+}
+footer #color-mode {
+  position: relative;
+  top: 1rem;
+  font-family: "Narnoor", serif;
+}
+footer .btn {
+  background-color: #16453F;
+  color: white;
+  border: 2px solid black;
 }
 footer .footer-nav {
   position: relative;
@@ -1863,6 +1873,26 @@ h2 {
   display: flex;
   text-align: center;
   margin-top: 10px;
+}
+
+body.dark-mode {
+  background-color: #141d26;
+}
+
+#h1-link.dark-mode {
+  color: white;
+}
+
+#presentacion-texto.dark-mode {
+  color: white;
+}
+
+#boton-hamburguesa.dark-mode {
+  background-color: #16453F;
+}
+
+header.dark-mode {
+  background-color: #1b0737;
 }
 
 /*# sourceMappingURL=styles.css.map */

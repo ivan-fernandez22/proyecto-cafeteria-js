@@ -33,16 +33,6 @@ function validarFormulario(e) {
     `
 
     divConfirmacion.prepend(confirmacion)
-
-    // console.log(form.children[2].value)
-    // console.log(form.children[6].value)
-    // console.log(form.children[10].value)
-    // console.log(form.children[14].value)
-    // console.log(form.children[18].value)
-    // console.log(form.children[22].value)
-    // console.log(form.children[26].value)
-
-    // alert (`Reserva realizada con exito! Te esperamos el dia ${fecha.value}`)
 }
 
 

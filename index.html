@@ -22,12 +22,12 @@
     <header>
         <div>
             <img src="./imgs/logo.png" alt="Logo de la cafetería" class="logo">
-            <h1><a href="./index.html" class="h1-link">Le Paradis</a></h1>
+            <h1><a href="./index.html" id="h1-link">Le Paradis</a></h1>
         </div>
 
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="boton-hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -73,7 +73,7 @@
         <!----PRESENTACION---->
         <section class="section-presentacion">
             <p class="presentacion-texto-bienvenida">Bienvenidos a Le paradis!</p>
-            <p class="presentacion-texto"> 
+            <p id="presentacion-texto"> 
                 Somos una nueva cafetería úbicada en Del Valle Iberlucea 3312, 
                 Lanus Oeste. Contamos con un enorme patio ambientado en un jardin natural 
                 al aire libre, un salón con biblioteca y un menú exquisito para que 
@@ -85,13 +85,14 @@
         <!----PRODUCTOS Y RESERVAS---->
         <section class="section-productos" data-aos="flip-left">
             <h2 class="productos-titulo">¿Ya viste nuestros deliciosos productos?</h2>
-            <p class="productos-texto">Echale un vistazo aquí: <a href="" class="productos-link">Tienda de productos</a></p>
+            <p class="productos-texto">Echale un vistazo aquí: <br>
+                <a href="./pages/productos.html" class="productos-link">Tienda de productos</a></p>
             <p class="productos-texto2">(Precios para delivery o retiro en local)</p>
         </section>
 
         <section class="section-reservas" data-aos="flip-left">
             <h2 class="reservas-titulo">Hace tu reserva</h2>
-            <p class="reservas-texto">Haciendo click aquí: <a href="" class="reservas-link">Reservas</a></p>
+            <p class="reservas-texto">Haciendo click aquí: <a href="./pages/reservas.html" class="reservas-link">Reservas</a></p>
         </section>
 
 
@@ -201,6 +202,9 @@
 
 <!-----FOOTER----->
     <footer>
+
+        <button id="color-mode" class="btn btn-dark">Dark Mode</button>
+
         <section class="footer-nav">
             <h2 class="footer-nav-titulo">Navegacion</h2>
             <ul class="footer-nav-lista">
@@ -261,8 +265,8 @@
         });
     </script>
 
-    <!-- <script src="js/index.js"></script> -->
-    <!-- <script src="js/ejercicios.js"></script> -->
+    <script src="js/index.js"></script>
+    <script src="js/components/botonDM.js"></script>
 
 </body>
 
