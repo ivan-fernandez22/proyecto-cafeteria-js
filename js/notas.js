@@ -743,3 +743,134 @@
 //     console.log (form.children[11].value)
 //     console.log (form.children[13].value)
 // }
+
+
+
+// // CLASE 11: STORAGE Y JSON
+
+// // El storage permite almacenar datos de manera local en el navegador sin necesidad de realizar ninguna 
+// // conexion con el servidor. De esta manera, el cliente puede preservar informaccion de la aplicacion.
+
+
+// // LOCALSTORAGE: Los datos almacenados aqui se almacenan en el navegador de forma indefinida.
+// // La informacion persiste aunque se reinicie el navegador y hasta el sistema operativo.
+
+// // setItem: Almacenar informacion. Sistema clave/valor
+
+// localStorage.setItem ('Bienvenida', 'Hola mundo!') // Los valores que guardo los toma como strings
+// localStorage.setItem ('Booleano', true)
+// localStorage.setItem ('Numero', 50)
+
+// let usuario = {
+//     nombre: 'Ivan',
+//     edad: 19,
+//     pais: 'Argentina'
+// }
+
+// localStorage.setItem ('usuario', usuario) // No almacena objetos
+
+
+// // getItem: Acceder a la informacion almacenada.
+
+// const bienvenida = localStorage.getItem ('Bienvenida')
+// const booleano = (localStorage.getItem ('Booleano') =='true') //Si lo igualo a un string booleano, cuando aplico el typeof me devuelve un valor booleano
+// const numero = localStorage.getItem ('Numero')
+
+// // console.log (typeof bienvenida)
+// // console.log (typeof booleano)
+// // console.log (typeof numero)
+
+
+// // SESSIONSTORAGE: Los datos almacenados aqui se almacenan en el navegador hasta que el usuario cierra
+// // la ventana. Solo existe dentro de la pestaña actual del navegador. 
+
+// sessionStorage.setItem ('seleccionados', [1,2,3])
+// sessionStorage.setItem ('esValido', false)
+// sessionStorage.setItem ('email', 'info@email.com')
+
+// const lista = sessionStorage.getItem ('seleccionados').split(",")
+// const validacion = (sessionStorage.getItem ('esValido') == 'true')
+// const email = sessionStorage.getItem ('email')
+
+// console.log (lista)
+// console.log (validacion)
+// console.log (email)
+
+// console.log (typeof lista)
+// console.log (typeof validacion)
+// console.log (typeof email)
+
+
+// // Recorriendo el storage: Es posible obtener todos los valores almacenados en el localStorage 
+// // o el sessionStorage con un bucle. Para esto se usa el for con el metodo key.
+
+// const body = document.body
+// const div1 = document.getElementById ('div-clase11')
+
+// for (let i = 0; i < sessionStorage.length; i++) {
+//     let clave = sessionStorage.key (i)
+//     let algo = document.createElement ('div')
+//     algo.innerHTML = `
+//         Clave: ${clave} - Valor: ${sessionStorage.getItem (clave)}
+//     `
+//     div1.prepend (algo)
+// }
+
+
+// // Eliminar informacion almacenada
+
+// sessionStorage.removeItem ('seleccionados')
+// sessionStorage.removeItem ('esValido')
+
+// localStorage.clear () // Eliminar todo
+
+
+// // Guardar un array en el storage
+
+// const array = []
+
+// array.push (1)
+// array.push (2)
+// array.push (3)
+
+// localStorage.setItem ('Array', array)
+// const arrayRecuperado = localStorage.getItem ('Array')
+// console.log (arrayRecuperado)
+
+
+// // JSON: Permite almacenar objetos en el storage
+
+// const myFormulario = document.getElementById ('formulario')
+// myFormulario.addEventListener ('submit', validarFormulario)
+
+// function validarFormulario(e){
+//     e.preventDefault()
+//     let form = e.target
+//     let inputNombre = form.children[2].value;
+//     let inputApellido = form.children[6].value;
+//     let inputFecha = form.children [26].value
+//     let boton = form.children[28]
+//     let reserva = {
+//         nombre: inputNombre,
+//         apellido: inputApellido,
+//         fecha: inputFecha
+//     }
+
+//     if ((inputNombre && inputApellido && inputFecha) === '') {
+//         alert ('Todos los campos son obligatorios!!')
+//     } else {
+//         sessionStorage.setItem ('Reservado', JSON.stringify(reserva)) //Con STRINGIFY transformo un objeto a un string en formato JSON
+//     }
+
+//     const reservaConfirmada = sessionStorage.getItem ('Reservado')
+// const reservaParseada = JSON.parse (reservaConfirmada)
+// // console.log ("Bienvenido " + reservaParseada.nombre)
+
+// const confirmacion = document.getElementById ('p-reserva')
+// const div1 = document.getElementById ('div-clase11')
+
+// confirmacion.innerHTML = `
+// ${reservaParseada.nombre} le informamos que su reserva para la fecha ${reservaParseada.fecha} fue confirmada!
+// `
+// div1.prepend (confirmacion)
+// }

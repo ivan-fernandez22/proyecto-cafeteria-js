@@ -1847,4 +1847,22 @@ h2 {
   margin-top: 1.5rem;
 }
 
+#div-confirmacion {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  min-height: 100px;
+  margin-left: 4vw;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #16453F;
+}
+#div-confirmacion #p-reserva {
+  color: #F0DEBB;
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
