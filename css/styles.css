@@ -40,7 +40,7 @@ header .navbar .container-fluid .navbar-toggler {
   background-color: #F0DEBB;
 }
 header .navbar .container-fluid .collapse {
-  height: 145px;
+  min-height: 200px;
 }
 header .navbar .container-fluid .collapse .navbar-nav {
   height: 120px;
@@ -52,6 +52,16 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-top: -10px;
   color: beige;
   width: 40vw;
+}
+header .navbar .container-fluid .collapse #color-mode {
+  font-family: "Narnoor", serif;
+  position: relative;
+  top: 20px;
+}
+header .navbar .container-fluid .collapse .btn {
+  background-color: #16453F;
+  color: white;
+  border: solid black 2px;
 }
 
 /*----CARRUSEL-----*/
@@ -69,7 +79,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   align-items: center;
   margin-top: 1rem;
 }
-.section-presentacion .presentacion-texto-bienvenida {
+.section-presentacion #presentacion-texto-bienvenida {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
@@ -86,7 +96,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 }
 
 /*------- PRODUCTOS Y RESERVAS ---------*/
-.section-productos {
+#section-productos {
   display: flexbox;
   justify-content: center;
   align-items: center;
@@ -95,16 +105,16 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   background-color: bisque;
   box-shadow: 5px 5px #38383e;
   margin-left: 4vw;
-  min-height: 100px;
+  min-height: 135px;
 }
-.section-productos .productos-titulo {
+#section-productos #productos-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
   margin-top: 0.7rem;
 }
-.section-productos .productos-texto {
+#section-productos #productos-texto {
   font-family: "Narnoor", serif;
   font-size: 1.1rem;
   color: black;
@@ -113,16 +123,16 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-top: -2px;
   text-align: center;
 }
-.section-productos .productos-texto .productos-link {
+#section-productos #productos-texto #productos-link {
   font-family: "Anton", sans-serif;
   text-decoration: none;
   color: #541734;
   font-size: 1rem;
 }
-.section-productos .productos-texto .productos-link:hover {
+#section-productos #productos-texto #productos-link:hover {
   font-size: 1.1rem;
 }
-.section-productos .productos-texto2 {
+#section-productos #productos-texto2 {
   font-family: "Narnoor", serif;
   font-size: 0.93rem;
   color: black;
@@ -132,7 +142,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   text-align: center;
 }
 
-.section-reservas {
+#section-reservas {
   display: flexbox;
   justify-content: center;
   align-items: center;
@@ -143,14 +153,14 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-left: 4vw;
   min-height: 70px;
 }
-.section-reservas .reservas-titulo {
+#section-reservas #reservas-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: #16453F;
   text-align: center;
   margin-top: 0.3rem;
 }
-.section-reservas .reservas-texto {
+#section-reservas #reservas-texto {
   font-family: "Narnoor", serif;
   font-size: 1.1rem;
   color: black;
@@ -159,13 +169,13 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   margin-top: -2px;
   text-align: center;
 }
-.section-reservas .reservas-texto .reservas-link {
+#section-reservas #reservas-texto #reservas-link {
   font-family: "Anton", sans-serif;
   text-decoration: none;
   color: #541734;
   font-size: 1rem;
 }
-.section-reservas .reservas-texto .reservas-link:hover {
+#section-reservas #reservas-texto #reservas-link:hover {
   font-size: 1.1rem;
 }
 
@@ -175,22 +185,22 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   display: flex;
   justify-content: center;
 }
-.section-tarjetas .tarjetas-contenedor {
+.section-tarjetas #tarjetas-contenedor {
   background-color: #16453F;
   height: 150px;
   display: flex;
   width: 95%;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-img1 {
+.section-tarjetas #tarjetas-contenedor .tarjetas-img1 {
   width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura {
   display: flexbox;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 {
   background-color: #541734;
   border-radius: 30px;
   width: 155px;
@@ -199,7 +209,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 10px;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 .tarjetas-oferta1 {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-div-oferta1 .tarjetas-oferta1 {
   color: white;
   margin-left: 8px;
   position: relative;
@@ -207,7 +217,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   font-size: 1.1rem;
   font-family: "Narnoor", serif;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
@@ -216,13 +226,13 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 12px;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito {
   color: beige;
   font-size: 1rem;
   font-family: "Narnoor", serif;
   margin-left: 10px;
 }
-.section-tarjetas .tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito:hover {
+.section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito:hover {
   font-size: 1.1rem;
 }
 
@@ -231,22 +241,22 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   display: flex;
   justify-content: center;
 }
-.section-tarjetas2 .tarjetas-contenedor2 {
+.section-tarjetas2 #tarjetas-contenedor2 {
   background-color: #16453F;
   height: 150px;
   display: flex;
   width: 95%;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-img2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-img2 {
   width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 {
   display: flexbox;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 {
   background-color: #541734;
   border-radius: 30px;
   width: 112px;
@@ -255,7 +265,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 10px;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 .tarjetas-oferta2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-div-oferta2 .tarjetas-oferta2 {
   color: white;
   margin-left: 8px;
   position: relative;
@@ -263,7 +273,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   font-size: 1.1rem;
   font-family: "Narnoor", serif;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto2 {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
@@ -272,13 +282,13 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 12px;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2 {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2 {
   color: beige;
   font-size: 1rem;
   font-family: "Narnoor", serif;
   margin-left: 10px;
 }
-.section-tarjetas2 .tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2:hover {
+.section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2:hover {
   font-size: 1.1rem;
 }
 
@@ -287,22 +297,22 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   display: flex;
   justify-content: center;
 }
-.section-tarjetas3 .tarjetas-contenedor3 {
+.section-tarjetas3 #tarjetas-contenedor3 {
   background-color: #16453F;
   height: 150px;
   display: flex;
   width: 95%;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-img3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-img3 {
   width: 130px;
   height: 150px;
   display: flex;
   justify-content: center;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 {
   display: flexbox;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 {
   background-color: #541734;
   border-radius: 30px;
   width: 170px;
@@ -311,7 +321,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 10px;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 .tarjetas-oferta3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-div-oferta3 .tarjetas-oferta3 {
   color: white;
   margin-left: 8px;
   position: relative;
@@ -319,7 +329,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   font-size: 1.1rem;
   font-family: "Narnoor", serif;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto3 {
   color: white;
   font-size: 1rem;
   font-family: "Narnoor", serif;
@@ -328,13 +338,13 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   position: relative;
   top: 12px;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3 {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3 {
   color: beige;
   font-size: 1rem;
   font-family: "Narnoor", serif;
   margin-left: 10px;
 }
-.section-tarjetas3 .tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
+.section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
   font-size: 1.1rem;
 }
 
@@ -344,10 +354,10 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   text-align: center;
   color: black;
 }
-.section-direccion .direccion-titulo {
+.section-direccion #direccion-titulo {
   font-family: "Anton", sans-serif;
 }
-.section-direccion .direccion-titulo .direccion-titulo-enlace {
+.section-direccion #direccion-titulo #direccion-titulo-enlace {
   text-decoration: none;
   color: #541734;
 }
@@ -363,7 +373,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 .section-galeria {
   margin-top: 5rem;
 }
-.section-galeria .galeria-titulo {
+.section-galeria #galeria-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.7rem;
   text-align: center;
@@ -415,67 +425,70 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
 .section-info {
   margin-top: 4rem;
 }
-.section-info .info-contenedor {
+.section-info #info-contenedor {
   width: 100%;
   background-color: #857555;
 }
-.section-info .info-contenedor .info-envios-div {
+.section-info #info-contenedor #info-envios-div {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.section-info .info-contenedor .info-envios-div .bi-truck {
+.section-info #info-contenedor #info-envios-div .bi-truck {
   margin-right: 10px;
   margin-top: 6px;
   font-size: 40px;
+  color: black;
 }
-.section-info .info-contenedor .info-envios-div .info-envios-estructura {
+.section-info #info-contenedor #info-envios-div .info-envios-estructura {
   margin-right: 2rem;
   margin-top: 1rem;
 }
-.section-info .info-contenedor .info-envios-div .info-envios-estructura .info-envios-titulo {
+.section-info #info-contenedor #info-envios-div .info-envios-estructura #info-envios-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.2rem;
   color: black;
 }
-.section-info .info-contenedor .info-envios-div .info-envios-estructura .info-envios-texto {
+.section-info #info-contenedor #info-envios-div .info-envios-estructura #info-envios-texto {
   font-family: "Anton", sans-serif;
   font-size: 1rem;
   margin-top: -10px;
   color: black;
 }
-.section-info .info-contenedor .info-pagos-div {
+.section-info #info-contenedor #info-pagos-div {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.section-info .info-contenedor .info-pagos-div .bi-credit-card-fill {
+.section-info #info-contenedor #info-pagos-div .bi-credit-card-fill {
   margin-top: 5px;
   font-size: 40px;
   margin-right: 10px;
+  color: black;
 }
-.section-info .info-contenedor .info-pagos-div .info-pagos-estructura {
+.section-info #info-contenedor #info-pagos-div .info-pagos-estructura {
   margin-top: 1rem;
   margin-right: 2rem;
 }
-.section-info .info-contenedor .info-pagos-div .info-pagos-estructura .info-pagos-titulo {
+.section-info #info-contenedor #info-pagos-div .info-pagos-estructura #info-pagos-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.2rem;
   color: black;
 }
-.section-info .info-contenedor .info-wspp-div {
+.section-info #info-contenedor #info-wspp-div {
   text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 1.5rem;
   margin-right: 28px;
 }
-.section-info .info-contenedor .info-wspp-div .bi-whatsapp {
+.section-info #info-contenedor #info-wspp-div .bi-whatsapp {
   margin-top: -18px;
   font-size: 40px;
   margin-right: 10px;
+  color: black;
 }
-.section-info .info-contenedor .info-wspp-div .info-wspp-estructura .info-wspp-titulo {
+.section-info #info-contenedor #info-wspp-div .info-wspp-estructura #info-wspp-titulo {
   font-family: "Anton", sans-serif;
   font-size: 1.2rem;
   color: black;
@@ -487,16 +500,6 @@ footer {
   background-color: #541734;
   text-align: center;
   height: 820px;
-}
-footer #color-mode {
-  position: relative;
-  top: 1rem;
-  font-family: "Narnoor", serif;
-}
-footer .btn {
-  background-color: #16453F;
-  color: white;
-  border: 2px solid black;
 }
 footer .footer-nav {
   position: relative;
@@ -1887,12 +1890,82 @@ body.dark-mode {
   color: white;
 }
 
-#boton-hamburguesa.dark-mode {
-  background-color: #16453F;
+#presentacion-texto-bienvenida.dark-mode {
+  color: #17655b;
 }
 
-header.dark-mode {
-  background-color: #1b0737;
+#boton-hamburguesa.dark-mode {
+  background-color: #17655b;
+}
+
+#section-productos.dark-mode {
+  background-color: #202b34;
+  box-shadow: 5px 5px black;
+}
+#section-productos.dark-mode #productos-titulo.dark-mode {
+  color: #17655b;
+}
+#section-productos.dark-mode #productos-texto.dark-mode {
+  color: white;
+}
+#section-productos.dark-mode #productos-texto.dark-mode #productos-link.dark-mode {
+  color: #981955;
+}
+#section-productos.dark-mode #productos-texto2.dark-mode {
+  color: white;
+}
+
+#section-reservas.dark-mode {
+  background-color: #202b34;
+  box-shadow: 5px 5px black;
+}
+#section-reservas.dark-mode #reservas-titulo.dark-mode {
+  color: #17655b;
+}
+#section-reservas.dark-mode #reservas-texto.dark-mode {
+  color: white;
+}
+#section-reservas.dark-mode #reservas-texto.dark-mode #reservas-link.dark-mode {
+  color: #981955;
+}
+
+#tarjetas-contenedor.dark-mode {
+  background-color: #17655b;
+}
+
+#tarjetas-contenedor2.dark-mode {
+  background-color: #17655b;
+}
+
+#tarjetas-contenedor3.dark-mode {
+  background-color: #17655b;
+}
+
+#direccion-titulo.dark-mode {
+  color: #17655b;
+}
+#direccion-titulo.dark-mode #direccion-titulo-enlace.dark-mode {
+  color: #981955;
+}
+
+#galeria-titulo.dark-mode {
+  color: #17655b;
+}
+
+#info-contenedor.dark-mode {
+  background-color: #202b34;
+}
+#info-contenedor.dark-mode #info-envios-div.dark-mode #info-envios-titulo.dark-mode {
+  color: white;
+}
+#info-contenedor.dark-mode #info-envios-div.dark-mode #info-envios-texto.dark-mode {
+  color: white;
+}
+#info-contenedor.dark-mode #info-pagos-div.dark-mode #info-pagos-titulo.dark-mode {
+  color: white;
+}
+#info-contenedor.dark-mode #info-wspp-div.dark-mode #info-wspp-titulo.dark-mode {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

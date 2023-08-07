@@ -34,7 +34,7 @@ header {
             }
 
             .collapse {
-                height: 145px;
+                min-height: 200px;
 
                 .navbar-nav {
                     height: 120px;
@@ -47,6 +47,17 @@ header {
                         color: beige;
                         width: 40vw;
                     }
+                }
+
+                #color-mode {
+                    font-family: $fuente-textos;
+                    position: relative;
+                    top: 20px;
+                }
+                .btn {
+                    background-color: $color-verde;
+                    color: white;
+                    border: solid black 2px;
                 }
             }
         }
@@ -77,7 +88,7 @@ header {
     align-items: center;
     margin-top: 1rem;
 
-    .presentacion-texto-bienvenida {
+    #presentacion-texto-bienvenida {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
@@ -97,7 +108,7 @@ header {
 
 
 /*------- PRODUCTOS Y RESERVAS ---------*/
-.section-productos {
+#section-productos {
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -106,9 +117,9 @@ header {
     background-color: bisque;
     box-shadow: 5px 5px #38383e;
     margin-left: 4vw;
-    min-height: 100px;
+    min-height: 135px;
 
-    .productos-titulo {
+    #productos-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
@@ -116,7 +127,7 @@ header {
         margin-top: 0.7rem;
     }
 
-    .productos-texto {
+    #productos-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
         color: black;
@@ -125,7 +136,7 @@ header {
         margin-top: -2px;
         text-align: center;
 
-        .productos-link {
+        #productos-link {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
@@ -137,7 +148,7 @@ header {
         }
     }
 
-    .productos-texto2 {
+    #productos-texto2 {
         font-family: $fuente-textos;
         font-size: 0.93rem;
         color: black;
@@ -148,7 +159,7 @@ header {
     }
 }
 
-.section-reservas {
+#section-reservas {
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -159,7 +170,7 @@ header {
     margin-left: 4vw;
     min-height: 70px;
 
-    .reservas-titulo {
+    #reservas-titulo {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: $color-verde;
@@ -167,7 +178,7 @@ header {
         margin-top: 0.3rem;
     }
 
-    .reservas-texto {
+    #reservas-texto {
         font-family: $fuente-textos;
         font-size: 1.1rem;
         color: black;
@@ -176,7 +187,7 @@ header {
         margin-top: -2px;
         text-align: center;
 
-        .reservas-link {
+        #reservas-link {
             font-family: $fuente-titulos;
             text-decoration: none;
             color: $color-violeta;
@@ -196,7 +207,7 @@ header {
     display: flex;
     justify-content: center;
 
-    .tarjetas-contenedor {
+    #tarjetas-contenedor {
         background-color: $color-verde;
         height: 150px;
         display: flex;
@@ -260,7 +271,7 @@ header {
     display: flex;
     justify-content: center;
 
-    .tarjetas-contenedor2 {
+    #tarjetas-contenedor2 {
         background-color: $color-verde;
         height: 150px;
         display: flex;
@@ -324,7 +335,7 @@ header {
     display: flex;
     justify-content: center;
 
-    .tarjetas-contenedor3 {
+    #tarjetas-contenedor3 {
         background-color: $color-verde;
         height: 150px;
         display: flex;
@@ -390,10 +401,10 @@ header {
     text-align: center;
     color: black;
 
-    .direccion-titulo {
+    #direccion-titulo {
         font-family: $fuente-titulos;
 
-        .direccion-titulo-enlace {
+        #direccion-titulo-enlace {
             text-decoration: none;
             color: $color-violeta;
         }
@@ -414,7 +425,7 @@ header {
 .section-galeria {
     margin-top: 5rem;
 
-    .galeria-titulo {
+    #galeria-titulo {
         font-family: $fuente-titulos;
         font-size: 1.7rem;
         text-align: center;
@@ -477,11 +488,11 @@ header {
 .section-info {
     margin-top: 4rem;
 
-    .info-contenedor {
+    #info-contenedor {
         width: 100%;
         background-color: #857555;
 
-        .info-envios-div {
+        #info-envios-div {
             text-align: center;
             display: flex;
             justify-content: center;
@@ -490,19 +501,20 @@ header {
                 margin-right: 10px;
                 margin-top: 6px;
                 font-size: 40px;
+                color: black
             }
 
             .info-envios-estructura {
                 margin-right: 2rem;
                 margin-top: 1rem;
 
-                .info-envios-titulo {
+                #info-envios-titulo {
                     font-family: $fuente-titulos;
                     font-size: 1.2rem;
                     color: black;
                 }
 
-                .info-envios-texto {
+                #info-envios-texto {
                     font-family: $fuente-titulos;
                     font-size: 1rem;
                     margin-top: -10px;
@@ -511,7 +523,7 @@ header {
             }
         }
 
-        .info-pagos-div {
+        #info-pagos-div {
             text-align: center;
             display: flex;
             justify-content: center;
@@ -520,13 +532,14 @@ header {
                 margin-top: 5px;
                 font-size: 40px;
                 margin-right: 10px;
+                color: black;
             }
 
             .info-pagos-estructura {
                 margin-top: 1rem;
                 margin-right: 2rem;
 
-                .info-pagos-titulo {
+                #info-pagos-titulo {
                     font-family: $fuente-titulos;
                     font-size: 1.2rem;
                     color: black;
@@ -534,7 +547,7 @@ header {
             }
         }
 
-        .info-wspp-div {
+        #info-wspp-div {
             text-align: center;
             display: flex;
             justify-content: center;
@@ -545,10 +558,11 @@ header {
                 margin-top: -18px;
                 font-size: 40px;
                 margin-right: 10px;
+                color: black;
             }
 
             .info-wspp-estructura {
-                .info-wspp-titulo {
+                #info-wspp-titulo {
                     font-family: $fuente-titulos;
                     font-size: 1.2rem;
                     color: black;
@@ -565,17 +579,6 @@ footer {
     background-color: $color-violeta;
     text-align: center;
     height: 820px;
-
-    #color-mode {
-        position: relative;
-        top: 1rem;
-        font-family: $fuente-textos;
-    }
-    .btn {
-        background-color: $color-verde;
-        color: white;
-        border: 2px solid black;
-    }
 
     .footer-nav {
         position: relative;

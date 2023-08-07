@@ -874,3 +874,209 @@
 // `
 // div1.prepend (confirmacion)
 // }
+
+
+
+// // CLASE 12: OPERADORES AVANZADOS
+
+// // Sugar syntax
+
+// // Operador ++
+// let num = 0
+// num = num + 1 // Forma vieja
+
+// num += 1 // opcion 1
+// num ++ // opcion 2
+
+
+// // Operador ternario
+// let stock = 10
+
+// if (stock > 0) {
+//     console.log ("Hay stock!")
+// } else {
+//     console.log ("No hay stock!")
+// }
+
+// // Condicion ? casoVerdadero : casoFalso
+// stock > 0 ? console.log ("Hay stock!") : console.log ("No hay stock!")
+
+// const producto = {
+//     nombre: "azucar",
+//     precio: 700,
+//     stock: 20
+// }
+
+// let validar = (producto.stock > 0) ? true : false
+// validar ? console.log ("Hay stock!") : console.log ("No hay stock!")
+
+// producto.stock > 0 ? console.log ("Hay stock!") : console.log ("No hay stock!")
+
+
+// // Operador logico and: Es una reduccion de un condicional, pero trata de ejecutar algo solo si la condicion es verdadera
+// const carrito = [] // carrito vacio
+
+// carrito.length === 0 && console.log ("El carrito está vacio!")
+
+// const persona = {
+//     nombre: "Ivan",
+//     apellido: "Fernandez",
+//     edad: 19
+// }
+
+// const apto = persona.edad >= 18 && console.log ("Es apto")
+
+
+// // Operador lógico OR ||
+
+// // Debe ser distinto de 0
+// console.log (0 || "Hola") // Debe ser distinto de 0
+// console.log (10 || "hola") // Imprime el 10 porque es el primero
+
+// // Debe ser distinto de null
+// console.log (null || "Hola") 
+
+// // Debe ser distinto de undefined 
+// console.log (undefined || "Bienvenido")
+
+// // Debe ser distinto de un string vacio
+// console.log ("Hola mundo" || "Hola")
+// console.log ("" || "Chau")
+
+// // Debe ser distinto a NaN
+// console.log (NaN || "Numerito")
+
+// // Debe ser distinto de false y le da importancia al true
+// console.log (true || "Hola")
+// console.log (false || "Hola")
+
+
+// // Ejemplo
+// const persona2 = null // no existe
+// console.log (persona || "La persona no existe")
+// console.log (persona2 || "La persona no existe")
+
+
+// // Ejemplo con carrito
+// const carrito = {
+//     id: 1,
+//     nombre: "Croissant",
+//     precio: 300
+// }
+
+// let cart
+
+// localStorage.setItem ('Carrito', JSON.stringify (carrito))
+
+// let verifique = JSON.parse (localStorage.getItem ('Carrito'))
+// console.log (verifique)
+
+// if (verifique) {
+//     cart = verifique
+// } else {
+//     cart = []
+// }
+
+// const cart = JSON.parse (localStorage.getItem ('Carrito')) || []
+
+// console.log (cart)
+
+
+// // Operador nullish: Funciona igual que el operador or con la diferencia que admite mas valores como 'verdaderos'
+// // No admite ni el null ni el undefined
+// console.log (0 ?? "Hola") // Admite el 0
+// console.log (10 ?? "hola") 
+// console.log (null ?? "Hola") // NO admite el null por eso imprime el hola
+// console.log (undefined ?? "Bienvenido") // NO admite el undefined
+// console.log ("Hola mundo" ?? "Hola")
+// console.log ("" ?? "Chau") // Admite el string vacio
+// console.log (NaN ?? "Numerito") // Admite el NaN
+// console.log (true ?? "Hola")
+// console.log (false ?? "Hola") // Admite el false
+
+
+// // Acceso condicional a un objeto 
+
+// const alumno = {
+//     nombre: "Felipe",
+//     apellido: "Diaz",
+//     edad: 21,
+//     estudios: {
+//         primario: 'completo',
+//         secundario: 'completo',
+//         terciario: 'incompleto'
+//     }
+// }
+
+// console.log (alumno?.estudios?.primario || "No existe")
+// console.log (alumno?.estudios?.universitarios || "No existe")
+
+
+// // DESESTRUCTURACION
+
+// const alumno = {
+//     nombre: "Felipe",
+//     apellido: "Diaz",
+//     edad: 21,
+//     estudios: {
+//         primario: 'completo',
+//         secundario: 'completo',
+//         terciario: 'incompleto'
+//     }
+// }
+
+// console.log (alumno.nombre, alumno.apellido)
+
+// let nombreV = alumno.nombre
+// let apellidoV = alumno.apellido
+
+// console.log (nombreV, apellidoV)
+
+// const { nombre, apellido, estudios: {primario} } = alumno // Desestructuro los datos del objeto
+
+// console.log (`Nombre completo: ${nombre} ${apellido} - Nivel primario: ${primario}`)
+
+
+// // Alias
+
+// const zapatilla = {
+//     prod_id: 1,
+//     prod_name: "Air max",
+//     prod_price: 50000
+// }
+
+// const {
+//     prod_id: id,
+//     prod_name: nombre,
+//     prod_price: precio
+// } = zapatilla
+
+// console.log (id, nombre, precio)
+
+
+// // Desestructurar con funcion
+
+// const desestructurar = (param) => {
+//     const {prod_id, prod_name} = param
+//     console.log (prod_id, prod_name)
+// }
+
+// desestructurar (zapatilla)
+
+
+// window.addEventListener ('click', ({x,y}) => {
+//     console.log (x,y)
+// })
+
+
+// const array = ["Ivan", "Alejandro", "Lucas", "Matias"]
+
+// const [ , , a, b ] = array
+
+// console.log (a,b)
+
+// const arrayA = { ...a} = array //Spread Operator
+// console.log (arrayA) // No trae los indices de los elementos del array
+
+// const arrayB = { ...array};
+// console.log (arrayB) // Viene con los indices de los elementos del array

@@ -37,6 +37,7 @@
                         <a class="nav-link" href="./pages/reservas.html">Reservas</a>
                         <a class="nav-link" href="#">Contacto</a>
                     </div>
+                    <button id="color-mode" class="btn btn-dark">Dark Mode</button>
                 </div>
             </div>
         </nav>
@@ -72,7 +73,7 @@
 
         <!----PRESENTACION---->
         <section class="section-presentacion">
-            <p class="presentacion-texto-bienvenida">Bienvenidos a Le paradis!</p>
+            <p id="presentacion-texto-bienvenida">Bienvenidos a Le paradis!</p>
             <p id="presentacion-texto"> 
                 Somos una nueva cafetería úbicada en Del Valle Iberlucea 3312, 
                 Lanus Oeste. Contamos con un enorme patio ambientado en un jardin natural 
@@ -83,22 +84,25 @@
 
 
         <!----PRODUCTOS Y RESERVAS---->
-        <section class="section-productos" data-aos="flip-left">
-            <h2 class="productos-titulo">¿Ya viste nuestros deliciosos productos?</h2>
-            <p class="productos-texto">Echale un vistazo aquí: <br>
-                <a href="./pages/productos.html" class="productos-link">Tienda de productos</a></p>
-            <p class="productos-texto2">(Precios para delivery o retiro en local)</p>
+        <section id="section-productos" data-aos="flip-left">
+            <h2 id="productos-titulo">¿Ya viste nuestros deliciosos productos?</h2>
+            <p id="productos-texto">Echale un vistazo aquí: <br>
+                <a href="./pages/productos.html" id="productos-link">Tienda de productos</a>
+            </p>
+            <p id="productos-texto2">(Precios para delivery o retiro en local)</p>
         </section>
 
-        <section class="section-reservas" data-aos="flip-left">
-            <h2 class="reservas-titulo">Hace tu reserva</h2>
-            <p class="reservas-texto">Haciendo click aquí: <a href="./pages/reservas.html" class="reservas-link">Reservas</a></p>
+        <section id="section-reservas" data-aos="flip-left">
+            <h2 id="reservas-titulo">Hace tu reserva</h2>
+            <p id="reservas-texto">Haciendo click aquí: 
+                <a href="./pages/reservas.html" id="reservas-link">Reservas</a>
+            </p>
         </section>
 
 
         <!----TARJETAS---->
         <section class="section-tarjetas" data-aos="fade-right">
-            <div class="tarjetas-contenedor">
+            <div id="tarjetas-contenedor">
                 <img src="./imgs/chessecakeTH.jpg" class="tarjetas-img1" alt="oferta de chessecake de frutos rojos">
                 <div class="tarjetas-estructura">
                     <div class="tarjetas-div-oferta1">
@@ -111,7 +115,7 @@
         </section>
 
         <section class="section-tarjetas2" data-aos="fade-right">
-            <div class="tarjetas-contenedor2">
+            <div id="tarjetas-contenedor2">
                 <img src="./imgs/sandwich-mediterraneo (1) (1).jpg" class="tarjetas-img2" alt="sandwich mediterraneo">
                 <div class="tarjetas-estructura2">
                     <div class="tarjetas-div-oferta2">
@@ -124,7 +128,7 @@
         </section>
 
         <section class="section-tarjetas3" data-aos="fade-right">
-            <div class="tarjetas-contenedor3">
+            <div id="tarjetas-contenedor3">
                 <img src="./imgs/croissants-img1.jpg" class="tarjetas-img3" alt="promocion mediadocena de croissants a 1700$">
                 <div class="tarjetas-estructura3">
                     <div class="tarjetas-div-oferta3">
@@ -139,8 +143,8 @@
 
         <!----DIRECCION---->
         <section class="section-direccion">
-            <h2 class="direccion-titulo">Nos encontramos en <br>
-                <a href="https://goo.gl/maps/ZBA6aTaa8zn1xEaW8" class="direccion-titulo-enlace" target="_blank">
+            <h2 id="direccion-titulo">Nos encontramos en <br>
+                <a href="https://goo.gl/maps/ZBA6aTaa8zn1xEaW8" id="direccion-titulo-enlace" target="_blank">
                     <i class="bi bi-pin-angle"></i> Del Valle Iberlucea 3312 <i class="bi bi-pin-angle"></i>
                 </a>
             </h2>
@@ -154,7 +158,7 @@
 
         <!----GALERIA---->
         <section class="section-galeria">
-            <h2 class="galeria-titulo">Galería</h2>
+            <h2 id="galeria-titulo">Galería</h2>
             <div class="galeria-contenedor">
                 <img src="./imgs/vinoteca1.jpg" class="galeria-img1">
                 <img src="./imgs/vinoteca2.jpg" class="galeria-img2">
@@ -170,27 +174,27 @@
 
         <!----INFORMACION DE ENVIOS, PAGOS Y WSPP---->
         <section class="section-info">
-            <div class="info-contenedor">
+            <div id="info-contenedor">
 
-                <div class="info-envios-div">
+                <div id="info-envios-div">
                     <i class="bi bi-truck"></i>
                     <div class="info-envios-estructura">
-                        <h3 class="info-envios-titulo">ENVIO GRATIS A PARTIR DE $8000</h3>
-                        <p class="info-envios-texto">ENVIOS A TODO BUENOS AIRES</p>
+                        <h3 id="info-envios-titulo">ENVIO GRATIS A PARTIR DE $8000</h3>
+                        <p id="info-envios-texto">ENVIOS A TODO BUENOS AIRES</p>
                     </div>
                 </div>
 
-                <div class="info-pagos-div">
+                <div id="info-pagos-div">
                     <i class="bi bi-credit-card-fill"></i>
                     <div class="info-pagos-estructura">
-                        <h3 class="info-pagos-titulo">ABONA CON TARJETA DE CREDITO, <br>DEBITO Y MERCADO PAGO</h3>
+                        <h3 id="info-pagos-titulo">ABONA CON TARJETA DE CREDITO, <br>DEBITO Y MERCADO PAGO</h3>
                     </div>
                 </div>
 
-                <div class="info-wspp-div">
+                <div id="info-wspp-div">
                     <i class="bi bi-whatsapp"></i>
                     <div class="info-wspp-estructura">
-                        <h3 class="info-wspp-titulo">TE AYUDAMOS CON TUS COMPRAS</h3>
+                        <h3 id="info-wspp-titulo">TE AYUDAMOS CON TUS COMPRAS</h3>
                     </div>
                 </div>
 
@@ -202,8 +206,6 @@
 
 <!-----FOOTER----->
     <footer>
-
-        <button id="color-mode" class="btn btn-dark">Dark Mode</button>
 
         <section class="footer-nav">
             <h2 class="footer-nav-titulo">Navegacion</h2>

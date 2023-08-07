@@ -12,10 +12,86 @@ body.dark-mode {
     color: white;
 }
 
-#boton-hamburguesa.dark-mode {
-    background-color: $color-verde;
+#presentacion-texto-bienvenida.dark-mode {
+    color: #17655b;
 }
 
-header.dark-mode {
-    background-color: #1b0737;
+#boton-hamburguesa.dark-mode {
+    background-color: #17655b;
+}
+
+#section-productos.dark-mode {
+    background-color: #202b34;
+    box-shadow: 5px 5px black;
+    #productos-titulo.dark-mode {
+        color: #17655b;
+    }
+    #productos-texto.dark-mode {
+        color: white;
+        #productos-link.dark-mode {
+            color: #981955;
+        }
+    }
+    #productos-texto2.dark-mode {
+        color: white;
+    }
+}
+
+#section-reservas.dark-mode {
+    background-color: #202b34;
+    box-shadow: 5px 5px black;
+    #reservas-titulo.dark-mode {
+        color: #17655b;
+    }
+    #reservas-texto.dark-mode {
+        color: white;
+        #reservas-link.dark-mode {
+            color: #981955;
+        }
+    }
+}
+
+#tarjetas-contenedor.dark-mode {
+    background-color: #17655b;
+}
+
+#tarjetas-contenedor2.dark-mode {
+    background-color: #17655b;
+}
+
+#tarjetas-contenedor3.dark-mode {
+    background-color: #17655b;
+}
+
+#direccion-titulo.dark-mode {
+    color: #17655b;
+    #direccion-titulo-enlace.dark-mode {
+        color: #981955;
+    }
+}
+
+#galeria-titulo.dark-mode {
+    color: #17655b;
+}
+
+#info-contenedor.dark-mode {
+    background-color: #202b34;
+    #info-envios-div.dark-mode {
+        #info-envios-titulo.dark-mode {
+            color: white;
+        }
+        #info-envios-texto.dark-mode {
+            color: white;
+        }
+    }
+    #info-pagos-div.dark-mode {
+        #info-pagos-titulo.dark-mode {
+            color: white;
+        }
+    }
+    #info-wspp-div.dark-mode {
+        #info-wspp-titulo.dark-mode {
+            color: white;
+        }
+    }
 }

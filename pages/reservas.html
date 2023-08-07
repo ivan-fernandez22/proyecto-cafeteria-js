@@ -25,23 +25,22 @@
 
         <div>
             <img src="../imgs/logo.png" alt="Logo de la cafetería" class="logo">
-            <h1><a href="../index.html" class="h1-link">Le Paradis</a></h1>
+            <h1><a href="../index.html" id="h1-link">Le Paradis</a></h1>
         </div>
 
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="boton-hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link" href="../pages/productos.html">Tienda de productos</a>
-                        <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                        <a class="nav-link" href="./productos.html">Tienda de productos</a>
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
                         <a class="nav-link" href="#">Contacto</a>
                     </div>
+                    <button id="color-mode" class="btn btn-dark">Dark Mode</button>
                 </div>
             </div>
         </nav>
@@ -146,8 +145,8 @@
     </script>
 
     <!-- <script src="../js/notas.js"></script> -->
-
     <script src="../js/reservas.js"></script>
+    <script src="../js/components/botonDM.js"></script>
 
 </body>
 
