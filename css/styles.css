@@ -639,7 +639,7 @@ h2 {
   margin-top: 1rem;
   margin-left: 3vw;
 }
-.section-cakes .tarjeta-chessecakeFr {
+.section-cakes #tarjeta-chessecakeFr {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -647,48 +647,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-titulo {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-texto {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-precio {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito:hover {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-img {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-chessecakeFr .chessecakeFr-div-img .chessecakeFr-img {
+.section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-img .chessecakeFr-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-chessecakeMaracuya {
+.section-cakes #tarjeta-chessecakeMaracuya {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -697,48 +697,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-titulo {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-texto {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-precio {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito:hover {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img .chessecakeMaracuya-img {
+.section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img .chessecakeMaracuya-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-tortaChocolate {
+.section-cakes #tarjeta-tortaChocolate {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -747,48 +747,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-titulo {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-texto {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-precio {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito:hover {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-img {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-tortaChocolate .tortaChocolate-div-img .tortaChocolate-img {
+.section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-img .tortaChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-lemonPie {
+.section-cakes #tarjeta-lemonPie {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -797,48 +797,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-titulo {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-texto {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-precio {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito:hover {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-img {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-lemonPie .lemonPie-div-img .lemonPie-img {
+.section-cakes #tarjeta-lemonPie .lemonPie-div-img .lemonPie-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-tortaOreo {
+.section-cakes #tarjeta-tortaOreo {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -847,48 +847,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-titulo {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-texto {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-precio {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito:hover {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-img {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-tortaOreo .tortaOreo-div-img .tortaOreo-img {
+.section-cakes #tarjeta-tortaOreo .tortaOreo-div-img .tortaOreo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-chocotorta {
+.section-cakes #tarjeta-chocotorta {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -897,48 +897,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-titulo {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-texto {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-precio {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito:hover {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-img {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-chocotorta .chocotorta-div-img .chocotorta-img {
+.section-cakes #tarjeta-chocotorta .chocotorta-div-img .chocotorta-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-cakes .tarjeta-carrotCake {
+.section-cakes #tarjeta-carrotCake {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -947,43 +947,43 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-titulo {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-texto {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-precio {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito:hover {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito:hover {
   color: #16453F;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-img {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-img {
   display: flex;
   align-items: center;
 }
-.section-cakes .tarjeta-carrotCake .carrotCake-div-img .carrotCake-img {
+.section-cakes #tarjeta-carrotCake .carrotCake-div-img .carrotCake-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
@@ -999,7 +999,7 @@ h2 {
   margin-top: 1rem;
   margin-left: 3vw;
 }
-.section-sandwichs .tarjeta-tostadoJYQ {
+.section-sandwichs #tarjeta-tostadoJYQ {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -1008,48 +1008,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-titulo {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-texto {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-precio {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito:hover {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito:hover {
   color: #16453F;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-img {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-img {
   display: flex;
   align-items: center;
 }
-.section-sandwichs .tarjeta-tostadoJYQ .tostadoJYQ-div-img .tostadoJYQ-img {
+.section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-img .tostadoJYQ-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-sandwichs .tarjeta-tostada {
+.section-sandwichs #tarjeta-tostada {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -1058,48 +1058,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-titulo {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-texto {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-precio {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-carrito {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-contenedor .tostada-carrito:hover {
+.section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-carrito:hover {
   color: #16453F;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-img {
+.section-sandwichs #tarjeta-tostada .tostada-div-img {
   display: flex;
   align-items: center;
 }
-.section-sandwichs .tarjeta-tostada .tostada-div-img .tostada-img {
+.section-sandwichs #tarjeta-tostada .tostada-div-img .tostada-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo {
+.section-sandwichs #tarjeta-sandwichMediterraneo {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -1108,48 +1108,48 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-titulo {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-texto {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-precio {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito:hover {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito:hover {
   color: #16453F;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img {
   display: flex;
   align-items: center;
 }
-.section-sandwichs .tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img .sandwichMediterraneo-img {
+.section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img .sandwichMediterraneo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie {
+.section-sandwichs #tarjeta-hamburguesaVeggie {
   background-color: #F1E6D0;
   width: 95vw;
   display: grid;
@@ -1158,43 +1158,43 @@ h2 {
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor {
   display: flexbox;
   margin-left: 0.5rem;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-titulo {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-titulo {
   font-family: "Anton", sans-serif;
   font-size: 0.9rem;
   color: black;
   margin-top: 10px;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-texto {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-texto {
   font-family: "Narnoor", serif;
   font-size: 0.8rem;
   color: black;
   margin-top: -10px;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-precio {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-precio {
   font-family: "Narnoor", serif;
   font-size: 1rem;
   text-decoration-style: solid;
   color: #541734;
   margin-top: -16px;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito {
   font-family: "Narnoor", serif;
   font-size: 0.9rem;
   color: black;
   margin-top: -20px;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito:hover {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito:hover {
   color: #16453F;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img {
   display: flex;
   align-items: center;
 }
-.section-sandwichs .tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
+.section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
@@ -1966,6 +1966,66 @@ body.dark-mode {
 }
 #info-contenedor.dark-mode #info-wspp-div.dark-mode #info-wspp-titulo.dark-mode {
   color: white;
+}
+
+h2.dark-mode {
+  color: #17655b;
+}
+
+#aviso.dark-mode {
+  color: white;
+}
+
+#titulo1.dark-mode {
+  color: white;
+}
+
+#tarjeta-chessecakeFr.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-chessecakeMaracuya.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-tortaChocolate.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-lemonPie.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-tortaOreo.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-chocotorta.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-carrotCake.dark-mode {
+  background-color: whitesmoke;
+}
+
+#titulo2.dark-mode {
+  color: white;
+}
+
+#tarjeta-tostadoJYQ.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-tostada.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-sandwichMediterraneo.dark-mode {
+  background-color: whitesmoke;
+}
+
+#tarjeta-hamburguesaVeggie.dark-mode {
+  background-color: whitesmoke;
 }
 
 /*# sourceMappingURL=styles.css.map */

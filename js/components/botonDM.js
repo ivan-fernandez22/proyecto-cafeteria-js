@@ -1,6 +1,4 @@
-// // DARK MODE BUTTON
-
-// INDEX
+// // DARK MODE BUTTON INDEX
 
 const colorModeButton = document.querySelector ("#color-mode")
 
@@ -125,4 +123,3 @@ colorModeButton.addEventListener ("click", () => {
         activarDarkMode ()
     }
 })
-
