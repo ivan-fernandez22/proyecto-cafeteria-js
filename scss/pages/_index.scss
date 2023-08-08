@@ -50,11 +50,12 @@ header {
                 }
 
                 #color-mode {
+                    width: 32vw;
+                    height: 6vh;
                     font-family: $fuente-textos;
                     position: relative;
                     top: 20px;
-                }
-                .btn {
+                    left: -1vw;
                     background-color: $color-verde;
                     color: white;
                     border: solid black 2px;
