@@ -17,17 +17,17 @@ header {
   width: 100%;
 }
 header .logo {
-  width: 30px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-top: 10px;
   margin-left: 10px;
 }
 header h1 {
   font-family: "Italianno", cursive;
-  font-size: 2.4rem;
-  margin-top: -32px;
-  margin-left: 45px;
-  width: 130px;
+  font-size: 2.6rem;
+  margin-top: -40px;
+  margin-left: 70px;
+  width: 135px;
 }
 header #h1-link {
   text-decoration: none;
@@ -41,6 +41,7 @@ header .navbar .container-fluid .navbar-toggler {
 }
 header .navbar .container-fluid .collapse {
   min-height: 200px;
+  margin-left: -20px;
 }
 header .navbar .container-fluid .collapse .navbar-nav {
   height: 120px;
@@ -65,6 +66,71 @@ header .navbar .container-fluid .collapse #color-mode {
   border: solid black 2px;
 }
 
+@media (min-width: 768px) {
+  header {
+    height: 100px;
+  }
+  header .logo {
+    width: 60px;
+    height: 70px;
+    margin-top: 14px;
+  }
+  header h1 {
+    font-size: 3.5rem;
+    margin-top: -55px;
+    margin-left: 70px;
+    width: 190px;
+  }
+  header .navbar .container-fluid .navbar-toggler {
+    background-color: #F0DEBB;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav {
+    height: 120px;
+    width: 400px;
+    margin-top: 10px;
+    position: relative;
+    left: -40px;
+    color: beige;
+    padding: 40px;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav .active {
+    margin-left: 15px;
+  }
+  header .navbar .container-fluid .collapse #color-mode {
+    width: 106px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -30px;
+  }
+}
+@media (min-width: 1200px) {
+  header .logo {
+    margin-left: 20px;
+  }
+  header h1 {
+    margin-left: 80px;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav {
+    margin-top: 10px;
+    position: relative;
+    left: -60px;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+  header .navbar .container-fluid .collapse .navbar-nav .active {
+    margin-left: 15px;
+  }
+  header .navbar .container-fluid .collapse #color-mode {
+    width: 106px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -30px;
+  }
+}
 /*----CARRUSEL-----*/
 .section-carrusel .carousel {
   max-width: 100%;
@@ -73,6 +139,16 @@ header .navbar .container-fluid .collapse #color-mode {
   height: 30vh;
 }
 
+@media (min-width: 768px) {
+  .section-carrusel .carousel .carousel-inner .carousel-item .carrusel-img {
+    height: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-carrusel .carousel .carousel-inner .carousel-item .carrusel-img {
+    height: 550px;
+  }
+}
 /*------PRESENTACION-------*/
 .section-presentacion {
   display: flexbox;
@@ -96,6 +172,31 @@ header .navbar .container-fluid .collapse #color-mode {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .section-presentacion {
+    margin-top: 2rem;
+  }
+  .section-presentacion #presentacion-texto-bienvenida {
+    font-size: 1.5rem;
+  }
+  .section-presentacion #presentacion-texto {
+    font-size: 1.2rem;
+    width: 80%;
+    margin-top: -12px;
+    margin-left: 8vw;
+  }
+}
+@media (min-width: 1200px) {
+  .section-presentacion {
+    margin-top: 2rem;
+  }
+  .section-presentacion #presentacion-texto-bienvenida {
+    font-size: 2rem;
+  }
+  .section-presentacion #presentacion-texto {
+    font-size: 1.35rem;
+  }
+}
 /*------- PRODUCTOS Y RESERVAS ---------*/
 #section-productos {
   display: flexbox;
@@ -143,6 +244,31 @@ header .navbar .container-fluid .collapse #color-mode {
   text-align: center;
 }
 
+@media (min-width: 1200px) {
+  #section-productos {
+    margin-top: 5rem;
+    box-shadow: 10px 10px #38383e;
+    min-height: 135px;
+  }
+  #section-productos #productos-titulo {
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
+  }
+  #section-productos #productos-texto {
+    font-size: 1.3rem;
+    margin-top: 2px;
+  }
+  #section-productos #productos-texto #productos-link {
+    font-size: 1.3rem;
+  }
+  #section-productos #productos-texto #productos-link:hover {
+    font-size: 1.4rem;
+  }
+  #section-productos #productos-texto2 {
+    font-size: 1.1rem;
+  }
+}
 #section-reservas {
   display: flexbox;
   justify-content: center;
@@ -180,6 +306,28 @@ header .navbar .container-fluid .collapse #color-mode {
   font-size: 1.1rem;
 }
 
+@media (min-width: 1200px) {
+  #section-reservas {
+    margin-top: 5rem;
+    box-shadow: 10px 10px #38383e;
+    min-height: 90px;
+  }
+  #section-reservas #reservas-titulo {
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
+  }
+  #section-reservas #reservas-texto {
+    font-size: 1.3rem;
+    margin-top: 2px;
+  }
+  #section-reservas #reservas-texto #reservas-link {
+    font-size: 1.3rem;
+  }
+  #section-reservas #reservas-texto #reservas-link:hover {
+    font-size: 1.4rem;
+  }
+}
 /*------TARJETAS------*/
 .section-tarjetas {
   margin-top: 4rem;
@@ -349,6 +497,77 @@ header .navbar .container-fluid .collapse #color-mode {
   font-size: 1.1rem;
 }
 
+@media (min-width: 768px) {
+  .section-tarjetas #tarjetas-contenedor {
+    height: 170px;
+  }
+  .section-tarjetas #tarjetas-contenedor .tarjetas-img1 {
+    width: 180px;
+    height: 170px;
+    overflow: hidden;
+  }
+  .section-tarjetas #tarjetas-contenedor .tarjetas-estructura {
+    display: flexbox;
+    margin-left: 4vw;
+    margin-top: 25px;
+  }
+  .section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito {
+    font-size: 1.2rem;
+  }
+  .section-tarjetas #tarjetas-contenedor .tarjetas-estructura .tarjetas-texto-carrito:hover {
+    font-size: 1.3rem;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 {
+    height: 170px;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 .tarjetas-img2 {
+    width: 180px;
+    height: 170px;
+    overflow: hidden;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 {
+    display: flexbox;
+    margin-left: 4vw;
+    margin-top: 25px;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto2 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2 {
+    font-size: 1.2rem;
+  }
+  .section-tarjetas2 #tarjetas-contenedor2 .tarjetas-estructura2 .tarjetas-texto-carrito2:hover {
+    font-size: 1.3rem;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 {
+    height: 170px;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 .tarjetas-img3 {
+    width: 180px;
+    height: 170px;
+    overflow: hidden;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 {
+    display: flexbox;
+    margin-left: 4vw;
+    margin-top: 15px;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto3 {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3 {
+    font-size: 1.2rem;
+  }
+  .section-tarjetas3 #tarjetas-contenedor3 .tarjetas-estructura3 .tarjetas-texto-carrito3:hover {
+    font-size: 1.3rem;
+  }
+}
 /*------DIRECCION-----*/
 .section-direccion {
   margin-top: 6rem;
@@ -370,6 +589,15 @@ header .navbar .container-fluid .collapse #color-mode {
   height: 30vh;
 }
 
+@media (min-width: 768px) {
+  .section-direccion .direccion-maps-contenedor {
+    margin-top: 1rem;
+  }
+  .section-direccion .direccion-maps-contenedor .direccion-maps {
+    width: 90vw;
+    height: 50vh;
+  }
+}
 /*------GALERIA-------*/
 .section-galeria {
   margin-top: 5rem;
@@ -422,6 +650,48 @@ header .navbar .container-fluid .collapse #color-mode {
   height: 22vh;
 }
 
+@media (min-width: 768px) {
+  .section-galeria #galeria-titulo {
+    font-size: 2rem;
+  }
+  .section-galeria .galeria-contenedor {
+    width: 80%;
+    margin-left: 10vw;
+    gap: 3vw;
+  }
+  .section-galeria .galeria-contenedor .galeria-img1 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img2 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img3 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img4 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img5 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img6 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img7 {
+    width: 40vw;
+    height: 250px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img8 {
+    width: 40vw;
+    height: 250px;
+  }
+}
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
 .section-info {
   margin-top: 4rem;
@@ -495,6 +765,11 @@ header .navbar .container-fluid .collapse #color-mode {
   color: black;
 }
 
+@media (min-width: 768px) {
+  .section-info {
+    margin-top: 7rem;
+  }
+}
 /*-----FOOTER-----*/
 footer {
   margin-top: 4rem;
@@ -515,6 +790,7 @@ footer .footer-nav .footer-nav-lista {
   list-style: none;
   position: relative;
   left: -20px;
+  font-family: "Narnoor", serif;
 }
 footer .footer-nav .footer-nav-lista .footer-nav-links {
   text-decoration: none;
@@ -585,6 +861,13 @@ footer .footer-email .email-titulo {
 footer .footer-email .email-div-formulario {
   margin-top: 12px;
 }
+footer .footer-email .email-div-formulario #email-enviar {
+  width: 60px;
+  height: 30px;
+  background-color: #16453F;
+  color: white;
+  border-radius: 30px solid black;
+}
 footer .footer-ubicacion {
   margin-top: 3rem;
 }
@@ -597,6 +880,10 @@ footer .footer-ubicacion .ubicacion-link {
   text-decoration: none;
   color: white;
 }
+footer .footer-ubicacion .ubicacion-link:hover {
+  font-size: 1.1rem;
+  color: #16453F;
+}
 footer .footer-copyright {
   margin-top: 2rem;
 }
@@ -606,6 +893,86 @@ footer .footer-copyright .copyright-texto {
   color: white;
 }
 
+@media (min-width: 768px) {
+  footer {
+    margin-top: 8rem;
+    height: 900px;
+  }
+  footer .footer-nav .footer-nav-titulo {
+    font-size: 1.5rem;
+  }
+  footer .footer-nav .footer-nav-lista .footer-nav-links {
+    font-size: 1.3rem;
+  }
+  footer .footer-nav .footer-nav-lista .link-in:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-nav .footer-nav-lista .link-pr:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-nav .footer-nav-lista .link-re:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-nav .footer-nav-lista .link-co:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-redes .redes-titulo {
+    font-size: 1.5rem;
+  }
+  footer .footer-redes .redes-lista .redes-ig {
+    font-size: 1.3rem;
+  }
+  footer .footer-redes .redes-lista .redes-ig:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-redes .redes-lista .redes-fb {
+    font-size: 1.3rem;
+  }
+  footer .footer-redes .redes-lista .redes-fb:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-redes .redes-lista .redes-tw {
+    font-size: 1.3rem;
+  }
+  footer .footer-redes .redes-lista .redes-tw:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-pagos .pagos-titulo {
+    font-size: 1.5rem;
+  }
+  footer .footer-pagos .pagos-img {
+    margin-top: -0.5rem;
+    width: 400px;
+  }
+  footer .footer-email {
+    margin-top: 3rem;
+  }
+  footer .footer-email .email-titulo {
+    font-size: 1.5rem;
+  }
+  footer .footer-email .email-div-formulario #email-recuadro {
+    width: 300px;
+  }
+  footer .footer-email .email-div-formulario #email-enviar {
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -4px;
+    border-radius: 40px solid black;
+  }
+  footer .footer-ubicacion .ubicacion-titulo {
+    font-size: 1.5rem;
+  }
+  footer .footer-ubicacion .ubicacion-link {
+    font-size: 1.3rem;
+  }
+  footer .footer-ubicacion .ubicacion-link:hover {
+    font-size: 1.4rem;
+  }
+  footer .footer-copyright .copyright-texto {
+    font-size: 1.3rem;
+  }
+}
 h2 {
   font-family: "Anton", sans-serif;
   font-size: 1.7rem;
