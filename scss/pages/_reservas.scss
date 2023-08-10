@@ -62,11 +62,15 @@
     margin-left: 4vw;
     margin-top: 2rem;
     border-radius: 10px;
-    background-color: $color-verde;
+    background-color: $color-fondo;
     #p-reserva {
-        color: $color-fondo;
+        color: white;
         display: flex;
         text-align: center;
         margin-top: 10px;
     }
+}
+
+#div-confirmacion.cambiar-div-confirmacion {
+    background-color: $color-verde;
 }

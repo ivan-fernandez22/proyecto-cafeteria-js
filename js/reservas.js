@@ -23,14 +23,17 @@ function validarFormulario(e) {
 
     const reservaConfirmada = sessionStorage.getItem('Reservado')
     const reservaParseada = JSON.parse(reservaConfirmada)
-    // console.log ("Bienvenido " + reservaParseada.nombre)
+
 
     const confirmacion = document.getElementById('p-reserva')
     const divConfirmacion = document.getElementById('div-confirmacion')
 
     confirmacion.innerHTML = `
-        ${reservaParseada.nombre} le informamos que su reserva para la fecha ${reservaParseada.fecha} fue confirmada con exito!
+        ${reservaParseada.nombre} su reserva fue confirmada con exito! 
+        Lo esperamos el día ${reservaParseada.fecha}.
     `
+
+    divConfirmacion.classList.add ("cambiar-div-confirmacion")
 
     divConfirmacion.prepend(confirmacion)
 }

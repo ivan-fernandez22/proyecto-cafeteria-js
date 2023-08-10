@@ -54,6 +54,7 @@
         <!----TITULO---->
         <h2>Reservas</h2>
 
+        <!----FORMULARIO---->
         <section id="reservas">
             <form id="formulario">
                 <label for="nombre">Nombre</label><br>
@@ -70,16 +71,16 @@
                 <input id="cantidad" name="cantidad" type="number" /><br>
                 <label for="fecha" class="label-e">Fecha y horario</label><br>
                 <input id="fecha" name="fecha" type="datetime-local" /><br>
-                <input type="submit" value="Enviar" class="btn btn-dark">
+                <input id="btn-enviar" type="submit" value="Enviar" class="btn btn-dark">
             </form>
         </section>
 
+        <!-----MSJ DE CONFIRAMCION------>
         <div id="div-confirmacion">
             <p id="p-reserva"></p>
         </div>
 
     </main>
-
 
 
     <!----------------FOOTER-------------------->
@@ -144,9 +145,8 @@
         });
     </script>
 
-    <!-- <script src="../js/notas.js"></script> -->
     <script src="../js/reservas.js"></script>
-    <script src="../js/components/botonDM.js"></script>
+    <script src="../js/components/botonDM-reservas.js"></script>
 
 </body>
 
