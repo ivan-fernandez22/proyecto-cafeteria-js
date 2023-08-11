@@ -1080,3 +1080,10 @@
 
 // const arrayB = { ...array};
 // console.log (arrayB) // Viene con los indices de los elementos del array
+
+
+
+
+// CLASE 14: LIBRERIAS
+
+// SWEET ALERT

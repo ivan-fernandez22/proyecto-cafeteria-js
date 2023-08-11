@@ -35,31 +35,49 @@ header {
 
             .collapse {
                 min-height: 200px;
-                margin-left: -20px;
+                margin-left: -0px;
+                width: auto;
 
                 .navbar-nav {
                     height: 120px;
-                    width: 150px;
+                    width: auto;
                     margin-top: 12px;
                     color: beige;
 
                     .nav-link {
                         margin-top: -10px;
                         color: beige;
-                        width: 40vw;
+                        width: 100%;
                     }
                 }
 
                 #color-mode {
-                    width: 32vw;
+                    width: 106px;
                     height: 6vh;
                     font-family: $fuente-textos;
                     position: relative;
                     top: 20px;
-                    left: -1vw;
+                    left: -25px;
                     background-color: $color-verde;
                     color: white;
                     border: solid black 2px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 350px) {
+    header {
+        .navbar {
+            .container-fluid {
+                .collapse {
+                    #color-mode {
+                        position: relative;
+                        top: 20px;
+                        left: -5px;
+                    }
                 }
             }
         }
@@ -76,8 +94,8 @@ header {
             margin-top: 14px;
         }
         h1 {
-            font-size: 3.5rem;
-            margin-top: -55px;
+            font-size: 3rem;
+            margin-top: -48px;
             margin-left: 70px;
             width: 190px;
         }
@@ -90,22 +108,23 @@ header {
                     .navbar-nav {
                         height: 120px;
                         width: 400px;
-                        margin-top: 10px;
+                        margin-top: 100px;
                         position: relative;
                         left: -40px;
                         color: beige;
-                        padding: 40px;
+                        gap: 3px;
                         .nav-link {
                             font-size: 1.1rem;
                         }
                         .active {
-                            margin-left: 15px;
+                            position: relative;
+                            left: 30px;
                         }
                     }
                     #color-mode {
                         width: 106px;
                         height: 40px;
-                        margin-left: -20px;
+                        margin-left: -35px;
                         margin-top: -30px;
                     }
                 }
@@ -121,27 +140,33 @@ header {
             margin-left: 20px;
         }
         h1 {
-            margin-left: 80px;
+            font-size: 3.5rem;
+            margin-left: 85px;
+            margin-top: -57px;
         }
         .navbar {
             .container-fluid {
                 .collapse {
                     .navbar-nav {
-                        margin-top: 10px;
+                        height: 200px;
+                        width: 400px;
                         position: relative;
-                        left: -60px;
+                        top: 30px;
+                        left: -40px;
+                        gap: 20px;
                         .nav-link {
                             font-size: 1.2rem;
                         }
                         .active {
-                            margin-left: 15px;
+                            position: relative;
+                            left: 0px;
                         }
                     }
                     #color-mode {
                         width: 106px;
                         height: 40px;
-                        margin-left: -20px;
-                        margin-top: -30px;
+                        margin-left: 10px;
+                        margin-top: -45px;
                     }
                 }
             }
@@ -196,6 +221,21 @@ header {
 }
 
 
+@media (min-width: 1600px) {
+    .section-carrusel {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carrusel-img {
+                        height: 650px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 /*------PRESENTACION-------*/
 .section-presentacion {
     display: flexbox;
@@ -240,12 +280,25 @@ header {
 
 @media (min-width: 1200px) {
     .section-presentacion {
-        margin-top: 2rem;
+        margin-top: 2.5rem;
         #presentacion-texto-bienvenida {
             font-size: 2rem;
         }
         #presentacion-texto {
             font-size: 1.35rem;
+        }
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .section-presentacion {
+        margin-top: 2.5rem;
+        #presentacion-texto-bienvenida {
+            font-size: 2.3rem;
+        }
+        #presentacion-texto {
+            font-size: 1.5rem;
         }
     }
 }
@@ -332,6 +385,14 @@ header {
 }
 
 
+@media (min-width: 1600px) {
+    #section-productos {
+        margin-left: 25vw;
+        width: 50vw;
+    }
+}
+
+
 #section-reservas {
     display: flexbox;
     justify-content: center;
@@ -376,7 +437,7 @@ header {
 
 @media (min-width: 1200px) {
     #section-reservas {
-        margin-top: 5rem;
+        margin-top: 3rem;
         box-shadow: 10px 10px #38383e;
         min-height: 90px;
         #reservas-titulo {
@@ -394,6 +455,14 @@ header {
                 }
             }
         }
+    }
+}
+
+
+@media (min-width: 1600px) {
+    #section-reservas {
+        margin-left: 25vw;
+        width: 50vw;
     }
 }
 
@@ -671,6 +740,107 @@ header {
 }
 
 
+@media (min-width: 1200px) {
+    .section-tarjetas {
+        margin-top: 7rem;
+        #tarjetas-contenedor {
+            height: 200px;
+            .tarjetas-img1 {
+                width: 240px;
+                height: 200px;
+            }
+            .tarjetas-estructura {
+                margin-top: 25px;
+                .tarjetas-div-oferta1 {
+                    width: 220px;
+                    height: 40px;
+                    .tarjetas-oferta1 {
+                        margin-left: 20px;
+                        position: relative;
+                        top: 0px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .tarjetas-texto {
+                    font-size: 1.3rem;
+                    width: 100%;
+                }
+                .tarjetas-texto-carrito {
+                    font-size: 1.3rem;
+                    &:hover {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+    .section-tarjetas2 {
+        #tarjetas-contenedor2 {
+            height: 200px;
+            .tarjetas-img2 {
+                width: 240px;
+                height: 200px;
+            }
+            .tarjetas-estructura2 {
+                margin-top: 25px;
+                .tarjetas-div-oferta2 {
+                    width: 160px;
+                    height: 40px;
+                    .tarjetas-oferta2 {
+                        margin-left: 20px;
+                        position: relative;
+                        top: 0px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .tarjetas-texto2 {
+                    font-size: 1.3rem;
+                    width: 100%;
+                }
+                .tarjetas-texto-carrito2 {
+                    font-size: 1.3rem;
+                    &:hover {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+    .section-tarjetas3 {
+        #tarjetas-contenedor3 {
+            height: 200px;
+            .tarjetas-img3 {
+                width: 240px;
+                height: 200px;
+            }
+            .tarjetas-estructura3 {
+                margin-top: 25px;
+                .tarjetas-div-oferta3 {
+                    width: 235px;
+                    height: 40px;
+                    .tarjetas-oferta3 {
+                        margin-left: 20px;
+                        position: relative;
+                        top: 0px;
+                        font-size: 1.4rem;
+                    }
+                }
+                .tarjetas-texto3 {
+                    font-size: 1.3rem;
+                    width: 100%;
+                }
+                .tarjetas-texto-carrito3 {
+                    font-size: 1.3rem;
+                    &:hover {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 /*------DIRECCION-----*/
 .section-direccion {
     margin-top: 6rem;
@@ -697,11 +867,31 @@ header {
 
 @media (min-width: 768px) {
     .section-direccion {
+        #direccion-titulo {
+            font-size: 1.5rem;
+        }
         .direccion-maps-contenedor {
             margin-top: 1rem;
             .direccion-maps {
                 width: 90vw;
                 height: 50vh;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .section-direccion {
+        margin-top: 8rem;
+        #direccion-titulo {
+            font-size: 2rem;
+        }
+        .direccion-maps-contenedor {
+            margin-top: 1rem;
+            .direccion-maps {
+                width: 90vw;
+                height: 60vh;
             }
         }
     }
@@ -817,6 +1007,41 @@ header {
 }
 
 
+@media (min-width: 1200px) {
+    .section-galeria {
+        #galeria-titulo {
+            font-size: 2.3rem;
+        }
+        .galeria-contenedor {
+            .galeria-img1 {
+                height: 350px;
+            }
+            .galeria-img2 {
+                height: 350px;
+            }
+            .galeria-img3 {
+                height: 350px;
+            }
+            .galeria-img4 {
+                height: 350px;
+            }
+            .galeria-img5 {
+                height: 350px;
+            }
+            .galeria-img6 {
+                height: 350px;
+            }
+            .galeria-img7 {
+                height: 350px;
+            }
+            .galeria-img8 {
+                height: 350px;
+            }
+        }
+    }
+}
+
+
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
 .section-info {
     margin-top: 4rem;
@@ -909,6 +1134,62 @@ header {
 @media (min-width: 768px) {
     .section-info {
         margin-top: 7rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .section-info {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 130px;
+        #info-contenedor {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            #info-envios-div {
+                .bi-truck {
+                    font-size: 60px;
+                }
+                .info-envios-estructura {
+                    margin-right: 2rem;
+                    margin-top: 2rem;
+                    #info-envios-titulo {
+                        font-size: 1.4rem;
+                    }
+                    #info-envios-texto {
+                        font-size: 1.3rem;
+                        margin-top: -10px;
+                    }
+                }
+            }
+            #info-pagos-div {
+                .bi-credit-card-fill {
+                    font-size: 60px;
+                }
+                .info-pagos-estructura {
+                    margin-right: 2rem;
+                    margin-top: 2rem;
+                    #info-pagos-titulo {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+            #info-wspp-div {
+                margin-top: 1.5rem;
+                margin-right: 28px;
+                .bi-whatsapp {
+                    font-size: 60px;
+                }
+                .info-wspp-estructura {
+                    #info-wspp-titulo {
+                        font-size: 1.4rem;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -1145,7 +1426,6 @@ footer {
                     height: 35px;
                     margin-left: 10px;
                     margin-top: -4px;
-                    border-radius: 40px solid black;
                 }
             }
         }
