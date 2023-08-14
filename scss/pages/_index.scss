@@ -39,7 +39,7 @@ header {
                 width: auto;
 
                 .navbar-nav {
-                    height: 120px;
+                    min-height: 140px;
                     width: auto;
                     margin-top: 12px;
                     color: beige;
@@ -56,7 +56,7 @@ header {
                     height: 6vh;
                     font-family: $fuente-textos;
                     position: relative;
-                    top: 20px;
+                    top: 0px;
                     left: -25px;
                     background-color: $color-verde;
                     color: white;
@@ -75,7 +75,7 @@ header {
                 .collapse {
                     #color-mode {
                         position: relative;
-                        top: 20px;
+                        top: 0px;
                         left: -5px;
                     }
                 }

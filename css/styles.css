@@ -45,7 +45,7 @@ header .navbar .container-fluid .collapse {
   width: auto;
 }
 header .navbar .container-fluid .collapse .navbar-nav {
-  height: 120px;
+  min-height: 140px;
   width: auto;
   margin-top: 12px;
   color: beige;
@@ -60,7 +60,7 @@ header .navbar .container-fluid .collapse #color-mode {
   height: 6vh;
   font-family: "Narnoor", serif;
   position: relative;
-  top: 20px;
+  top: 0px;
   left: -25px;
   background-color: #16453F;
   color: white;
@@ -70,7 +70,7 @@ header .navbar .container-fluid .collapse #color-mode {
 @media (min-width: 350px) {
   header .navbar .container-fluid .collapse #color-mode {
     position: relative;
-    top: 20px;
+    top: 0px;
     left: -5px;
   }
 }

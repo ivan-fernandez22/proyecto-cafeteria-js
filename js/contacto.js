@@ -20,7 +20,7 @@ header.innerHTML = `
                     <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     <a class="nav-link" href="./productos.html">Tienda de productos</a>
                     <a class="nav-link" href="./reservas.html">Reservas</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
                 </div>
                 <button id="color-mode" class="btn btn-dark">Dark Mode</button>
             </div>
