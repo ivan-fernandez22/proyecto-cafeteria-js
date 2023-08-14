@@ -1,0 +1,60 @@
+.contenedor-trabajo {
+    width: 90%;
+    color: black;
+    display: flexbox;
+    text-align: center;
+    font-family: $fuente-textos;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-left: 5vw;
+}
+
+.formulario-trabajo {
+    background-color: #F1E6D0;
+    color: black;
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 5vw;
+    border-radius: 16px;
+    font-family: $fuente-textos;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 600px;
+    .label-f {
+        margin-top: 20px;
+    }
+    .btn {
+        background-color: $color-verde;
+        color: white;
+        margin-top: 1.5rem;
+    }
+}
+
+.contenedor-contacto {
+    width: 90%;
+    color: black;
+    display: flexbox;
+    text-align: center;
+    font-family: $fuente-textos;
+    font-size: 1.1rem;
+    margin-top: 5rem;
+    margin-left: 5vw;
+    .redes-lista-contacto {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 40px;
+        .redes-ig-contacto {
+            font-size: 2rem;
+            color: #833AB4;
+        }
+        .redes-fb-contacto {
+            font-size: 2rem;
+            color: #3b5998;
+        }
+        .redes-tw-contacto {
+            color: #00acee;
+            font-size: 2rem;
+        }
+    }
+}

@@ -35,7 +35,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         <a class="nav-link" href="./pages/productos.html">Tienda de productos</a>
                         <a class="nav-link" href="./pages/reservas.html">Reservas</a>
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </div>
                     <button id="color-mode" class="btn btn-dark">Dark Mode</button>
                 </div>
@@ -213,7 +213,7 @@
                 <li><a href="./index.html" class="footer-nav-links link-in">Inicio</a></li>
                 <li><a href="./pages/productos.html" class="footer-nav-links link-pr">Tienda de productos</a></li>
                 <li><a href="./pages/reservas.html" class="footer-nav-links link-re">Reservas</a></li>
-                <li><a class="footer-nav-links link-co">Contacto</a></li>
+                <li><a href="./pages/contacto.html" class="footer-nav-links link-co">Contacto</a></li>
             </ul>
         </section>
 
@@ -234,8 +234,10 @@
         <section class="footer-email">
             <h2 class="email-titulo">Ingresa tu mail para recibir descuentos únicos</h2>
             <div class="email-div-formulario">
-                <input type="email" id="email-recuadro">
-                <input id="email-enviar" type="submit" value="Enviar" />
+                <form id="formulario-email">
+                    <input type="email" id="email-recuadro">
+                    <input id="email-enviar" type="submit" value="Enviar" />
+                </form>
             </div>
         </section>
 
@@ -268,7 +270,9 @@
     </script>
 
     <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/components/botonDM.js"></script>
+    <script src="js/components/formularioFooter.js"></script>
 
 </body>
 

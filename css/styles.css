@@ -809,6 +809,7 @@ header .navbar .container-fluid .collapse #color-mode {
 @media (min-width: 768px) {
   .section-galeria #galeria-titulo {
     font-size: 2rem;
+    margin-left: 3vw;
   }
   .section-galeria .galeria-contenedor {
     width: 80%;
@@ -851,6 +852,10 @@ header .navbar .container-fluid .collapse #color-mode {
 @media (min-width: 1200px) {
   .section-galeria #galeria-titulo {
     font-size: 2.3rem;
+    margin-left: 4vw;
+  }
+  .section-galeria .galeria-contenedor {
+    margin-top: 2rem;
   }
   .section-galeria .galeria-contenedor .galeria-img1 {
     height: 350px;
@@ -875,6 +880,35 @@ header .navbar .container-fluid .collapse #color-mode {
   }
   .section-galeria .galeria-contenedor .galeria-img8 {
     height: 350px;
+  }
+}
+@media (min-width: 1600px) {
+  .section-galeria #galeria-titulo {
+    font-size: 2.3rem;
+  }
+  .section-galeria .galeria-contenedor .galeria-img1 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img2 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img3 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img4 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img5 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img6 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img7 {
+    height: 450px;
+  }
+  .section-galeria .galeria-contenedor .galeria-img8 {
+    height: 450px;
   }
 }
 /*--------INFORMACION DE ENVIOS, PAGOS Y WSPP-------*/
@@ -1229,6 +1263,25 @@ h2 {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .section-aviso .aviso-div-productos .aviso-texto {
+    font-family: "Narnoor", serif;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2.3rem;
+  }
+  .section-aviso .aviso-div-productos .aviso-texto {
+    font-family: "Narnoor", serif;
+    font-size: 1.3rem;
+  }
+}
 .section-cakes {
   margin-top: 1.5rem;
 }
@@ -1281,12 +1334,15 @@ h2 {
 }
 .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-img .chessecakeFr-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
+  text-align: end;
 }
 .section-cakes #tarjeta-chessecakeMaracuya {
   background-color: #F1E6D0;
@@ -1331,12 +1387,14 @@ h2 {
 }
 .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img .chessecakeMaracuya-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-cakes #tarjeta-tortaChocolate {
   background-color: #F1E6D0;
@@ -1381,12 +1439,14 @@ h2 {
 }
 .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-img .tortaChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-cakes #tarjeta-lemonPie {
   background-color: #F1E6D0;
@@ -1431,12 +1491,14 @@ h2 {
 }
 .section-cakes #tarjeta-lemonPie .lemonPie-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-lemonPie .lemonPie-div-img .lemonPie-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-cakes #tarjeta-tortaOreo {
   background-color: #F1E6D0;
@@ -1481,12 +1543,14 @@ h2 {
 }
 .section-cakes #tarjeta-tortaOreo .tortaOreo-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-tortaOreo .tortaOreo-div-img .tortaOreo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-cakes #tarjeta-chocotorta {
   background-color: #F1E6D0;
@@ -1531,12 +1595,14 @@ h2 {
 }
 .section-cakes #tarjeta-chocotorta .chocotorta-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-chocotorta .chocotorta-div-img .chocotorta-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-cakes #tarjeta-carrotCake {
   background-color: #F1E6D0;
@@ -1581,14 +1647,173 @@ h2 {
 }
 .section-cakes #tarjeta-carrotCake .carrotCake-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-cakes #tarjeta-carrotCake .carrotCake-div-img .carrotCake-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+  .section-cakes {
+    margin-top: 2rem;
+  }
+  .section-cakes .h3-cakes {
+    font-size: 1.5rem;
+  }
+  .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-contenedor .chessecakeFr-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-chessecakeFr .chessecakeFr-div-img .chessecakeFr-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-contenedor .chessecakeMaracuya-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-chessecakeMaracuya .chessecakeMaracuya-div-img .chessecakeMaracuya-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-contenedor .tortaChocolate-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-tortaChocolate .tortaChocolate-div-img .tortaChocolate-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-lemonPie .lemonPie-div-contenedor .lemonPie-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-lemonPie .lemonPie-div-img .lemonPie-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-tortaOreo .tortaOreo-div-contenedor .tortaOreo-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-tortaOreo .tortaOreo-div-img .tortaOreo-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-chocotorta .chocotorta-div-contenedor .chocotorta-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-chocotorta .chocotorta-div-img .chocotorta-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-titulo {
+    font-size: 1.1rem;
+  }
+  .section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-precio {
+    font-size: 1.3rem;
+  }
+  .section-cakes #tarjeta-carrotCake .carrotCake-div-contenedor .carrotCake-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-cakes #tarjeta-carrotCake .carrotCake-div-img .carrotCake-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-cakes {
+    margin-top: 2rem;
+  }
+  .section-cakes .h3-cakes {
+    font-size: 1.7rem;
+    margin-left: 2.2vw;
+  }
+}
 .section-sandwichs {
   margin-top: 5rem;
 }
@@ -1642,12 +1867,14 @@ h2 {
 }
 .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-img .tostadoJYQ-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-sandwichs #tarjeta-tostada {
   background-color: #F1E6D0;
@@ -1692,12 +1919,14 @@ h2 {
 }
 .section-sandwichs #tarjeta-tostada .tostada-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-sandwichs #tarjeta-tostada .tostada-div-img .tostada-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-sandwichs #tarjeta-sandwichMediterraneo {
   background-color: #F1E6D0;
@@ -1742,12 +1971,14 @@ h2 {
 }
 .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img .sandwichMediterraneo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-sandwichs #tarjeta-hamburguesaVeggie {
   background-color: #F1E6D0;
@@ -1792,14 +2023,113 @@ h2 {
 }
 .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+  .section-sandwichs {
+    margin-top: 2rem;
+  }
+  .section-sandwichs .h3-sandwichs {
+    font-size: 1.5rem;
+  }
+  .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-titulo {
+    font-size: 1.1rem;
+  }
+  .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-precio {
+    font-size: 1.3rem;
+  }
+  .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-contenedor .tostadoJYQ-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-sandwichs #tarjeta-tostadoJYQ .tostadoJYQ-div-img .tostadoJYQ-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-titulo {
+    font-size: 1.1rem;
+  }
+  .section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-precio {
+    font-size: 1.3rem;
+  }
+  .section-sandwichs #tarjeta-tostada .tostada-div-contenedor .tostada-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-sandwichs #tarjeta-tostada .tostada-div-img .tostada-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-titulo {
+    font-size: 1.1rem;
+  }
+  .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-precio {
+    font-size: 1.3rem;
+  }
+  .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-contenedor .sandwichMediterraneo-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-sandwichs #tarjeta-sandwichMediterraneo .sandwichMediterraneo-div-img .sandwichMediterraneo-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-titulo {
+    font-size: 1.1rem;
+  }
+  .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-precio {
+    font-size: 1.3rem;
+  }
+  .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-contenedor .hamburguesaVeggie-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-sandwichs #tarjeta-hamburguesaVeggie .hamburguesaVeggie-div-img .hamburguesaVeggie-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-sandwichs {
+    margin-top: 2rem;
+  }
+  .section-sandwichs .h3-sandwichs {
+    font-size: 1.7rem;
+    margin-left: 2.2vw;
+  }
+}
 .section-rollsYCroissants {
   margin-top: 5rem;
 }
@@ -1853,12 +2183,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-img .rollCanela-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-rollManzana {
   background-color: #F1E6D0;
@@ -1903,12 +2235,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-img .rollManzana-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-rollChocolate {
   background-color: #F1E6D0;
@@ -1953,12 +2287,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-img .rollChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-croissant {
   background-color: #F1E6D0;
@@ -2003,12 +2339,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-croissant .croissant-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-croissant .croissant-div-img .croissant-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-croissantChocolate {
   background-color: #F1E6D0;
@@ -2053,12 +2391,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-img .croissantChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-croissantFR {
   background-color: #F1E6D0;
@@ -2103,12 +2443,14 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-img .croissantFR-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-rollsYCroissants #tarjeta-croissantOreo {
   background-color: #F1E6D0;
@@ -2153,14 +2495,173 @@ h2 {
 }
 .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-img .croissantOreo-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+  .section-rollsYCroissants {
+    margin-top: 2rem;
+  }
+  .section-rollsYCroissants .h3-rollsYCroissants {
+    font-size: 1.5rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-contenedor .rollCanela-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-rollCanela .rollCanela-div-img .rollCanela-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-contenedor .rollManzana-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-rollManzana .rollManzana-div-img .rollManzana-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-contenedor .rollChocolate-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-rollChocolate .rollChocolate-div-img .rollChocolate-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-croissant .croissant-div-contenedor .croissant-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissant .croissant-div-contenedor .croissant-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-croissant .croissant-div-contenedor .croissant-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissant .croissant-div-contenedor .croissant-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-croissant .croissant-div-img .croissant-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-contenedor .croissantChocolate-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantChocolate .croissantChocolate-div-img .croissantChocolate-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-contenedor .croissantFR-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantFR .croissantFR-div-img .croissantFR-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-titulo {
+    font-size: 1.1rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-precio {
+    font-size: 1.3rem;
+  }
+  .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-contenedor .croissantOreo-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-rollsYCroissants #tarjeta-croissantOreo .croissantOreo-div-img .croissantOreo-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-rollsYCroissants {
+    margin-top: 2rem;
+  }
+  .section-rollsYCroissants .h3-rollsYCroissants {
+    font-size: 1.7rem;
+    margin-left: 2.2vw;
+  }
+}
 .section-panaderia {
   margin-top: 5rem;
 }
@@ -2214,12 +2715,14 @@ h2 {
 }
 .section-panaderia #tarjeta-medialuna .medialuna-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-panaderia #tarjeta-medialuna .medialuna-div-img .medialuna-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-panaderia #tarjeta-chipa {
   background-color: #F1E6D0;
@@ -2258,12 +2761,14 @@ h2 {
 }
 .section-panaderia #tarjeta-chipa .chipa-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-panaderia #tarjeta-chipa .chipa-div-img .chipa-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-panaderia #tarjeta-scone {
   background-color: #F1E6D0;
@@ -2308,12 +2813,14 @@ h2 {
 }
 .section-panaderia #tarjeta-scone .scone-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-panaderia #tarjeta-scone .scone-div-img .scone-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-panaderia #tarjeta-donaChocolate {
   background-color: #F1E6D0;
@@ -2358,12 +2865,14 @@ h2 {
 }
 .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-img .donaChocolate-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 .section-panaderia #tarjeta-donaLeParadis {
   background-color: #F1E6D0;
@@ -2408,14 +2917,133 @@ h2 {
 }
 .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-img {
   display: flex;
+  justify-content: end;
   align-items: center;
 }
 .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-img .donaLeParadis-img {
   width: 105px;
   height: 105px;
   border-radius: 50px;
+  margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+  .section-panaderia {
+    margin-top: 2rem;
+  }
+  .section-panaderia .h3-panaderia {
+    font-size: 1.5rem;
+  }
+  .section-panaderia #tarjeta-medialuna .medialuna-div-contenedor .medialuna-titulo {
+    font-size: 1.1rem;
+  }
+  .section-panaderia #tarjeta-medialuna .medialuna-div-contenedor .medialuna-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-panaderia #tarjeta-medialuna .medialuna-div-contenedor .medialuna-precio {
+    font-size: 1.3rem;
+  }
+  .section-panaderia #tarjeta-medialuna .medialuna-div-contenedor .medialuna-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-panaderia #tarjeta-medialuna .medialuna-div-img .medialuna-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-panaderia #tarjeta-chipa .chipa-div-contenedor .chipa-titulo {
+    font-size: 1.1rem;
+  }
+  .section-panaderia #tarjeta-chipa .chipa-div-contenedor .chipa-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-panaderia #tarjeta-chipa .chipa-div-contenedor .chipa-precio {
+    font-size: 1.3rem;
+  }
+  .section-panaderia #tarjeta-chipa .chipa-div-contenedor .chipa-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-panaderia #tarjeta-chipa .chipa-div-img .chipa-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-panaderia #tarjeta-scone .scone-div-contenedor .scone-titulo {
+    font-size: 1.1rem;
+  }
+  .section-panaderia #tarjeta-scone .scone-div-contenedor .scone-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-panaderia #tarjeta-scone .scone-div-contenedor .scone-precio {
+    font-size: 1.3rem;
+  }
+  .section-panaderia #tarjeta-scone .scone-div-contenedor .scone-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-panaderia #tarjeta-scone .scone-div-img .scone-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-titulo {
+    font-size: 1.1rem;
+  }
+  .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-precio {
+    font-size: 1.3rem;
+  }
+  .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-contenedor .donaChocolate-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-panaderia #tarjeta-donaChocolate .donaChocolate-div-img .donaChocolate-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+  .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-titulo {
+    font-size: 1.1rem;
+  }
+  .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-texto {
+    font-size: 1rem;
+    color: black;
+  }
+  .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-contenedor .ddonaLeParadis-precio {
+    font-size: 1.3rem;
+  }
+  .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-contenedor .donaLeParadis-carrito {
+    font-size: 1rem;
+    color: black;
+    margin-top: -20px;
+  }
+  .section-panaderia #tarjeta-donaLeParadis .donaLeParadis-div-img .donaLeParadis-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-panaderia {
+    margin-top: 2rem;
+  }
+  .section-panaderia .h3-panaderia {
+    font-size: 1.7rem;
+    margin-left: 2.2vw;
+  }
+}
 #reservas {
   background-color: #F1E6D0;
   color: #541734;
@@ -2458,6 +3086,98 @@ h2 {
   background-color: #16453F;
   color: white;
   margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #reservas {
+    font-size: 1.2rem;
+  }
+  #reservas #formulario {
+    min-height: 610px;
+  }
+}
+#div-confirmacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 100px;
+  margin-left: 5vw;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #16453F;
+  background-color: #F0DEBB;
+}
+#div-confirmacion #p-reserva {
+  color: #F0DEBB;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+#div-confirmacion.cambiar-div-confirmacion {
+  background-color: #16453F;
+}
+
+.contenedor-trabajo {
+  width: 90%;
+  color: black;
+  display: flexbox;
+  text-align: center;
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+  margin-left: 5vw;
+}
+
+.formulario-trabajo {
+  background-color: #F1E6D0;
+  color: black;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 5vw;
+  border-radius: 16px;
+  font-family: "Narnoor", serif;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 600px;
+}
+.formulario-trabajo .label-f {
+  margin-top: 20px;
+}
+.formulario-trabajo .btn {
+  background-color: #16453F;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.contenedor-contacto {
+  width: 90%;
+  color: black;
+  display: flexbox;
+  text-align: center;
+  font-family: "Narnoor", serif;
+  font-size: 1.1rem;
+  margin-top: 5rem;
+  margin-left: 5vw;
+}
+.contenedor-contacto .redes-lista-contacto {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.contenedor-contacto .redes-lista-contacto .redes-ig-contacto {
+  font-size: 2rem;
+  color: #833AB4;
+}
+.contenedor-contacto .redes-lista-contacto .redes-fb-contacto {
+  font-size: 2rem;
+  color: #3b5998;
+}
+.contenedor-contacto .redes-lista-contacto .redes-tw-contacto {
+  color: #00acee;
+  font-size: 2rem;
 }
 
 body.dark-mode {

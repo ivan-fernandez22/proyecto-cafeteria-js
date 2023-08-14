@@ -19,6 +19,7 @@ function activarDarkMode () {
     botonHamburguesa.classList.add ("dark-mode")
     tituloReservas.classList.add ("dark-mode")
     reservas.classList.add ("dark-mode")
+    divConfirmacion.classList.add ("dark-mode")
 
     localStorage.setItem ("dark-mode", "activado")
     colorModeButton.innerText = "Light Mode"
@@ -31,6 +32,7 @@ function desactivarDarkMode () {
     botonHamburguesa.classList.remove ("dark-mode")
     tituloReservas.classList.remove ("dark-mode")
     reservas.classList.remove ("dark-mode")
+    divConfirmacion.classList.remove ("dark-mode")
 
     localStorage.setItem ("dark-mode", "desactivado")
     colorModeButton.innerText = "Dark Mode"

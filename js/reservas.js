@@ -1,4 +1,5 @@
 // FORMULARIO RESERVAS
+
 const myFormulario = document.getElementById('formulario')
 myFormulario.addEventListener('submit', validarFormulario)
 
@@ -16,20 +17,35 @@ function validarFormulario(e) {
     }
 
     if ((inputNombre && inputApellido && inputFecha) === '') {
-        alert('Todos los campos son obligatorios!!')
+        Swal.fire({
+            icon: 'error',
+            title: 'Todos los campos son obligatorios!',
+            text: 'Por favor, complete todos los campos del formulario!',
+            position: 'center'
+        })
     } else {
         sessionStorage.setItem('Reservado', JSON.stringify(reserva)) //Con STRINGIFY transformo un objeto a un string en formato JSON
-    }
+        Swal.fire({
+            icon: 'success',
+            title: 'Reserva confirmada!',
+            text: 'Felicidades, su reserva fue confirmada con exito!!!',
+            position: 'center'
+        })
+    } 
 
     const reservaConfirmada = sessionStorage.getItem('Reservado')
     const reservaParseada = JSON.parse(reservaConfirmada)
 
-    Swal.fire({
-        icon: 'success',
-        title: 'Reserva confirmada!',
-        text: 'Felicidades, su reserva fue confirmada con exito!!!',
-        position: 'center'
-    })
+    const confirmacion = document.getElementById('p-reserva')
+    const divConfirmacion = document.getElementById('div-confirmacion')
+
+    confirmacion.innerHTML = `
+    ${reservaParseada.nombre} le informamos que su reserva fue confirmada con exito!
+    Lo esperamos el día ${reservaParseada.fecha}.
+    `
+
+    divConfirmacion.classList.add ("cambiar-div-confirmacion")
+    divConfirmacion.prepend(confirmacion)
 }
 
 

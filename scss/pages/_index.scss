@@ -965,6 +965,7 @@ header {
     .section-galeria {
         #galeria-titulo {
             font-size: 2rem;
+            margin-left: 3vw;
         }
         .galeria-contenedor {
             width: 80%;
@@ -1011,8 +1012,10 @@ header {
     .section-galeria {
         #galeria-titulo {
             font-size: 2.3rem;
+            margin-left: 4vw;
         }
         .galeria-contenedor {
+            margin-top: 2rem;
             .galeria-img1 {
                 height: 350px;
             }
@@ -1036,6 +1039,41 @@ header {
             }
             .galeria-img8 {
                 height: 350px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .section-galeria {
+        #galeria-titulo {
+            font-size: 2.3rem;
+        }
+        .galeria-contenedor {
+            .galeria-img1 {
+                height: 450px;
+            }
+            .galeria-img2 {
+                height: 450px;
+            }
+            .galeria-img3 {
+                height: 450px;
+            }
+            .galeria-img4 {
+                height: 450px;
+            }
+            .galeria-img5 {
+                height: 450px;
+            }
+            .galeria-img6 {
+                height: 450px;
+            }
+            .galeria-img7 {
+                height: 450px;
+            }
+            .galeria-img8 {
+                height: 450px;
             }
         }
     }
