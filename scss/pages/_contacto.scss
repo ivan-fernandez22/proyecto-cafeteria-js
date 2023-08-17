@@ -7,28 +7,50 @@
     font-size: 1.1rem;
     margin-top: 3rem;
     margin-left: 5vw;
+    .texto-trabajo {
+        font-size: 1rem;
+    }
+    .formulario-trabajo {
+        background-color: #F1E6D0;
+        color: black;
+        width: 90%;
+        margin-top: 1rem;
+        margin-left: 5vw;
+        border-radius: 16px;
+        font-family: $fuente-textos;
+        margin: 0 auto;
+        text-align: center;
+        min-height: 600px;
+        .label-f {
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: $color-verde;
+            color: white;
+            margin-top: 1.5rem;
+        }
+    }
 }
 
-.formulario-trabajo {
-    background-color: #F1E6D0;
-    color: black;
-    width: 90%;
-    margin-top: 1rem;
-    margin-left: 5vw;
-    border-radius: 16px;
-    font-family: $fuente-textos;
-    margin: 0 auto;
-    text-align: center;
-    min-height: 600px;
-    .label-f {
-        margin-top: 20px;
-    }
-    .btn {
-        background-color: $color-verde;
-        color: white;
-        margin-top: 1.5rem;
+
+@media (min-width: 768px) {
+    .contenedor-trabajo {
+        .texto-trabajo {
+            font-size: 1.2rem;
+        }
     }
 }
+
+@media (min-width: 1200px) {
+    .contenedor-trabajo {
+        .texto-trabajo {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+
+
 
 .contenedor-contacto {
     width: 90%;
@@ -39,11 +61,15 @@
     font-size: 1.1rem;
     margin-top: 5rem;
     margin-left: 5vw;
+    .texto-contacto {
+        font-size: 1rem;
+    }
     .redes-lista-contacto {
         list-style: none;
         display: flex;
         justify-content: space-around;
-        margin-right: 40px;
+        margin-left: 5vw;
+        width: 80vw;
         .redes-ig-contacto {
             font-size: 2rem;
             color: #833AB4;
@@ -55,6 +81,44 @@
         .redes-tw-contacto {
             color: #00acee;
             font-size: 2rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor-contacto {
+        .texto-contacto {
+            font-size: 1.2rem;
+        }
+        .redes-lista-contacto {
+            .redes-ig-contacto {
+                font-size: 2.5rem;
+            }
+            .redes-fb-contacto {
+                font-size: 2.5rem;
+            }
+            .redes-tw-contacto {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor-contacto {
+        .texto-contacto {
+            font-size: 1.4rem;
+        }
+        .redes-lista-contacto {
+            .redes-ig-contacto {
+                font-size: 3rem;
+            }
+            .redes-fb-contacto {
+                font-size: 3rem;
+            }
+            .redes-tw-contacto {
+                font-size: 3rem;
+            }
         }
     }
 }

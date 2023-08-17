@@ -44,6 +44,10 @@ contenedorDivTrabajo.append (textoTrabajo)
 contenedorDivTrabajo.append (formularioTrabajo)
 
 contenedorDivTrabajo.classList = 'contenedor-trabajo'
+tituloTrabajo.id = 'titulo-trabajo'
+textoTrabajo.classList = 'texto-trabajo'
+textoTrabajo.id = 'trabajo-texto'
+formularioTrabajo.id = 'formulario-trabajo'
 
 tituloTrabajo.innerHTML = `
     ¿Quieres unirte al equipo Le Paradis?
@@ -118,8 +122,10 @@ divContenedorContacto.append (tituloContacto)
 divContenedorContacto.append (textoContacto)
 divContenedorContacto.append (UlRedes)
 
-
 divContenedorContacto.classList = 'contenedor-contacto'
+textoContacto.classList = 'texto-contacto'
+textoContacto.id = 'contacto-texto'
+tituloContacto.id = 'titulo-contacto'
 
 tituloContacto.innerHTML = `
     ¿Buscas contactarte con nosotros?

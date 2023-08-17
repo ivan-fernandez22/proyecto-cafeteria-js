@@ -17,3 +17,15 @@ $fuente-textos: "Narnoor", serif;
 body {
     background-color: $color-fondo;
 }
+
+.swal2-popup {
+    background-color: $color-fondo !important;
+    color: black !important;
+}
+
+.swal2-actions {
+    background-color: $color-verde !important;
+    .swal2-confirm {
+        background-color: $color-verde !important;
+    }
+}

@@ -1,12 +1,13 @@
 // DARK MODE BUTTON PAGE RESERVAS
 
-const colorModeButton = document.querySelector ("#color-mode")
+const colorModeButton = document.querySelector ('#color-mode')
 
-const body = document.body
 const botonHamburguesa = document.querySelector ('#boton-hamburguesa')
-const tituloReservas = document.querySelector ('h2')
-const reservas = document.querySelector ('#reservas')
-const divConfirmacion = document.querySelector ('#div-confirmacion')
+const trabajoTitulo = document.querySelector ('#titulo-trabajo')
+const trabajoTexto = document.querySelector ('#trabajo-texto')
+const trabajoFormulario = document.querySelector ('#formulario-trabajo')
+const contactoTitulo = document.querySelector ('#titulo-contacto')
+const contactoTexto = document.querySelector ('#contacto-texto')
 
 let darkMode = localStorage.getItem ("dark-mode")
 
@@ -15,9 +16,11 @@ let darkMode = localStorage.getItem ("dark-mode")
 function activarDarkMode () {
     body.classList.add ("dark-mode")
     botonHamburguesa.classList.add ("dark-mode")
-    tituloReservas.classList.add ("dark-mode")
-    reservas.classList.add ("dark-mode")
-    divConfirmacion.classList.add ("dark-mode")
+    trabajoTitulo.classList.add ("dark-mode")
+    trabajoTexto.classList.add ("dark-mode")
+    trabajoFormulario.classList.add ("dark-mode")
+    contactoTitulo.classList.add ("dark-mode")
+    contactoTexto.classList.add ("dark-mode")
 
     localStorage.setItem ("dark-mode", "activado")
     colorModeButton.innerText = "Light Mode"
@@ -27,9 +30,11 @@ function activarDarkMode () {
 function desactivarDarkMode () {
     body.classList.remove ("dark-mode")
     botonHamburguesa.classList.remove ("dark-mode")
-    tituloReservas.classList.remove ("dark-mode")
-    reservas.classList.remove ("dark-mode")
-    divConfirmacion.classList.remove ("dark-mode")
+    trabajoTitulo.classList.remove ("dark-mode")
+    trabajoTexto.classList.remove ("dark-mode")
+    trabajoFormulario.classList.remove ("dark-mode")
+    contactoTitulo.classList.remove ("dark-mode")
+    contactoTexto.classList.remove ("dark-mode")
 
     localStorage.setItem ("dark-mode", "desactivado")
     colorModeButton.innerText = "Dark Mode"

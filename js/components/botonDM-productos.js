@@ -3,7 +3,6 @@
 const colorModeButton = document.querySelector ("#color-mode")
 
 const body = document.body
-const leParadis = document.querySelector ('#h1-link')
 const botonHamburguesa = document.querySelector ('#boton-hamburguesa')
 const tituloProductos = document.querySelector ('h2')
 const aviso = document.querySelector ('#aviso')
@@ -42,7 +41,6 @@ let darkMode = localStorage.getItem ("dark-mode")
 // ACTIVAR
 function activarDarkMode () {
     body.classList.add ("dark-mode")
-    leParadis.classList.add ("dark-mode")
     botonHamburguesa.classList.add ("dark-mode")
     tituloProductos.classList.add ("dark-mode")
     aviso.classList.add ("dark-mode")
@@ -82,7 +80,6 @@ function activarDarkMode () {
 // DESACTIVAR
 function desactivarDarkMode () {
     body.classList.remove ("dark-mode")
-    leParadis.classList.remove ("dark-mode")
     botonHamburguesa.classList.remove ("dark-mode")
     tituloProductos.classList.remove ("dark-mode")
     aviso.classList.remove ("dark-mode")
