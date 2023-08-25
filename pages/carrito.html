@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Narnoor&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Carrito | Le paradis</title>
+</head>
+
+
+<body>
+
+    <!--------HEADER--------->
+    <header>
+        <div>
+            <img src="../imgs/logo ivan le paradis_230810_163216.jpg" alt="Logo de la cafetería" class="logo">
+            <h1><a href="../index.html" id="h1-link">Le Paradis</a></h1>
+        </div>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button id="boton-hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./productos.html">Tienda de productos</a>
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link" href="./carrito.html">Carrito <i class="bi bi-cart-fill"></i></a>
+                    </div>
+                    <button id="color-mode" class="btn btn-dark">Dark Mode</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Carrito de compras</h2>
+
+        <div class="contenedor-carrito">
+            <p class="carrito-vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
+
+            <div class="carrito-productos">
+                <div class="carrito-producto">
+                    <img class="img-producto" src="../imgs/chessecake-img1.jpg" alt="">
+
+                    <div class="carrito-producto-titulo">
+                        <small>Titulo</small>
+                        <h3>Nombre del producto</h3>
+                    </div>
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$1000</p>
+                    </div>
+                    <button><i class="bi bi-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="carrito-interacciones">
+                <div class="carrito-vaciar">
+                    <button class="carrito-interaccion-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-total">
+                    <p>Total:</p>
+                    <p id="total">$1200</p>
+                </div>
+                <div class="carrito-comprar">
+                    <button>Comprar</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!----------------FOOTER-------------------->
+    <footer class="footer-carrito">
+        <section class="footer-copyright">
+            <p class="copyright-texto">
+                <i class="bi bi-c-circle"></i> Todos los derechos reservados LeParadis
+            </p>
+        </section>
+    </footer>
+
+
+    <!----SCRIPTS---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>

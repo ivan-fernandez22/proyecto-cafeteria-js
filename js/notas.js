@@ -1084,6 +1084,107 @@
 
 
 
-// CLASE 14: LIBRERIAS
+// // CLASE 15: ASINCRONÍA Y PROMESAS
 
-// SWEET ALERT
+// // setTimeout: Es una funcion que permite realizar acciones asincronicamente. Recibe dos parametros:
+// // una funcion de callback y un valor numerico que representa milisegundos.
+
+// console.log ('Iniciamos el proceso')
+
+// setTimeout ( () => {
+//     console.log ('Mitad del proceso')
+// }, 3000) // 3000 milisegundos son 3 segundos
+
+// console.log ('Finalizamos el proceso')
+
+
+// for (let letra of "hola") {
+//     setTimeout ( () => {
+//         console.log (letra)
+//     }, 1000)
+// }
+
+// for (let letra of "mundo") {
+//     setTimeout ( () => {
+//         console.log (letra)
+//     }, 3000)
+// }
+
+
+// // Call Stack o pila de ejecucion: Es una lista donde se apilan las distintas 
+// // tareas a ejecutar por nuestro programa. 
+
+
+// // setInterval: Permite ejecutar funciones de manera reiterativa tras los milisegundos
+// // indicados hasta que indiquemos su detencion o se cierre la aplicacion.
+
+// setInterval ( () => {
+//     console.log ('Hola Coders')
+// }, 1000)
+
+// for (let letra of "Hola Coders") {
+//     setInterval ( () => {
+//         console.log (letra)
+//     }, 1000)
+// }
+
+
+// ClearInterval () & clearTimeout (): En caso de querer remover un intervalo o un setTimeout se usan estos metodos
+
+
+// // PROMESAS: Es un objeto de JS que representa un evento a futuro. Es una accion asincronica que se puede 
+// // completar en algun momento y producir un valor, y notificar cuando esto suceda. Cuentan con 3 estados 
+// // posibles: pending, fulfilled y rejected. Las promesas pueden ser resueltas o rechazadas.
+
+// new Promise ( (resolve, reject) => { // declarar promesa
+//     // cuerpo de una promesa
+// })
+
+// const promesa = (resuelta) => {
+//     return new Promise ( (resolve, reject) => {
+//         if (resuelta === true) {
+//             resolve ('Promesa resuelta')
+//         } else {
+//             reject ('Promesa rechazada')
+//         }
+//     })
+// }
+
+// console.log (promesa(true))
+// console.log (promesa(false))
+
+
+// // Then Y Catch
+
+// function cargarDatos () {
+//     return new Promise ((resolve, reject) => {
+//         setTimeout (() => {
+//             const exito = true
+
+//             if (exito) {
+//                 const datos = {mensaje: "Datos cargados exitosamente"}
+//                 resolve (datos)
+//             } else {
+//                 const error = new Error ("Error al cargar datos")
+//                 reject (error)
+//             }
+//         }, 1000)
+//     })
+// }
+
+// cargarDatos ()
+//     .then (datos => {
+//         console.log (datos.mensaje)
+//     })
+//     .catch (error => {
+//         console.error (error)
+//     })
+//     .finally ( () => {
+//         console.log ("Fin del proceso")
+//     })
+
+
+
+
+// CLASE 16: AJAX Y FETCH
+
