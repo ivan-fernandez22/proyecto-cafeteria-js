@@ -40,7 +40,7 @@
                         <a class="nav-link" href="./productos.html">Tienda de productos</a>
                         <a class="nav-link" href="./reservas.html">Reservas</a>
                         <a class="nav-link" href="./contacto.html">Contacto</a>
-                        <a class="nav-link" href="./carrito.html">Carrito <i class="bi bi-cart-fill"></i></a>
+                        <a class="nav-link" href="./carrito.html">Carrito</a>
                     </div>
                     <button id="color-mode" class="btn btn-dark">Dark Mode</button>
                 </div>
@@ -55,13 +55,14 @@
         <div class="contenedor-carrito">
             <p class="carrito-vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
 
-            <div class="carrito-productos">
+            <!------PRODUCTOS------>
+            <div class="carrito-productos disabled">
                 <div class="carrito-producto">
                     <img class="img-producto" src="../imgs/chessecake-img1.jpg" alt="">
 
                     <div class="carrito-producto-titulo">
                         <small>Titulo</small>
-                        <h3>Nombre del producto</h3>
+                        <p>Nombre del producto</p>
                     </div>
                     <div class="carrito-producto-cantidad">
                         <small>Cantidad</small>
@@ -71,23 +72,27 @@
                         <small>Precio</small>
                         <p>$1000</p>
                     </div>
-                    <button><i class="bi bi-trash"></i></button>
+                    <button class="boton-eliminar"><i class="bi bi-trash"></i></button>
                 </div>
             </div>
 
-            <div class="carrito-interacciones">
+            <!-------INTERACCIONES------>
+            <div class="carrito-interacciones disabled">
                 <div class="carrito-vaciar">
-                    <button class="carrito-interaccion-vaciar">Vaciar carrito</button>
+                    <button id="carrito-interaccion-vaciar">Vaciar carrito</button>
                 </div>
-                <div class="carrito-total">
-                    <p>Total:</p>
-                    <p id="total">$1200</p>
-                </div>
-                <div class="carrito-comprar">
-                    <button>Comprar</button>
+                <div class="carrito-interaccion-derecha">
+                    <div id="carrito-total">
+                        <p>Total: </p>
+                        <p id="total">$1200</p>
+                    </div>
+                    <div class="carrito-comprar">
+                        <button id="carrito-comprar-boton">Comprar</button>
+                    </div>
                 </div>
             </div>
 
+            <p class="carrito-comprado disabled"> Muchas gracias por su compra! <i class="bi bi-emoji-smile"></i></p>
         </div>
     </main>
 

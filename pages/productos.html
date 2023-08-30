@@ -37,7 +37,7 @@
                         <a class="nav-link" href="./productos.html">Tienda de productos</a>
                         <a class="nav-link" href="./reservas.html">Reservas</a>
                         <a class="nav-link" href="./contacto.html">Contacto</a>
-                        <a class="nav-link" href="./carrito.html">Carrito <i class="bi bi-cart-fill"></i></a>
+                        <a class="nav-link" href="./carrito.html">Carrito <span class="numero-carrito">0</span></a>
                     </div>
                     <button id="color-mode" class="btn btn-dark">Dark Mode</button>
                 </div>
@@ -62,369 +62,35 @@
 
 
         <!----------SECCION CAKES----------->
-        <section class="section-cakes">
+        <section id="contenedor-cakes" class="section-cakes">
             <h3 class="h3-cakes" id="titulo1">CAKES | Porciones</h3>
-
-            <div id="tarjeta-chessecakeFr">
-                <div class="chessecakeFr-div-contenedor">
-                    <h4 class="chessecakeFr-titulo">Porción de chessecake de frutos rojos</h4>
-                    <p class="chessecakeFr-texto">Base con galletitas, queso crema, crema y frutos rojos (sin gelatina y
-                        horneado, 100% natural)</p>
-                    <p class="chessecakeFr-precio"><b>$1000</b></p>
-                    <p class="chessecakeFr-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="chessecakeFr-div-img">
-                    <img src="../imgs/chessecakeTH.jpg" class="chessecakeFr-img"
-                        alt="porcion de chessecake de frutos rojos">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-chessecakeMaracuya">
-                <div class="chessecakeMaracuya-div-contenedor">
-                    <h4 class="chessecakeMaracuya-titulo">Porción de chessecake de maracuya</h4>
-                    <p class="chessecakeMaracuya-texto">Base con galletitas, queso crema, crema y maracuya (sin gelatina
-                        y horneado, 100% natural)</p>
-                    <p class="chessecakeMaracuya-precio"><b>$1000</b></p>
-                    <p class="chessecakeMaracuya-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="chessecakeMaracuya-div-img">
-                    <img src="../imgs/maracuya3.jpg" class="chessecakeMaracuya-img"
-                        alt="porcion de chessecake de maracuya">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-tortaChocolate">
-                <div class="tortaChocolate-div-contenedor">
-                    <h4 class="tortaChocolate-titulo">Porción de torta de chocolate</h4>
-                    <p class="tortaChocolate-texto">Bizcocho humedo de chocolate con dulce de leche</p>
-                    <p class="tortaChocolate-precio"><b>$900</b></p>
-                    <p class="tortaChocolate-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="tortaChocolate-div-img">
-                    <img src="../imgs/torta-choc-manjar-editada.jpg" class="tortaChocolate-img"
-                        alt="porcion de torta de chocolate">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-lemonPie">
-                <div class="lemonPie-div-contenedor">
-                    <h4 class="lemonPie-titulo">Tarta individual de Lemon pie</h4>
-                    <p class="lemonPie-texto">Una masa casera con una deliciosa crema de limon y un exquisito merengue
-                        italiano </p>
-                    <p class="lemonPie-precio"><b>$950</b></p>
-                    <p class="lemonPie-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="lemonPie-div-img">
-                    <img src="../imgs/individual_lemon_pie_1.jpg" class="lemonPie-img"
-                        alt="tarta individual de lemon pie">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-tortaOreo">
-                <div class="tortaOreo-div-contenedor">
-                    <h4 class="tortaOreo-titulo">Porción de torta oreo</h4>
-                    <p class="tortaOreo-texto"> Base con galletitas, queso crema, crema, dulce de leche y galletitas
-                        oreo (sin gelatina y horneado, 100% natural) </p>
-                    <p class="tortaOreo-precio"><b>$1100</b></p>
-                    <p class="tortaOreo-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="tortaOreo-div-img">
-                    <img src="../imgs/doble-oreo_landscapeThumbnail_es (1) (1).jpeg" class="tortaOreo-img"
-                        alt="porcion de torta de oreo">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-chocotorta">
-                <div class="chocotorta-div-contenedor">
-                    <h4 class="chocotorta-titulo">Porción de chocotorta</h4>
-                    <p class="chocotorta-texto"> Base con galletitas chocolinas, queso crema, crema, dulce de leche y
-                        más chocolinas </p>
-                    <p class="chocotorta-precio"><b>$1100</b></p>
-                    <p class="chocotorta-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="chocotorta-div-img">
-                    <img src="../imgs/chocotorta.jpg" class="chocotorta-img" alt="porcion de chocotorta">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-carrotCake">
-                <div class="carrotCake-div-contenedor">
-                    <h4 class="carrotCake-titulo">Porción de Carrot cake</h4>
-                    <p class="carrotCake-texto"> Bizcocho con zanahoria y nuez, butter cream y ralladura de zanahoria
-                        (horneado y sin conservantes, 100% natural) </p>
-                    <p class="carrotCake-precio"><b>$950</b></p>
-                    <p class="carrotCake-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="carrotCake-div-img">
-                    <img src="../imgs/carrot-cake.jpg" class="carrotCake-img" alt="porcion de pastel de zanahoria">
-                </div>
-            </div>
 
         </section>
 
 
         <!------------SECCION SANDWICHS---------->
-        <section class="section-sandwichs">
+        <section id="contenedor-sandwichs" class="section-sandwichs">
             <h3 class="h3-sandwichs titulo-secciones" id="titulo2">SANDWICHS Y SALADOS</h3>
-
-            <div id="tarjeta-tostadoJYQ">
-                <div class="tostadoJYQ-div-contenedor">
-                    <h4 class="tostadoJYQ-titulo">Tostados de jamon y queso</h4>
-                    <p class="tostadoJYQ-texto">cuatro tostados triangulares de jamon y queso</p>
-                    <p class="tostadoJYQ-precio"><b>$1300</b></p>
-                    <p class="tostadoJYQ-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="tostadoJYQ-div-img">
-                    <img src="../imgs/tostado-jyq.jpg" class="tostadoJYQ-img" alt="tostados de jamon y queso">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-tostada">
-                <div class="tostada-div-contenedor">
-                    <h4 class="tostada-titulo">Tostadas Le paradis</h4>
-                    <p class="tostada-texto">Dos tostadas con palta, tomate y huevo</p>
-                    <p class="tostada-precio"><b>$1450</b></p>
-                    <p class="tostada-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="tostada-div-img">
-                    <img src="../imgs/tostada.jpg" class="tostada-img" alt="tostada con palta, huevo y tomates">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-sandwichMediterraneo">
-                <div class="sandwichMediterraneo-div-contenedor">
-                    <h4 class="sandwichMediterraneo-titulo">Sandwich Mediterraneo</h4>
-                    <p class="sandwichMediterraneo-texto">Baguette, jamon crudo, rucula, tomates secos y burrata</p>
-                    <p class="sandwichMediterraneo-precio"><b>$1700</b></p>
-                    <p class="sandwichMediterraneo-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="sandwichMediterraneo-div-img">
-                    <img src="../imgs/sandwich-mediterraneo (1) (1).jpg" class="sandwichMediterraneo-img"
-                        alt="sandwich mediterraneo">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-hamburguesaVeggie">
-                <div class="hamburguesaVeggie-div-contenedor">
-                    <h4 class="hamburguesaVeggie-titulo">Sandwich veggie</h4>
-                    <p class="hamburguesaVeggie-texto"> Hamburguesa de soja, queso vegano, cebolla morada,
-                        tomates y mix de verdes (100% natutal)</p>
-                    <p class="hamburguesaVeggie-precio"><b>$1600</b></p>
-                    <p class="hamburguesaVeggie-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="hamburguesaVeggie-div-img">
-                    <img src="../imgs/hamburguesa-veggie (1).jpg" class="hamburguesaVeggie-img"
-                        alt="hamburguesa vegana">
-                </div>
-            </div>
 
         </section>
 
 
         <!---------SECCION ROLLS Y CROISSANTS--------->
-        <section class="section-rollsYCroissants">
+        <section id="contenedor-rolls" class="section-rollsYCroissants">
             <h3 class="h3-rollsYCroissants titulo-secciones" id="titulo3">ROLLS Y CROISSANTS</h3>
-
-            <div id="tarjeta-rollCanela">
-                <div class="rollCanela-div-contenedor">
-                    <h4 class="rollCanela-titulo">Roll de canela</h4>
-                    <p class="rollCanela-texto">Esponjoso y con un delicioso glaseado</p>
-                    <p class="rollCanela-precio"><b>$300</b></p>
-                    <p class="rollCanela-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="rollCanela-div-img">
-                    <img src="../imgs/rollitos-canela.jpg" class="rollCanela-img" alt="Rolls de canela">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-rollManzana">
-                <div class="rollManzana-div-contenedor">
-                    <h4 class="rollManzana-titulo">Roll de canela y manzana</h4>
-                    <p class="rollManzana-texto">Con manzanas rojas y nuez</p>
-                    <p class="rollManzana-precio"><b>$400</b></p>
-                    <p class="rollManzana-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="rollManzana-div-img">
-                    <img src="../imgs/rollosManzanCanelaNuez.jpg" class="rollManzana-img"
-                        alt="Rolls de canela y manzana">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-rollChocolate">
-                <div class="rollChocolate-div-contenedor">
-                    <h4 class="rollChocolate-titulo">Roll de canela y chocolate</h4>
-                    <p class="rollChocolate-texto">Con chocolate suizo</p>
-                    <p class="rollChocolate-precio"><b>$400</b></p>
-                    <p class="rollChocolate-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="rollChocolate-div-img">
-                    <img src="../imgs/rollChocolate (1) (1).jpg" class="rollChocolate-img"
-                        alt="Rolls de canela y chocolate">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-croissant">
-                <div class="croissant-div-contenedor">
-                    <h4 class="croissant-titulo">Croissant</h4>
-                    <p class="croissant-texto">Sin relleno</p>
-                    <p class="croissant-precio"><b>$350</b></p>
-                    <p class="croissant-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="croissant-div-img">
-                    <img src="../imgs/croissants-img1.jpg" class="croissant-img" alt="Croissant">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-croissantChocolate">
-                <div class="croissantChocolate-div-contenedor">
-                    <h4 class="croissantChocolate-titulo">Croissant de chocolate</h4>
-                    <p class="croissantChocolate-texto">Relleno de chocolate</p>
-                    <p class="croissantChocolate-precio"><b>$450</b></p>
-                    <p class="croissantChocolate-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="croissantChocolate-div-img">
-                    <img src="../imgs/croissant-chocolate.jpg" class="croissantChocolate-img"
-                        alt="Croissant relleno de chocolate">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-croissantFR">
-                <div class="croissantFR-div-contenedor">
-                    <h4 class="croissantFR-titulo">Croissant de frutos rojos</h4>
-                    <p class="croissantFR-texto">con frutos rojos (moras, frutillas y cerezas)</p>
-                    <p class="croissantFR-precio"><b>$450</b></p>
-                    <p class="croissantFR-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="croissantFR-div-img">
-                    <img src="../imgs/croissants-bicolor-relleno.jpg" class="croissantFR-img"
-                        alt="Croissant de frutos rojos">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-croissantOreo">
-                <div class="croissantOreo-div-contenedor">
-                    <h4 class="croissantOreo-titulo">Croissant de oreo</h4>
-                    <p class="croissantOreo-texto">con relleno de oreo y galletitas por encima</p>
-                    <p class="croissantOreo-precio"><b>$500</b></p>
-                    <p class="croissantOreo-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-
-                <div class="croissantOreo-div-img">
-                    <img src="../imgs/croissant-oreo.jpg" class="croissantOreo-img" alt="Croissant de oreo">
-                </div>
-            </div>
 
         </section>
 
 
         <!--------SECCION PANADERIA--------->
-        <section class="section-panaderia">
+        <section id="contenedor-panaderia" class="section-panaderia">
             <h3 class="h3-panaderia titulo-secciones" id="titulo4">PANADERÍA</h3>
-
-            <div id="tarjeta-medialuna">
-                <div class="medialuna-div-contenedor">
-                    <h4 class="medialuna-titulo">Medialuna</h4>
-                    <p class="medialuna-texto">De manteca</p>
-                    <p class="medialuna-precio"><b>$150</b></p>
-                    <p class="medialuna-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-    
-                <div class="medialuna-div-img">
-                    <img src="../imgs/medialunas (1).jpg" class="medialuna-img" alt="Medialuna de manteca">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-chipa">
-                <div class="chipa-div-contenedor">
-                    <h4 class="chipa-titulo">Chipas (1/4 kg)</h4>
-                    <p class="chipa-precio"><b>$600</b></p>
-                    <p class="chipa-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-    
-                <div class="chipa-div-img">
-                    <img src="../imgs/chipa.jpg" class="chipa-img" alt="Chipas">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-scone">
-                <div class="scone-div-contenedor">
-                    <h4 class="scone-titulo">Scone</h4>
-                    <p class="scone-texto">De queso</p>
-                    <p class="scone-precio"><b>300</b></p>
-                    <p class="scone-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-    
-                <div class="scone-div-img">
-                    <img src="../imgs/scones.jpg" class="scone-img" alt="Scone de queso">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-donaChocolate">
-                <div class="donaChocolate-div-contenedor">
-                    <h4 class="donaChocolate-titulo">Dona de chocolate</h4>
-                    <p class="donaChocolate-texto">Glaseado de chocolate con chispitas</p>
-                    <p class="donaChocolate-precio"><b>250</b></p>
-                    <p class="donaChocolate-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-    
-                <div class="donaChocolate-div-img">
-                    <img src="../imgs/donas (1).jpg" class="donaChocolate-img" alt="Dona de chocolate">
-                </div>
-            </div>
-
-
-            <div id="tarjeta-donaLeParadis">
-                <div class="donaLeParadis-div-contenedor">
-                    <h4 class="donaLeParadis-titulo">Dona Le Paradis</h4>
-                    <p class="donaLeParadis-texto">Glaseado rosa con chispitas</p>
-                    <p class="donaLeParadis-precio"><b>250</b></p>
-                    <p class="donaLeParadis-carrito">Agregar al carrito <i class="bi bi-cart-plus-fill"></i></p>
-                </div>
-    
-                <div class="donaLeParadis-div-img">
-                    <img src="../imgs/dona-rosa.jpg" class="donaLeParadis-img" alt="Dona Le Paradis">
-                </div>
-            </div>
 
         </section>
 
 
     </main>
+
 
 
     <!----------------FOOTER-------------------->
@@ -491,9 +157,9 @@
         });
     </script>
 
-    <!-- <script src="../js/productos.js"></script> -->
+    <script src="../js/productos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../js/components/botonDM-productos.js"></script>
+    <!-- <script src="../js/components/botonDM-productos.js"></script> -->
     <script src="../js/components/formularioFooter.js"></script>
 
 </body>

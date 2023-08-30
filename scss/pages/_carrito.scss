@@ -1,40 +1,44 @@
 .contenedor-carrito {
     display: flexbox;
     text-align: center;
+    gap: 1rem;
 
     .carrito-vacio {
         font-family: $fuente-textos;
         font-size: 1.2rem;
-        display:none;
+        color: black;
     }
 
     .carrito-productos {
         display: flexbox;
         gap: 12px;
         margin-top: 2rem;
+        margin-left: 2vw;
         .carrito-producto {
             display: flex;
             justify-content: space-between;
-            width: 100vw;
-            height: 100px;
-            border-radius: 10px;
+            width: 95vw;
+            height: 80px;
+            border-radius: 16px;
             background-color: #F1E6D0;
             color: black;
             gap: 5px;
             .img-producto {
-                width: 90px;
-                height: 90px;
-                margin-left: 10px;
+                width: 70px;
+                height: 70px;
+                margin-left: 5px;
                 margin-top: 5px;
+                border-radius: 60px;
             }
             .carrito-producto-titulo {
                 font-family: $fuente-textos;
+                width: 90px;
                 small {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                     color: $color-violeta;
                 }
-                h3 {
-                    font-size: 1.1rem;
+                p {
+                    font-size: 0.9rem;
                     color: black;
                 }
             }
@@ -43,25 +47,82 @@
                 position: relative;
                 right: 7px;
                 small {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                     color: $color-violeta;
                 }
                 p {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     color: black;
                 }
             }
             .carrito-producto-precio {
                 font-family: $fuente-textos;
                 small {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                     color: $color-violeta;
                 }
                 p {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     color: black;
                 }
             }
+            .boton-eliminar {
+                border: 0;
+                background-color: transparent;
+                color: #6e0707;
+                margin-top: -6px;
+                margin-right: 10px;
+            }
         }
+    }
+
+    .carrito-interacciones {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        .carrito-vaciar {
+            margin-left: 4px;
+            #carrito-interaccion-vaciar {
+                border: 0;
+                border-radius: 1rem;
+                padding: 0.5rem;
+                background-color: $color-verde;
+                color: white;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+            }
+        }
+        .carrito-interaccion-derecha {
+            font-size: 0.9rem;
+            display: flex;
+            margin-right: 8px;
+            #carrito-total {
+                display: flex;
+                height: 38px;
+                padding: 0.5rem;
+                background-color: $color-violeta;
+                color: white;
+                text-transform: uppercase;
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+            }
+            .carrito-comprar {
+                #carrito-comprar-boton {
+                    border: 0;
+                    padding: 0.5rem;
+                    background-color: $color-verde;
+                    color: white;
+                    text-transform: uppercase;
+                    border-top-right-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                }
+            }
+        }
+    }
+
+    .carrito-comprado {
+        font-family: $fuente-textos;
+        font-size: 1.2rem;
+        color: black;
     }
 }

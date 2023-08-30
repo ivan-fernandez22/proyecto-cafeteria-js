@@ -48,6 +48,15 @@ header {
                         margin-top: -10px;
                         color: beige;
                         width: 100%;
+                        display: flex;
+                    }
+                    .numero-carrito {
+                        background-color: $color-fondo;
+                        color: $color-violeta;
+                        padding: 0.03rem .30rem;
+                        border-radius: 0.25rem;
+                        margin-left: 6px;
+                        height: 20%;
                     }
                 }
 
@@ -121,7 +130,7 @@ header {
                     #color-mode {
                         width: 106px;
                         height: 40px;
-                        margin-left: -35px;
+                        margin-left: -15px;
                         margin-top: -10px;
                     }
                 }
@@ -152,6 +161,11 @@ header {
                         left: -120px;
                         gap: 20px;
                         .nav-link {
+                            font-size: 1.2rem;
+                        }
+                        .numero-carrito {
+                            height: 30px;
+                            padding: 0rem 0.20rem;
                             font-size: 1.2rem;
                         }
                     }
