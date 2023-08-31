@@ -53,31 +53,15 @@
         <h2>Carrito de compras</h2>
 
         <div class="contenedor-carrito">
-            <p class="carrito-vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
+            <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
 
             <!------PRODUCTOS------>
-            <div class="carrito-productos disabled">
-                <div class="carrito-producto">
-                    <img class="img-producto" src="../imgs/chessecake-img1.jpg" alt="">
-
-                    <div class="carrito-producto-titulo">
-                        <small>Titulo</small>
-                        <p>Nombre del producto</p>
-                    </div>
-                    <div class="carrito-producto-cantidad">
-                        <small>Cantidad</small>
-                        <p>1</p>
-                    </div>
-                    <div class="carrito-producto-precio">
-                        <small>Precio</small>
-                        <p>$1000</p>
-                    </div>
-                    <button class="boton-eliminar"><i class="bi bi-trash"></i></button>
-                </div>
+            <div id="carrito-productos" class="carrito-productos desabilitado">
+                <!----Se cargan aca los productos desde el JS---->
             </div>
 
             <!-------INTERACCIONES------>
-            <div class="carrito-interacciones disabled">
+            <div id="carrito-interacciones" class="carrito-interacciones desabilitado">
                 <div class="carrito-vaciar">
                     <button id="carrito-interaccion-vaciar">Vaciar carrito</button>
                 </div>
@@ -92,13 +76,54 @@
                 </div>
             </div>
 
-            <p class="carrito-comprado disabled"> Muchas gracias por su compra! <i class="bi bi-emoji-smile"></i></p>
+            <p id="carrito-comprado" class="carrito-comprado desabilitado"> Muchas gracias por su compra! <i class="bi bi-emoji-smile"></i></p>
         </div>
     </main>
 
 
     <!----------------FOOTER-------------------->
-    <footer class="footer-carrito">
+    <footer>
+        <section class="footer-nav">
+            <h2 class="footer-nav-titulo">Navegacion</h2>
+            <ul class="footer-nav-lista">
+                <li><a href="../index.html" class="footer-nav-links link-in">Inicio</a></li>
+                <li><a href="../pages/productos.html" class="footer-nav-links link-pr">Tienda de productos</a></li>
+                <li><a href="../pages/reservas.html" class="footer-nav-links link-re">Reservas</a></li>
+                <li><a href="../pages/contacto.html" class="footer-nav-links link-co">Contacto</a></li>
+            </ul>
+        </section>
+
+        <section class="footer-redes">
+            <h2 class="redes-titulo">Redes sociales</h2>
+            <ul class="redes-lista">
+                <li class="redes-ig">Instagram <i class="bi bi-instagram"></i></li>
+                <li class="redes-fb">Facebook <i class="bi bi-facebook"></i></li>
+                <li class="redes-tw">Twitter <i class="bi bi-twitter"></i></li>
+            </ul>
+        </section> 
+
+        <section class="footer-pagos">
+            <h2 class="pagos-titulo">Medios de pago</h2>
+            <img src="../imgs/pngegg.png" class="pagos-img" alt="tarjetas que se aceptan">
+        </section>
+
+        <section class="footer-email">
+            <h2 class="email-titulo">Ingresa tu mail para recibir descuentos únicos</h2>
+            <div class="email-div-formulario">
+                <form id="formulario-email">
+                    <input type="email" id="email-recuadro">
+                    <input id="email-enviar" type="submit" value="Enviar" />
+                </form>
+            </div>
+        </section>
+
+        <section class="footer-ubicacion">
+            <h2 class="ubicacion-titulo">Ubicación</h2>
+            <a href="https://goo.gl/maps/ZBA6aTaa8zn1xEaW8" class="ubicacion-link" target="_blank">
+                <i class="bi bi-pin-angle"></i> Del Valle Iberlucea 3312 <i class="bi bi-pin-angle"></i>
+            </a>
+        </section>
+
         <section class="footer-copyright">
             <p class="copyright-texto">
                 <i class="bi bi-c-circle"></i> Todos los derechos reservados LeParadis
@@ -112,4 +137,5 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
+        <script src="../js/carrito.js"></script>
 </body>

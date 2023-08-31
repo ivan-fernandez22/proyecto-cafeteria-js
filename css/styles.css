@@ -21,7 +21,7 @@ body {
   background-color: #16453F !important;
 }
 
-.disabled {
+.desabilitado {
   display: none !important;
 }
 
@@ -72,7 +72,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-link {
   width: 100%;
   display: flex;
 }
-header .navbar .container-fluid .collapse .navbar-nav .numero-carrito {
+header .navbar .container-fluid .collapse .navbar-nav #numero-carrito {
   background-color: #F0DEBB;
   color: #541734;
   padding: 0.03rem 0.3rem;
@@ -157,7 +157,7 @@ header .navbar .container-fluid .collapse #color-mode {
   header .navbar .container-fluid .collapse .navbar-nav .nav-link {
     font-size: 1.2rem;
   }
-  header .navbar .container-fluid .collapse .navbar-nav .numero-carrito {
+  header .navbar .container-fluid .collapse .navbar-nav #numero-carrito {
     height: 30px;
     padding: 0rem 0.2rem;
     font-size: 1.2rem;
@@ -1312,7 +1312,7 @@ h2 {
   width: 95vw;
   display: grid;
   margin-left: 2vw;
-  margin-top: 1rem;
+  margin-top: 2rem;
   grid-template-columns: 65% 35%;
   overflow: hidden;
 }
@@ -1390,10 +1390,10 @@ h2 {
     border-radius: 70px;
   }
 }
-.section-cakes {
+.section-productos {
   margin-top: 1.5rem;
 }
-.section-cakes .h3-cakes {
+.section-productos .h3-productos {
   font-family: "Anton", sans-serif;
   font-size: 1.3rem;
   color: black;
@@ -1402,90 +1402,15 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .section-cakes {
+  .section-productos {
     margin-top: 4rem;
   }
-  .section-cakes .h3-cakes {
+  .section-productos .h3-productos {
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
-  .section-cakes .h3-cakes {
-    font-size: 1.7rem;
-    margin-left: 2.2vw;
-  }
-}
-.section-sandwichs {
-  margin-top: 5rem;
-}
-.section-sandwichs .h3-sandwichs {
-  font-family: "Anton", sans-serif;
-  font-size: 1.3rem;
-  color: black;
-  margin-top: 1rem;
-  margin-left: 3vw;
-}
-
-@media (min-width: 768px) {
-  .section-sandwichs {
-    margin-top: 4rem;
-  }
-  .section-sandwichs .h3-sandwichs {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  .section-sandwichs .h3-sandwichs {
-    font-size: 1.7rem;
-    margin-left: 2.2vw;
-  }
-}
-.section-rollsYCroissants {
-  margin-top: 5rem;
-}
-.section-rollsYCroissants .h3-rollsYCroissants {
-  font-family: "Anton", sans-serif;
-  font-size: 1.3rem;
-  color: black;
-  margin-top: 1rem;
-  margin-left: 3vw;
-}
-
-@media (min-width: 768px) {
-  .section-rollsYCroissants {
-    margin-top: 4rem;
-  }
-  .section-rollsYCroissants .h3-rollsYCroissants {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  .section-rollsYCroissants .h3-rollsYCroissants {
-    font-size: 1.7rem;
-    margin-left: 2.2vw;
-  }
-}
-.section-panaderia {
-  margin-top: 5rem;
-}
-.section-panaderia .h3-panaderia {
-  font-family: "Anton", sans-serif;
-  font-size: 1.3rem;
-  color: black;
-  margin-top: 1rem;
-  margin-left: 3vw;
-}
-
-@media (min-width: 768px) {
-  .section-panaderia {
-    margin-top: 4rem;
-  }
-  .section-panaderia .h3-panaderia {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  .section-panaderia .h3-panaderia {
+  .section-productos .h3-productos {
     font-size: 1.7rem;
     margin-left: 2.2vw;
   }
@@ -1690,18 +1615,18 @@ h2 {
   display: flex;
   justify-content: space-between;
   width: 95vw;
-  height: 80px;
+  height: auto;
+  margin-top: 1rem;
   border-radius: 16px;
   background-color: #F1E6D0;
   color: black;
   gap: 5px;
+  align-items: normal;
 }
 .contenedor-carrito .carrito-productos .carrito-producto .img-producto {
-  width: 70px;
-  height: 70px;
-  margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 60px;
+  width: 80px;
+  height: auto;
+  border-radius: 16px 0px 0px 16px;
 }
 .contenedor-carrito .carrito-productos .carrito-producto .carrito-producto-titulo {
   font-family: "Narnoor", serif;
@@ -1781,6 +1706,7 @@ h2 {
 .contenedor-carrito .carrito-interacciones .carrito-interaccion-derecha .carrito-comprar #carrito-comprar-boton {
   border: 0;
   padding: 0.5rem;
+  height: 38px;
   background-color: #16453F;
   color: white;
   text-transform: uppercase;

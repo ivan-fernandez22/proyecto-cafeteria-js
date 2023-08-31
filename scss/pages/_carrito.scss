@@ -18,17 +18,17 @@
             display: flex;
             justify-content: space-between;
             width: 95vw;
-            height: 80px;
+            height: auto;
+            margin-top: 1rem;
             border-radius: 16px;
             background-color: #F1E6D0;
             color: black;
             gap: 5px;
+            align-items:normal;
             .img-producto {
-                width: 70px;
-                height: 70px;
-                margin-left: 5px;
-                margin-top: 5px;
-                border-radius: 60px;
+                width: 80px;
+                height: auto;
+                border-radius: 16px 0px 0px 16px;
             }
             .carrito-producto-titulo {
                 font-family: $fuente-textos;
@@ -110,6 +110,7 @@
                 #carrito-comprar-boton {
                     border: 0;
                     padding: 0.5rem;
+                    height: 38px;
                     background-color: $color-verde;
                     color: white;
                     text-transform: uppercase;
@@ -125,4 +126,9 @@
         font-size: 1.2rem;
         color: black;
     }
+}
+
+
+@media (min-width: 768px) {
+
 }

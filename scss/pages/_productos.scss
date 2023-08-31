@@ -61,7 +61,7 @@ h2 {
     width: 95vw;
     display: grid;
     margin-left: 2vw;
-    margin-top: 1rem;
+    margin-top: 2rem;
     grid-template-columns: 65% 35%;
     overflow: hidden;
     .producto-div-contenedor{
@@ -148,10 +148,10 @@ h2 {
 }
 
 
-//----------------SECCION CAKES-------------------//
-.section-cakes {
+//----------------SECCION PRODUCTOS-------------------//
+.section-productos {
     margin-top: 1.5rem;
-    .h3-cakes {
+    .h3-productos {
         font-family: $fuente-titulos;
         font-size: 1.3rem;
         color: black;
@@ -161,110 +161,17 @@ h2 {
 }
 
 @media (min-width: 768px) {
-    .section-cakes {
+    .section-productos {
         margin-top: 4rem;
-        .h3-cakes {
+        .h3-productos {
             font-size: 1.5rem;
         }
     }
 }
 
 @media (min-width: 1200px) {
-    .section-cakes {
-        .h3-cakes {
-            font-size: 1.7rem;
-            margin-left: 2.2vw;
-        }
-    }
-}
-
-
-//---------------------SECCION SANDWICHS-------------------//
-.section-sandwichs {
-    margin-top: 5rem;
-    .h3-sandwichs {
-        font-family: $fuente-titulos;
-        font-size: 1.3rem;
-        color: black;
-        margin-top: 1rem;
-        margin-left: 3vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .section-sandwichs {
-        margin-top: 4rem;
-        .h3-sandwichs {
-            font-size: 1.5rem;
-        }
-    }
-}
-
-@media (min-width: 1200px) {
-    .section-sandwichs {
-        .h3-sandwichs {
-            font-size: 1.7rem;
-            margin-left: 2.2vw;
-        }
-    }
-}
-
-
-//----------------SECCION ROLLS Y CROISSANTS------------//
-.section-rollsYCroissants {
-    margin-top: 5rem;
-    .h3-rollsYCroissants {
-        font-family: $fuente-titulos;
-        font-size: 1.3rem;
-        color: black;
-        margin-top: 1rem;
-        margin-left: 3vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .section-rollsYCroissants {
-        margin-top: 4rem;
-        .h3-rollsYCroissants {
-            font-size: 1.5rem;
-        }
-    }
-}
-
-@media (min-width: 1200px) {
-    .section-rollsYCroissants {
-        .h3-rollsYCroissants {
-            font-size: 1.7rem;
-            margin-left: 2.2vw;
-        }
-    }
-}
-
-
-//-----------------------SECCION PANADERIA---------------//
-.section-panaderia {
-    margin-top: 5rem;
-    .h3-panaderia {
-        font-family: $fuente-titulos;
-        font-size: 1.3rem;
-        color: black;
-        margin-top: 1rem;
-        margin-left: 3vw;
-    }
-}
-
-@media (min-width: 768px) {
-    .section-panaderia {
-        margin-top: 4rem;
-        .h3-panaderia {
-            font-size: 1.5rem;
-        }
-    }
-}
-
-@media (min-width: 1200px) {
-    .section-panaderia {
-        .h3-panaderia {
+    .section-productos {
+        .h3-productos {
             font-size: 1.7rem;
             margin-left: 2.2vw;
         }
