@@ -84,12 +84,14 @@ function enviarFormularioTrabajo (e) {
     let form = e.target
     let inputNombre = form.children[2].value;
     let inputApellido = form.children[6].value;
+    let inputDni = form.children[10].value;
+    let inputDireccion = form.children[14].value;
     let postulado = {
         nombre: inputNombre,
         apellido: inputApellido,
     }
 
-    if ((inputNombre && inputApellido) === '') {
+    if ((inputNombre && inputApellido && inputDni && inputDireccion) === '') {
         Swal.fire({
             icon: 'error',
             title: 'Todos los campos son obligatorios!',
@@ -156,6 +158,7 @@ footer.innerHTML = `
     <li><a href="../pages/productos.html" class="footer-nav-links link-pr">Tienda de productos</a></li>
     <li><a href="../pages/reservas.html" class="footer-nav-links link-re">Reservas</a></li>
     <li><a href="../pages/contacto.html" class="footer-nav-links link-co">Contacto</a></li>
+    <li><a href="../pages/carrito.html" class="footer-nav-links link-co">Carrito</a></li>
 </ul>
 </section>
 

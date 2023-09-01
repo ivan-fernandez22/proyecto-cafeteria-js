@@ -24,9 +24,12 @@ body {
 }
 
 .swal2-actions {
-    background-color: $color-verde !important;
+    background-color: $color-fondo !important;
     .swal2-confirm {
         background-color: $color-verde !important;
+    }
+    .swal2-deny {
+        background-color: #470918 !important;
     }
 }
 

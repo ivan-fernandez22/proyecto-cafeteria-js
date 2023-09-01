@@ -10,8 +10,6 @@ const botonVaciar = document.querySelector ("#carrito-interaccion-vaciar")
 const total = document.querySelector ("#total")
 const comprar = document.querySelector ("#carrito-comprar-boton")
 
-
-// CARGAR LOS PRODUCTOS ESCOGIDOS POR EL USUARIO EN EL CARRITO
 function cargarProductosEnCarrito () {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
         carritoVacio.classList.add ("desabilitado")
@@ -73,6 +71,24 @@ function eliminarDeCarrito (e) {
     productosEnCarrito.splice (index, 1)
     cargarProductosEnCarrito ()
     localStorage.setItem ("productos-carrito", JSON.stringify (productosEnCarrito))
+
+    Toastify({
+        text: "Producto eliminado!",
+        duration: 1000,
+        close: false,
+        gravity: "top",
+        position: "right",
+        stopOnFocus: true,
+        style: {
+        background: "linear-gradient(to right, #2d111e, #541734)",
+        borderRadius: "1rem"
+        },
+        offset: {
+            x: '0',
+            y: '3rem'
+        },
+        onClick: function(){}
+    }).showToast();
 }
 
 
@@ -80,9 +96,21 @@ function eliminarDeCarrito (e) {
 botonVaciar.addEventListener ("click", vaciarCarrito)
 
 function vaciarCarrito () {
-    productosEnCarrito.length = 0
-    localStorage.setItem ("productos-carrito", JSON.stringify (productosEnCarrito))
-    cargarProductosEnCarrito ()
+    Swal.fire({
+        title: '¿Deseas vaciar el carrito?',
+        icon: 'question',
+        text: 'Se borraran todos sus productos',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            productosEnCarrito.length = 0
+            localStorage.setItem ("productos-carrito", JSON.stringify (productosEnCarrito))
+            cargarProductosEnCarrito ()
+        }
+    })
 }
 
 
@@ -104,6 +132,11 @@ function finalizarCompra () {
     carritoProductos.classList.add ("desabilitado")
     carritoInteracciones.classList.add ("desabilitado")
     carritoComprado.classList.remove ("desabilitado")
+
+    Swal.fire({
+        icon: 'success',
+        title: 'Compra realizada con exito!',
+        text: `Felicidades, en los proximos 3 dias habiles recibirá sus productos!`,
+        position: 'center'
+    })
 }
-
-

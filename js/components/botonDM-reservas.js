@@ -1,5 +1,3 @@
-// DARK MODE BUTTON PAGE RESERVAS
-
 const colorModeButton = document.querySelector ("#color-mode")
 
 const body = document.body
@@ -23,6 +21,7 @@ function activarDarkMode () {
     colorModeButton.innerText = "Light Mode"
 }
 
+
 // DESACTIVAR
 function desactivarDarkMode () {
     body.classList.remove ("dark-mode")
@@ -34,7 +33,6 @@ function desactivarDarkMode () {
     localStorage.setItem ("dark-mode", "desactivado")
     colorModeButton.innerText = "Dark Mode"
 }
-
 
 if (darkMode === "activado") {
     activarDarkMode ()

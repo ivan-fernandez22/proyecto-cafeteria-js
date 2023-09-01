@@ -1,5 +1,3 @@
-// // DARK MODE BUTTON INDEX
-
 const colorModeButton = document.querySelector ("#color-mode")
 
 const body = document.body
@@ -32,6 +30,7 @@ const infoWsppTitulo = document.querySelector ('#info-wspp-titulo')
 
 
 let darkMode = localStorage.getItem ("dark-mode")
+
 
 // ACTIVAR
 function activarDarkMode () {

@@ -15,10 +15,13 @@ body {
 }
 
 .swal2-actions {
-  background-color: #16453F !important;
+  background-color: #F0DEBB !important;
 }
 .swal2-actions .swal2-confirm {
   background-color: #16453F !important;
+}
+.swal2-actions .swal2-deny {
+  background-color: #470918 !important;
 }
 
 .desabilitado {
@@ -128,12 +131,12 @@ header .navbar .container-fluid .collapse #color-mode {
     gap: 3px;
   }
   header .navbar .container-fluid .collapse .navbar-nav .nav-link {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   header .navbar .container-fluid .collapse #color-mode {
     width: 106px;
     height: 40px;
-    margin-left: -15px;
+    margin-left: -40px;
     margin-top: -10px;
   }
 }
@@ -151,7 +154,7 @@ header .navbar .container-fluid .collapse #color-mode {
     width: 400px;
     position: relative;
     top: 30px;
-    left: -120px;
+    left: -150px;
     gap: 20px;
   }
   header .navbar .container-fluid .collapse .navbar-nav .nav-link {
@@ -1342,7 +1345,7 @@ h2 {
 .producto .producto-div-contenedor .producto-carrito {
   border: 0;
   padding: 0.3rem;
-  margin-left: -7px;
+  margin-left: -8px;
   background-color: #16453F;
   color: white;
   font-size: 0.9rem;
@@ -1719,6 +1722,27 @@ h2 {
   color: black;
 }
 
+@media (min-width: 768px) {
+  .contenedor-carrito .carrito-interacciones .carrito-vaciar {
+    margin-left: 20px;
+  }
+  .contenedor-carrito .carrito-interacciones .carrito-vaciar #carrito-interaccion-vaciar {
+    font-size: 1.1rem;
+  }
+  .contenedor-carrito .carrito-interacciones .carrito-interaccion-derecha {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    align-items: center;
+  }
+  .contenedor-carrito .carrito-interacciones .carrito-interaccion-derecha #carrito-total {
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  .contenedor-carrito .carrito-interacciones .carrito-interaccion-derecha .carrito-comprar #carrito-comprar-boton {
+    height: 40px;
+    font-size: 1.1rem;
+  }
+}
 body.dark-mode {
   background-color: #141d26;
 }
@@ -1817,112 +1841,8 @@ h2.dark-mode {
   color: white;
 }
 
-#titulo1.dark-mode {
+#titulo.dark-mode {
   color: white;
-}
-
-#tarjeta-chessecakeFr.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-chessecakeMaracuya.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-tortaChocolate.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-lemonPie.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-tortaOreo.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-chocotorta.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-carrotCake.dark-mode {
-  background-color: whitesmoke;
-}
-
-#titulo2.dark-mode {
-  color: white;
-}
-
-#tarjeta-tostadoJYQ.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-tostada.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-sandwichMediterraneo.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-hamburguesaVeggie.dark-mode {
-  background-color: whitesmoke;
-}
-
-#titulo3.dark-mode {
-  color: white;
-}
-
-#tarjeta-rollCanela.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-rollManzana.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-rollChocolate.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-croissant.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-croissantChocolate.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-croissantFR.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-croissantOreo.dark-mode {
-  background-color: whitesmoke;
-}
-
-#titulo4.dark-mode {
-  color: white;
-}
-
-#tarjeta-medialuna.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-chipa.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-scone.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-donaChocolate.dark-mode {
-  background-color: whitesmoke;
-}
-
-#tarjeta-donaLeParadis.dark-mode {
-  background-color: whitesmoke;
 }
 
 #reservas.dark-mode {
@@ -1952,6 +1872,14 @@ h2.dark-mode {
 }
 
 #contacto-texto.dark-mode {
+  color: white;
+}
+
+#carrito-vacio.dark-mode {
+  color: white;
+}
+
+#carrito-comprado.dark-mode {
   color: white;
 }
 

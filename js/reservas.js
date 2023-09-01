@@ -1,5 +1,3 @@
-// FORMULARIO RESERVAS
-
 const myFormulario = document.getElementById('formulario')
 myFormulario.addEventListener('submit', validarFormulario)
 

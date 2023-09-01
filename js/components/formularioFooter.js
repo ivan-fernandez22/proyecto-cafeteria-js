@@ -1,5 +1,3 @@
-// // FORMULARIO EMAIL DEL FOOTER
-
 const emailFormulario = document.getElementById ('formulario-email')
 const emailInput = document.getElementById ('email-recuadro')
 const emailEnviar = document.getElementById ('email-enviar')
@@ -14,8 +12,8 @@ function mandarEmail (e) {
     if (inputEmail === '') {
         Swal.fire({
             icon: 'error',
-            title: 'Todos los campos son obligatorios!',
-            text: 'Por favor, complete todos los campos del formulario!',
+            title: 'Email incorrecto!',
+            text: 'Por favor, ingrese un email valido!',
             position: 'center'
         })
     } else {

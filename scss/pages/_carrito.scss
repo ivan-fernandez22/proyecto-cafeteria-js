@@ -130,5 +130,29 @@
 
 
 @media (min-width: 768px) {
-
+    .contenedor-carrito {
+        .carrito-interacciones {
+            .carrito-vaciar {
+                margin-left: 20px;
+                #carrito-interaccion-vaciar {
+                    font-size: 1.1rem;
+                }
+            }
+            .carrito-interaccion-derecha {
+                font-size: 1.1rem;
+                margin-right: 20px;
+                align-items: center;
+                #carrito-total {
+                    height: 40px;
+                    font-size: 1.1rem;
+                }
+                .carrito-comprar {
+                    #carrito-comprar-boton {
+                        height: 40px;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
 }
